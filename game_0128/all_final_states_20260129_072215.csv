@@ -1,0 +1,56 @@
+convo_id,final_state,final_profit
+0,Customer buys,38
+1,Customer leaves call,-62
+2,Customer buys,26
+3,Customer buys,38
+4,Customer leaves call,-70
+5,Customer leaves call,-66
+6,Customer leaves call,-70
+7,Customer buys,38
+8,Customer leaves call,-106
+9,Customer buys,38
+10,Customer leaves call,-62
+11,Customer leaves call,-62
+12,Customer leaves call,-66
+13,Customer leaves call,-62
+14,Customer leaves call,-82
+15,Customer leaves call,-66
+16,Customer leaves call,-62
+17,Customer leaves call,-66
+18,Customer buys,20
+19,Customer leaves call,-62
+20,Customer leaves call,-62
+21,Customer leaves call,-62
+22,Customer leaves call,-62
+23,Customer buys,34
+24,Customer leaves call,-78
+25,Customer leaves call,-62
+26,Customer leaves call,-74
+27,Customer leaves call,-70
+28,Customer leaves call,-70
+29,Customer leaves call,-74
+30,Customer buys,0
+31,Customer buys,29
+32,Customer leaves call,-70
+33,Customer buys,16
+34,Customer leaves call,-66
+35,Customer leaves call,-78
+36,Customer buys,21
+37,Customer buys,0
+38,Customer leaves call,-66
+39,Customer leaves call,-66
+40,Customer leaves call,-62
+41,Customer buys,30
+42,Customer buys,4
+43,Customer leaves call,-70
+44,Customer buys,21
+45,Customer buys,25
+46,Customer buys,-4
+47,Customer leaves call,-62
+48,Customer leaves call,-74
+49,Customer leaves call,-74
+50,Customer leaves call,-74
+51,Customer buys,4
+52,Customer leaves call,-62
+53,Customer leaves call,-70
+54,Customer leaves call,-62

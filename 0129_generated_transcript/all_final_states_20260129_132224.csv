@@ -1,0 +1,102 @@
+convo_id,final_state,final_profit
+0,Customer buys,28
+1,Customer buys,19
+2,Customer buys,41
+3,Customer buys,25
+4,Customer leaves call,-25
+5,Customer buys,35
+6,Customer buys,25
+7,Customer buys,18
+8,Customer buys,27
+9,Customer leaves call,-19
+10,Customer buys,12
+11,Customer buys,12
+12,Customer leaves call,-19
+13,Customer leaves call,-19
+14,Customer leaves call,-28
+15,Customer buys,41
+16,Customer buys,18
+17,Customer buys,41
+18,Customer buys,41
+19,Customer buys,31
+20,Customer buys,41
+21,Customer leaves call,-19
+22,Customer leaves call,-19
+23,Customer buys,25
+24,Customer leaves call,-19
+25,Customer leaves call,-19
+26,Customer leaves call,-19
+27,Customer buys,27
+28,Customer leaves call,-19
+29,Customer buys,28
+30,Customer buys,27
+31,Customer buys,28
+32,Customer buys,31
+33,Customer buys,30
+34,Customer leaves call,-22
+35,Customer buys,28
+36,Customer buys,33
+37,Customer leaves call,-19
+38,Customer buys,33
+39,Customer buys,33
+40,Customer buys,33
+41,Customer leaves call,-19
+42,Customer buys,33
+43,Customer buys,12
+44,Customer leaves call,-19
+45,Customer buys,27
+46,Customer buys,18
+47,Customer leaves call,-25
+48,Customer buys,21
+49,Customer buys,18
+50,Customer buys,41
+51,Customer buys,28
+52,Customer buys,30
+53,Customer leaves call,-19
+54,Customer leaves call,-22
+55,Customer leaves call,-19
+56,Customer leaves call,-19
+57,Customer leaves call,-19
+58,Customer buys,41
+59,Customer buys,28
+60,Customer leaves call,-19
+61,Customer leaves call,-22
+62,Customer buys,18
+63,Customer leaves call,-25
+64,Customer buys,15
+65,Customer buys,28
+66,Customer buys,33
+67,Customer buys,28
+68,Customer leaves call,-22
+69,Customer buys,15
+70,Customer buys,12
+71,Customer buys,38
+72,Customer leaves call,-19
+73,Customer buys,18
+74,Customer buys,41
+75,Customer leaves call,-19
+76,Customer leaves call,-19
+77,Customer leaves call,-19
+78,No Buy,-24
+79,Customer buys,30
+80,Customer buys,18
+81,Customer leaves call,-31
+82,Customer buys,15
+83,Customer leaves call,-19
+84,Customer leaves call,-19
+85,Customer leaves call,-28
+86,Customer buys,23
+87,Customer buys,21
+88,Customer buys,41
+89,Customer leaves call,-28
+90,Customer buys,28
+91,Customer buys,41
+92,Customer leaves call,-31
+93,Customer leaves call,-19
+94,Customer buys,31
+95,Customer leaves call,-31
+96,Customer leaves call,-28
+97,Customer leaves call,-31
+98,Customer buys,25
+99,Customer buys,38
+100,Customer buys,41

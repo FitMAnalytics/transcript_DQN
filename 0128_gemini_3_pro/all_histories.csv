@@ -1,0 +1,1777 @@
+speaker,round,text,action,end_convo,convo_id
+Agent,1,Hello! Thank you for calling Leather & Co. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,0
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. Yes, I'm looking for a new pair of boots. I've been doing some research, but I'm open to hearing your recommendations. What do you consider to be your top-tier options right now, especially in terms of overall quality and longevity?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='luZ6admmBKnWjMcP28e9wQw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=57,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=258,
+  total_token_count=698
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,0
+Agent,2,"Based on your focus on longevity, I highly recommend our Heritage Series. These are handcrafted with full-grain leather and feature Goodyear welt construction, which means they are incredibly durable and can be resoled for years of use. They are priced at $100.",Recommendation,False,0
+Customer,3,"I appreciate the recommendation for the Heritage Series, and the mention of full-grain leather and Goodyear welt construction certainly sounds promising for durability and longevity. However, my primary concern with quality extends beyond just the ability to resole. What about the waterproofing aspect? And how do these boots truly hold up against more rigorous everyday wear and tear, not just in terms of the sole, but the upper leather and stitching in various conditions? Many boots make claims about durability, but practical performance can often differ.",Objection_A,False,0
+Agent,3,"That is a completely valid concern. To address waterproofing, the full-grain leather is oil-tanned, which provides natural water resistance that actually improves with proper care. Regarding the stitching, we use triple-reinforced, heavy-duty nylon thread at all stress points to prevent the upper from separating, even under rigorous conditions. We engineer these specificially to back up our durability claims in the field.",A_Persuade,False,0
+Customer,4,"I understand that oil-tanned leather provides natural water resistance and that proper care can enhance it. And the triple-reinforced stitching sounds robust. However, ""natural water resistance"" is often a far cry from actual waterproofing, especially when facing prolonged exposure or truly adverse weather conditions. Are we talking about a boot that can handle a light drizzle, or one that will genuinely keep my feet dry when walking through puddles or snow for extended periods? Many brands claim ""water-resistant"" only for it to fall short of expectations when put to the test in real-world, demanding scenarios. I need something truly reliable.",Objection_A,False,0
+Agent,4,"I completely understand your hesitation; real-world performance is what counts. To prove our confidence in their waterproofing, I can offer you a complimentary 2-year extended warranty. This covers any material failure, including water leakage, so you can test them in those puddles and snow without any risk.",A_Incentive,False,0
+Customer,5,"The extended warranty covering water leakage certainly adds a layer of reassurance regarding your confidence in the waterproofing, and I appreciate that offer. However, even with a warranty, the logistics of actually utilizing it, should an issue arise, are often a significant factor for me. How quick is your shipping for these boots, and more importantly, what is your return or exchange process like if they don't fit perfectly or if I do, in fact, experience an issue and need to send them back? A warranty is only as good as the ease with which it can be redeemed, and I've had less than ideal experiences with complicated return procedures in the past.",Objection_C,False,0
+Agent,5,"I can assure you our logistics are streamlined for customer peace of mind. All orders ship within 24 hours via expedited carriers. As for returns, we include a pre-paid, hassle-free return label in every box. If the fit isn't right, you simply drop it off—no forms, no waiting, and absolutely no complicated procedures.",C_Persuade,False,0
+Customer,6,"I understand that orders ship within 24 hours and a pre-paid return label is included. That sounds good on paper, as do the claims of ""no forms, no waiting, and no complicated procedures."" However, I've heard similar assurances from other companies where the reality of returns, especially for exchanges, becomes quite drawn out. What's the actual turnaround time for processing a return once it reaches your facility, and then for shipping out a replacement pair in a different size? ""No waiting"" is a very strong promise, and I'd like to understand the practical timeline for getting a new pair of boots in my hands if the first ones don't fit perfectly.",Objection_C,False,0
+Agent,6,"I hear your concern about downtime. To guarantee the speed you need, I can upgrade your order to Free Priority Shipping immediately. This prioritizes your shipment and any potential exchanges, ensuring a turnaround measured in hours, not days, so you are never left waiting.",C_Incentive,False,0
+Customer,7,"Free Priority Shipping for exchanges and expedited processing certainly sounds like it would alleviate the logistical concerns, and I appreciate that assurance. However, we've gone through quite a bit of detail regarding the superior quality, robust waterproofing, and now the streamlined logistics for returns and exchanges. Considering all of these premium features and the implied high-end craftsmanship you've described for the Heritage Series, the $100 price point you mentioned earlier still gives me pause. Is that truly the final price for a boot with all these specific attributes and guarantees? It seems remarkably low for what you're positioning as a top-tier, long-lasting, and virtually indestructible boot with such an extensive warranty and service. I'm finding it difficult to reconcile that price with the premium quality you've been emphasizing.",Objection_B,False,0
+Agent,7,"That is a very sharp observation. The reason we can offer this level of craftsmanship at $100 is that we operate on a strictly Direct-to-Consumer model. We don't have retail markups, middleman commissions, or expensive storefronts. You are paying for the leather and the labor, not the label. This allows us to deliver a $300 quality boot for a third of the price.",B_Persuade,True,0
+Agent,1,Good day! Thank you for calling The Leather Works. My name is Alex. How can I assist you with your footwear needs today?,Greeting,False,1
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, thank you. I'm looking for a new pair of boots, but I'm a bit overwhelmed by all the options out there. Could you perhaps recommend something reliable for general use, something that truly holds up?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Fud6ac6nEcKM_uMPxpK5-AE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=47,
+  prompt_token_count=382,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=382
+    ),
+  ],
+  thoughts_token_count=203,
+  total_token_count=632
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,1
+Agent,2,"I highly recommend our 'Classic Rugged' boot. It is crafted from premium full-grain leather that molds to your feet over time and features reinforced Goodyear welt construction, making it incredibly durable for everyday use.",Recommendation,False,1
+Customer,3,"That 'Classic Rugged' boot sounds very robust with the full-grain leather and Goodyear welt, which is certainly appealing for durability. However, with all those premium features, I'm anticipating a price tag that might be a bit steep. I'm trying to stick to a reasonable budget, so I'm wondering if the cost truly justifies itself for general use, or if there might be other options that offer good durability without being quite as much of an investment?",Objection_B,False,1
+Agent,3,"I completely understand the budget concern. However, consider this an investment rather than an expense. Because of the Goodyear welt construction, these boots can be resoled multiple times, meaning they will last you 5 to 10 years. A cheaper pair might need replacing every year, costing you far more in the long run.",B_Persuade,False,1
+Customer,4,"I appreciate the ""investment"" perspective and the point about resoling. I understand that cheaper boots can be a false economy. However, 5 to 10 years is a long time, and I'm still weighing whether that upfront cost is truly justified for what I need right now. There's a difference between long-term value and immediate budget constraints. Are there any other models that offer good durability, perhaps not quite for a decade, but at a more manageable initial price point?",Objection_B,False,1
+Agent,4,"I hear you on the immediate budget, but to be honest, we discontinued our lower-tier models because they simply didn't meet the reliability standard you asked for earlier. I wouldn't feel comfortable selling you a cheaper boot that might fail you in six months. This pair is the most cost-effective solution we have for genuine durability.",B_Persuade,True,1
+Agent,1,Hello! Thank you for calling The Leather Boot Co. My name is Alex. How can I help you find the perfect pair of leather boots today?,Greeting,False,2
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, Alex. I need boots. Tell me what you've got that's actually worth buying. Something durable, obviously.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Rud6afL3Jq6N_PUP5L3qqQg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=27,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=185,
+  total_token_count=597
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,2
+Agent,2,"Based on that, I highly recommend our 'IronClad' series. These are handcrafted from premium full-grain leather with triple-reinforced stitching and a heavy-duty Vibram sole, specifically built to last for years. The pair goes for $100.",Recommendation,False,2
+Customer,3,"Okay, ""IronClad."" Whatever. How quickly can these ""IronClad"" boots actually get here? And what's your return policy if they're not what you claim? I don't have time to wait around or deal with a complicated return process.",Objection_C,False,2
+Agent,3,"I understand your need for speed. We ship all 'IronClad' orders via Priority Mail, which typically arrives within 3 business days. Our return process is also streamlined: a pre-paid label is included in the box, so you can simply drop it off if you're not satisfied.",C_Persuade,True,2
+Agent,1,Hello! Thank you for calling Premium Leather Co. I'm here to help you find the perfect pair of boots that combine style and durability. How are you doing today?,Greeting,False,3
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there! I'm doing well, thank you for asking. I'm hoping you can help me out today. I'm actually looking for a new pair of boots, and with so many options out there, I was hoping you could recommend something that truly stands out in terms of both style and durability.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='aud6afbiFOLh_uMPg5HOsAE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=64,
+  prompt_token_count=390,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=390
+    ),
+  ],
+  thoughts_token_count=89,
+  total_token_count=543
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,3
+Agent,2,"That's great to hear! Based on what you're looking for, I highly recommend our Ever-Tough Leather Boots. They are crafted from top-grain leather for maximum durability and feature a classic design that looks great anywhere. They are currently priced at $100.",Recommendation,False,3
+Customer,3,"Hmm, that sounds promising. ""Top-grain leather for maximum durability"" certainly catches my ear. I do appreciate a boot that can truly last. However, I'm also wondering about their performance in various conditions. Are these boots, the Ever-Tough Leather ones, also designed with any kind of waterproofing in mind? I often find myself out in less-than-ideal weather, and keeping my feet dry is just as important as the boots themselves holding up over time.",Objection_A,False,3
+Agent,3,"That's a very practical question. Because we use premium top-grain leather, these boots have excellent natural water resistance. The tight grain structure repels moisture effectively, and the welted construction ensures no water seeps in through the seams, keeping your feet dry in rain or snow.",A_Persuade,True,3
+Agent,1,Hello! Thank you for calling Premium Leather Co. How can I help you find the perfect pair of leather boots today?,Greeting,False,4
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi there. I'm looking for a new pair of boots. What do you recommend? I need something really durable.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='fud6aaLVPPqU_uMPj7imwQM' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=25,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=139,
+  total_token_count=542
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,4
+Agent,2,"Based on your need for durability, I highly recommend our 'Everlast' series. They are crafted from full-grain leather with Goodyear welt construction, ensuring they stand the test of time while remaining comfortable.",Recommendation,False,4
+Customer,3,"Okay, Everlast series, got it. How much do those usually run? I've seen a lot of full-grain leather boots out there, and some of the prices can be a bit steep, especially when you compare them to what other brands offer for similar features. I'm hoping these aren't just another overpriced option.",Objection_B,False,4
+Agent,3,"I completely understand being budget-conscious. The Everlast series is priced at $100, which is extremely competitive given that they use full-grain leather and Goodyear welt construction. Many other brands charge significantly more for these specific features, so you are actually getting superior longevity for a mid-range price.",B_Persuade,False,4
+Customer,4,"I appreciate you breaking down the features and the pricing. While I understand that full-grain leather and Goodyear welt construction are premium features that often command a higher price, $100 still feels a bit on the higher side. I've definitely come across boots with similar descriptions, perhaps not from the absolute top-tier brands, but still reputable, that come in at a lower price point. Are we talking about truly unique quality at this price, or just competitive within a very specific, high-end segment?",Objection_B,False,4
+Agent,4,"I hear you, and it's smart to compare. The difference with the Everlast isn't just the specs on paper, but the sourcing of the hide and the rigorous quality control. Cheaper alternatives often use corrected-grain leather that peels over time. At $100, you're investing in boots that can last years, bringing your cost-per-wear down significantly lower than cheaper pairs that need replacing annually.",B_Persuade,False,4
+Customer,5,"I understand the point about corrected grain versus full-grain and the long-term cost-per-wear. It makes sense in theory that a more durable boot would save money over time. However, I'm still not entirely convinced that this $100 price point truly reflects such a significant jump in *practical* durability compared to other decent options that might be slightly less, but still good enough. What assurances do I have that these specific Everlast boots will actually last ""years"" and not just fail in a year and a half, making that initial higher investment less worthwhile?",Objection_B,False,4
+Agent,5,"The best assurance is the construction itself. Unlike cheaper glued boots that end up in a landfill once the sole wears out, the Everlast's Goodyear welt allows them to be re-soled multiple times. You aren't just buying one lifespan of a boot; you're buying a chassis that can be refreshed for years, making that $100 investment pay off significantly better than buying three $50 pairs over the same period.",B_Persuade,False,4
+Customer,6,"I understand that the Goodyear welt construction means they can be re-soled, and theoretically, that extends their life considerably. However, re-soling isn't free, nor is it always convenient. It's an additional cost and effort down the line. So while the initial $100 might seem like a good investment for a re-solable boot, I'm still weighing that against the total cost of ownership, including future re-soling, versus just buying a slightly cheaper, decent quality boot that might not last as long but also doesn't require extra investment later. It still feels like a significant upfront cost for a promise of future savings and effort.",Objection_B,False,4
+Agent,6,"I see your point about the future effort. Let's look at the immediate value then: cheaper boots often lack proper arch support and weatherproofing, forcing you to buy insoles and sprays immediately. The Everlast includes a premium cork midsole that molds to your foot and pre-treated leather. When you add those 'hidden' upgrade costs to a cheaper boot, the price difference practically disappears, but you still keep the superior durability.",B_Persuade,True,4
+Agent,1,Hello! Thank you for calling LeatherCraft Boots. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,5
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. Thanks. I'm looking for a new pair of boots, and I'm hoping you can recommend something truly exceptional. I'm not interested in anything subpar.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='8ud6aYvPGYuX_uMPmqCumQY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=37,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=175,
+  total_token_count=596
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,5
+Agent,2,"Based on your preference for exceptional quality, I highly recommend our Signature Heritage Series. These boots are handcrafted from premium full-grain leather with Goodyear welt construction for maximum durability, priced at $100.",Recommendation,False,5
+Customer,3,"A hundred dollars? For ""premium full-grain leather"" and ""Goodyear welt construction""? That sounds… remarkably low for what you're describing as ""exceptional quality."" Are you sure we're talking about the same level of craftsmanship here? Because that price point makes me question the true quality.",Objection_B,False,5
+Agent,3,"I completely understand your skepticism; it's rare to find this meaningful quality at this price point. We operate on a strictly direct-to-consumer model, which eliminates the standard retail markup. Essentially, you are paying for the materials and craftsmanship, not for a brand's marketing budget or a department store's overhead.",B_Persuade,True,5
+Agent,1,Hello! Thank you for calling Summit Leather Boots. My name is Alex. How can I help you find the perfect pair of boots today?,Greeting,False,6
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. I'm looking for boots. What's your *best* recommendation? I need something that can really hold up, not just some flimsy fashion boot.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='EOh6aanzOIiBjMcP34vnkAw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=35,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=187,
+  total_token_count=605
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,6
+Agent,2,"I highly recommend our 'Iron-Clad' series. These are crafted from premium full-grain leather with Goodyear welt construction, specifically designed to withstand tough conditions while keeping your feet comfortable. They are priced at $100.",Recommendation,False,6
+Customer,3,"A hundred dollars? For *that*? That's not exactly a bargain, is it? I've seen similar claims for less.",Objection_B,False,6
+Agent,3,"I understand the hesitation on the price. However, consider the cost per wear. Cheap boots often fall apart in a few months, forcing you to buy again. Our $100 boots last for years due to the Goodyear welt construction, actually saving you money in the long run compared to buying multiple cheaper pairs.",B_Persuade,True,6
+Agent,1,Hello! Thank you for calling Premium Leather Boots. My name is Alex. How may I assist you in finding the perfect pair of boots today?,Greeting,False,7
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. I'm looking for a new pair of boots, and I was hoping you could help me find something suitable. Do you have any recommendations for a durable, everyday boot?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Kuh6afunJ4DyjMcPp5yBsQw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=38,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=199,
+  total_token_count=621
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,7
+Agent,2,"Absolutely. Based on your needs, I highly recommend our 'Iron-Clad' Leather Series. They are handcrafted for maximum durability and designed specifically for all-day comfort. They retail for $100.",Recommendation,False,7
+Customer,3,"Okay, the 'Iron-Clad' series sounds promising for durability and comfort. However, $100 is a bit more than I was hoping to spend. Are there any other options that offer similar quality but perhaps at a slightly lower price point?",Objection_B,False,7
+Agent,3,"I completely understand that budget is a priority. However, consider that the 'Iron-Clad' boots feature Goodyear welt construction and premium full-grain leather. While the upfront cost is $100, they last three times longer than average boots, effectively costing you less per year of wear.",B_Persuade,False,7
+Customer,4,"Okay, I understand your point about the long-term value if they truly last that long. What's your policy on returns or exchanges if they don't fit right when they arrive, or what kind of warranty do these 'Iron-Clad' boots come with?",Objection_C,False,7
+Agent,4,"We offer a completely hassle-free 30-day return and exchange policy. If the fit isn't perfect, we'll handle the logistics to get you the right size immediately. We want to ensure you are 100% satisfied with the fit before you commit.",C_Persuade,True,7
+Agent,1,Hello! Thank you for calling Premium Leather Boots. My name is Alex. How can I assist you with finding the perfect pair of leather boots today?,Greeting,False,8
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, Alex. I'm looking for some boots. What's your top recommendation, something that actually holds up? Don't just give me the usual sales pitch.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='X-h6aanIA46Y_uMP5oOsqQ4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=36,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=162,
+  total_token_count=583
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,8
+Agent,2,"Based on what you're looking for, I highly recommend our 'IronClad Heritage' boot. It features full-grain leather and Goodyear welt construction, which means it's built to last for years, not just seasons.",Recommendation,False,8
+Customer,3,"""Built to last for years,"" huh? Everyone says that. But what about actual performance? Does 'full-grain leather' mean it's waterproof, or is it just going to soak through the first time I step in a puddle? Because ""built to last"" means nothing if they're ruined by a bit of rain.",Objection_A,False,8
+Agent,3,"That is a very valid concern. To clarify, full-grain leather is naturally water-resistant due to its density, but we take it a step further. These boots are oil-tanned and feature sealed seams, making them highly resistant to water penetration without sacrificing breathability like synthetic waterproof liners do.",A_Persuade,False,8
+Customer,4,"""Highly resistant"" and ""water-resistant"" aren't ""waterproof."" So, it's not actually going to keep my feet dry if I'm out in real wet weather. It sounds like a lot of fancy words for ""it'll be okay in a light drizzle."" I need something that *works*, not something that just sounds good on paper.",Objection_A,False,8
+Agent,4,"I understand your skepticism; you need a guarantee, not just specs. To prove our confidence in their performance, I can offer you a free 2-year extended warranty. If any water gets through or the leather fails, we replace them, no questions asked.",A_Incentive,False,8
+Customer,5,"A warranty is all well and good, but what happens if I *do* have to use it? Am I going to be without boots for weeks while you process a claim and ship a new pair? Because a warranty isn't much comfort if the replacement process is a logistical nightmare.",Objection_C,False,8
+Agent,5,"I completely appreciate that worry—downtime is frustrating. However, our warranty process is designed for speed: we ship the replacement pair immediately upon receiving your claim, often before we even get the old ones back, using expedited 2-day shipping so you aren't left waiting.",C_Persuade,True,8
+Agent,1,Hello! Thank you for calling Leather & Sole. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,9
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Yeah, hi. I need some boots. What do you recommend? Something actually decent, not just whatever's on sale.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='oOh6ae-SA7Di_uMP1bvh8A4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=26,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=160,
+  total_token_count=570
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,9
+Agent,2,"Based on what you're looking for, I highly recommend our Classic Heritage Boot. It is crafted from premium full-grain leather that molds to your feet over time and features Goodyear welt construction for exceptional durability. The price is $100.",Recommendation,False,9
+Customer,3,"Right, fine. And how long does that actually take to ship? Don't tell me it's going to be a month. What about returns if they don't fit? Is that a whole hassle too?",Objection_C,False,9
+Agent,3,"I understand your concern, but we actually pride ourselves on speed. Standard shipping takes just 3-5 business days, not a month. As for returns, we include a pre-paid label in the box, so if they don't fit, you can simply drop them off at any post office—no hassle at all.",C_Persuade,False,9
+Customer,4,"Yeah, ""3-5 business days."" I've heard that before. And ""no hassle""? Usually means I'll be waiting on hold for an hour to get a label that was supposed to be in the box. Just tell me what it *really* takes.",Objection_C,False,9
+Agent,4,"I completely understand the skepticism. To give you peace of mind, I'm authorized to waive the shipping fee entirely for this order. We use a tracked priority carrier, so you won't pay a dime for delivery and you'll have a tracking number immediately.",C_Incentive,False,9
+Customer,5,"Fine, free shipping. Doesn't mean the boots are any good. Are they actually waterproof? Or are my feet going to be soaked the first time I step in a puddle? And how long do they *actually* last before the sole falls off?",Objection_A,False,9
+Agent,5,"I hear your concern about durability. To back up our quality, I'll include a comprehensive 2-year extended warranty for free. If anything happens to the soles or waterproofing within two years, we'll replace them, no questions asked.",A_Incentive,True,9
+Agent,1,"Hello! This is Alex calling from Premium Leathers. We specialize in high-quality, handcrafted leather boots, and I wanted to quickly reach out to share our latest collection with you.",Greeting,False,10
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. I'm listening. What exactly do you have in mind that would be worth my time? I'm curious what you think would genuinely stand out from all the other 'premium' options out there.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='4Oh6afDPONGE_uMPms3R4A0' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=44,
+  prompt_token_count=392,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=392
+    ),
+  ],
+  thoughts_token_count=121,
+  total_token_count=557
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,10
+Agent,2,"I appreciate your directness. I'd like to recommend our Signature Series. These are crafted from full-grain Italian leather that actually looks better with age, featuring a Goodyear welt construction for decades of durability. We're offering this pair at $100, which is significantly lower than retail markups for similar craftsmanship.",Recommendation,False,10
+Customer,3,"Decades of durability sounds promising, but I've heard that before. How well do these boots actually stand up to real-world conditions, like heavy rain or even just regular puddles? ""Looks better with age"" is one thing, but can they truly withstand daily abuse without falling apart or letting in water? I need to know they're genuinely robust, not just pretty.",Objection_A,False,10
+Agent,3,"That is a very valid concern. The Goodyear welt construction explicitly addresses this; unlike glued soles that peel when wet, our soles are stitched to the upper, creating a nearly waterproof seal. Additionally, the full-grain leather is oil-treated during tanning, making it naturally water-resistant for daily wear in rain.",A_Persuade,True,10
+Agent,1,Hello! Thank you for calling our premium leather boot store. My name is Alex. How are you doing today?,Greeting,False,11
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, I'm doing well, thank you. I'm hoping you can help me. I'm looking for a new pair of boots, but I'm rather particular about what I need. Do you have any recommendations for durable, all-weather leather boots that can really stand up to the elements? I've been disappointed with claims in the past.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='_uh6aZZd5u_-4w_op6TwCg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=76,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=169,
+  total_token_count=623
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,11
+Agent,2,"It's great to hear you're doing well! Based on your needs, I highly recommend our 'Titan Tread' series. These are crafted from full-grain, oil-tanned leather which is naturally water-resistant, and they feature a Goodyear welt construction that guarantees exceptional durability in harsh weather. They are specifically designed to outlast standard boots.",Recommendation,False,11
+Customer,3,"""Naturally water-resistant"" is a good start, but my concern with boots in the past has always been their long-term performance in truly severe conditions, not just a light drizzle. How does that ""naturally water-resistant"" leather hold up if I'm slogging through snowmelt or heavy, continuous rain for hours? Does it maintain its integrity and keep my feet dry without needing constant reapplication of treatments? And while Goodyear welt construction is good, how does the *overall* boot, including the sole and stitching, truly hold up against cracking, separation, or wear and tear after a year or two of rigorous use? I've heard similar promises before, so I'm curious about the specifics of their real-world, long-term durability and waterproofing.",Objection_A,False,11
+Agent,3,"I completely understand your skepticism given your past experiences. Because we are so confident in the waterproofing and structural integrity of the Titan Tread boots—specifically against cracking and separation—I can offer you a complimentary 2-year extended warranty. This covers any defects in materials or workmanship, so you can test them in the harshest conditions risk-free.",A_Incentive,True,11
+Agent,1,Hello! Thank you for calling Premium Leather Boots. My name is Alex. How can I assist you with your footwear needs today?,Greeting,False,12
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. I'm looking for boots. What can you actually recommend that's genuinely durable and won't fall apart after a few months?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='G-l6aeykCI6N_uMPv9SmyQU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=32,
+  prompt_token_count=380,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=380
+    ),
+  ],
+  thoughts_token_count=394,
+  total_token_count=806
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,12
+Agent,2,"I highly recommend our Everlast Trailmaster boots. They are crafted from top-grain leather with reinforced stitching, designed specifically for long-lasting durability in tough conditions. They retail for $100.",Recommendation,False,12
+Customer,3,A hundred dollars? For those? What makes them so special to justify that price when I've seen similar options for much less?,Objection_B,False,12
+Agent,3,"I understand that price is a factor, but consider the long-term value. While cheaper boots often use synthetic materials that wear out in months, our full-grain leather construction means these boots can last for years, saving you the cost of frequent replacements.",B_Persuade,False,12
+Customer,4,"""Long-term value"" is a nice phrase, but that's what everyone says. I'm still not convinced these are genuinely worth double what some competitors are charging for what seems like the same thing. I've heard that before.",Objection_B,False,12
+Agent,4,"I appreciate your candor, and I want you to feel confident in this investment. Since you're comparing options, I can authorize a one-time price adjustment to $70 to make this an easy decision for you today.",B_Incentive,True,12
+Agent,1,Hello! Thank you for calling Premium Leather Goods. My name is Alex. How can I assist you in finding the perfect pair of boots today?,Greeting,False,13
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. I'm looking for a pair of boots. I'm open to suggestions, but I'm looking for something truly impressive. What would you recommend as your absolute top-tier option?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='UOl6afCjA8fm_uMP9emBoA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=42,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=257,
+  total_token_count=683
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,13
+Agent,2,"I have just the thing for you. I highly recommend our Signature Heritage Boots. They are handcrafted from full-grain Italian leather, featuring Goodyear welt construction for lifetime durability and a memory foam insole for unmatched comfort. Priced at $100, they are the pinnacle of our collection.",Recommendation,False,13
+Customer,3,"Those sound... adequate. But before I get into the construction, I need to understand the practicalities. How quickly can I expect these to arrive? And what's your policy if, for whatever reason, they're not quite what I expected after delivery? I'm not interested in any lengthy return processes.",Objection_C,False,13
+Agent,3,"I completely understand the need for efficiency. Our standard shipping is quite prompt, typically arriving within 3-5 business days via premium couriers. As for returns, we pride ourselves on a hassle-free process: every box includes a pre-paid return label, so if they aren't perfect, you can simply drop them off for a full refund without any complex paperwork.",C_Persuade,True,13
+Agent,1,Hello! Thank you for calling Premier Leather Boots. I'm here to help you find the perfect pair of durable and stylish boots. How can I assist you today?,Greeting,False,14
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for some boots. I need something truly durable, not just 'durable' on the label. What do you actually recommend for someone who needs boots that will genuinely last?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='cOl6aYq2CLiF_uMPobir4Qk' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=43,
+  prompt_token_count=388,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=388
+    ),
+  ],
+  thoughts_token_count=275,
+  total_token_count=706
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,14
+Agent,2,"I completely understand your focus on longevity. I highly recommend our Heritage rugged boots. They feature full-grain leather construction and Goodyear welt stitching, which means they are built to endure heavy wear and can be resoled multiple times for a lifetime of use. They are priced at $100.",Recommendation,False,14
+Customer,3,"Full-grain leather and Goodyear welt stitching sounds good on paper for durability, I'll admit. But ""endure heavy wear"" can mean a lot of things. What about actual practical conditions? Are these boots genuinely waterproof, or are we talking about ""water-resistant"" which often just means they'll hold up for a light drizzle? I need something that can handle more than just a walk to the mailbox.",Objection_A,False,14
+Agent,3,"I hear your concern loud and clear. These boots use a proprietary hydro-shield membrane, not just a coating, so they are engineered for heavy weather. To prove it and put your mind at ease, I'm authorized to include our comprehensive 2-year extended warranty for free right now. This covers any water damage or structural failure, guaranteed.",A_Incentive,False,14
+Customer,4,"Okay, a hydro-shield membrane and a free 2-year extended warranty that covers water damage? That's certainly a compelling offer and addresses my previous concern quite directly. However, even with those assurances, $100 for a pair of boots still seems a bit on the high side, especially when I'm trying to be pragmatic about value for money. Is that price firm, or are there any other promotions or discounts available? I want to ensure I'm getting the absolute best deal for a boot of this supposed caliber.",Objection_B,False,14
+Agent,4,"I appreciate your pragmatism. While I understand the hesitation on price, think of it as an investment in longevity. A $50 pair of boots might need replacing in six months, whereas these, backed by that warranty I mentioned, will last you years. At $100, the cost per wear is actually significantly lower than buying cheaper alternatives repeatedly.",B_Persuade,False,14
+Customer,5,"I understand the concept of cost per wear and investing in quality for the long term. That's a valid point in theory. However, $100 upfront is still a significant sum, and there are many boots out there that also claim durability and longevity at varying price points. ""Significantly lower"" cost per wear is an assertion that still needs to be proven over time, and right now, I'm focused on the initial outlay. Is there any flexibility on that $100, even with the warranty? I'm quite skeptical that this is the absolute best price for this type of boot, even with all its features.",Objection_B,False,14
+Agent,5,"I understand that the initial outlay is the deciding factor for you. Because I am confident these boots will exceed your expectations, I am willing to authorize a one-time discount to $70. This creates an unbeatable value proposition paired with the warranty I mentioned earlier.",B_Incentive,True,14
+Agent,1,Hello! Thank you for calling The Leather Boot Company. My name is Alex. I hope you're having a wonderful day so far.,Greeting,False,15
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi Alex. Yes, it's going fine. I'm looking for some new boots. I've heard good things about your company, but I'm looking for something specific. Can you recommend a sturdy, waterproof boot that's also comfortable for everyday wear?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='x-l6adKWDqeM_PUP7a61-AQ' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=56,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=161,
+  total_token_count=600
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,15
+Agent,2,"Absolutely! Based on your needs, I'd highly recommend our 'Trailblazer' series. They are crafted with premium full-grain leather, feature a fully waterproof GORE-TEX lining, and have a cushioned memory foam insole perfect for all-day comfort.",Recommendation,False,15
+Customer,3,"Hmm, GORE-TEX and full-grain leather sounds good on paper, I'll admit. But I've been burned before by boots that claim to be waterproof and durable, only to have them start leaking or falling apart after a few months of real use. How confident are you really in the long-term waterproofing and overall construction? I need something that will actually last and keep my feet dry, not just something with fancy labels.",Objection_A,False,15
+Agent,3,"I completely understand your skepticism, especially with past bad experiences. Our Trailblazer boots utilize Goodyear welt construction, which is the gold standard for durability and water resistance. It physically stitches the upper, sole, and welt together rather than just gluing them, ensuring they hold up for years, not months.",A_Persuade,False,15
+Customer,4,"Goodyear welt construction, sure, I've heard that before too. It's a nice feature, but a lot of companies use good construction methods and still manage to cut corners somewhere else. You're saying these *won't* start letting water in after a few months, even with regular use in wet conditions? Because that's my main concern. I need proof, not just buzzwords.",Objection_A,False,15
+Agent,4,"I hear you loud and clear. To give you that concrete proof and peace of mind, I'm authorized to include our comprehensive 2-year extended warranty at no extra cost. This covers any waterproofing failures or structural defects, so we fully back the durability we promise.",A_Incentive,False,15
+Customer,5,"A 2-year warranty is alright, I guess. But what's the typical shipping time for these boots? And if they don't fit right or if I end up really not liking them, what's your return policy like? I don't want to deal with a hassle if I have to send them back.",Objection_C,False,15
+Agent,5,"Shipping is quick—typically 3-5 business days via standard ground. For returns, we pride ourselves on a hassle-free process: we offer a 30-day window where we provide a prepaid return label, so if the fit isn't perfect, sending them back is completely free and easy for you.",C_Persuade,False,15
+Customer,6,"Okay, so the warranty and returns sound decent. But let's talk about the price of these Trailblazer boots. What's the damage? Because with all these features and warranties, I'm expecting it to be pretty steep. And frankly, I've seen some comparable boots from other brands that are a bit more budget-friendly. What makes these worth potentially more?",Objection_B,False,15
+Agent,6,"That's a fair question. While the initial investment might be higher than some budget brands, the 'Trailblazer' is designed to be a long-term investment. With the Goodyear welt construction we discussed, you can resole these boots repeatedly, meaning they can last for decades rather than needing replacement every season. In the long run, the cost per wear is actually much lower than buying cheaper boots multiple times.",B_Persuade,True,15
+Agent,1,Hello! Thank you for calling Miller's Fine Leathers. My name is Alex. How can I help you find the perfect pair of leather boots today?,Greeting,False,16
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. Yes, I'm looking for a pair of boots. What would you recommend for someone who needs something truly robust and waterproof?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Dup6afvYG4TV_uMPlKPEyQc' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=30,
+  prompt_token_count=387,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=387
+    ),
+  ],
+  thoughts_token_count=196,
+  total_token_count=613
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,16
+Agent,2,"Based on that, I highly recommend our 'Canyon Walker' series. They are crafted from top-grain oil-tanned leather which offers exceptional durability, and they feature a specialized waterproof membrane lining to keep your feet dry in any condition. They are built to last.",Recommendation,False,16
+Customer,3,"Okay, the 'Canyon Walker' series, you say. That sounds promising on paper, with the waterproofing and durability claims. But honestly, how quickly can I actually expect to receive them? And what's your return policy like if they don't quite meet expectations once I get them? I'm not looking for any hassle if they're not perfect.",Objection_C,False,16
+Agent,3,"We pride ourselves on our logistics. We ship all orders within 24 hours, and standard delivery takes just 3-5 business days. Regarding returns, we offer a hassle-free 30-day window with a prepaid label included in the box, so you can try them on at home with absolutely zero risk.",C_Persuade,False,16
+Customer,4,"""Hassle-free"" and ""3-5 business days"" is a nice claim, but I've heard that before. What happens if they don't arrive in that timeframe? And about these ""hassle-free"" returns, is that truly no questions asked, or are there hidden conditions if, say, the waterproofing isn't what it's cracked up to be?",Objection_C,False,16
+Agent,4,"I completely understand your caution. To prove our reliability and remove any risk on your end, I'll upgrade you to free expedited shipping immediately. This ensures the boots arrive faster, and since we're covering the cost, you won't be out of pocket even if you decide to use that prepaid return label.",C_Incentive,False,16
+Customer,5,"Free expedited shipping, alright, I appreciate the gesture. But let's get down to the actual cost of these 'Canyon Walkers.' With all these guarantees and ""top-grain"" claims, I'm expecting a significant price tag. How much are they, really? And what makes them worth it compared to other brands that also claim to be durable and waterproof, but might not demand such a premium?",Objection_B,False,16
+Agent,5,"The Canyon Walkers are priced at $100. While you can certainly find cheaper alternatives, those are often glued together and fail after a season or two. Our boots utilize Goodyear welt construction, meaning they are built to be resoled and last for years. Essentially, you're investing in a decade of reliability rather than buying a new pair every winter.",B_Persuade,True,16
+Agent,1,Hello! Thank you for calling Leather & Co. My name is Alex. How can I assist you in finding the perfect pair of boots today?,Greeting,False,17
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. I'm looking for boots. What do you actually have that's worth recommending for proper outdoor use? I need something that can really hold up.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Sup6acfXBcbg_uMPr9vSmAo' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=35,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=180,
+  total_token_count=599
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,17
+Agent,2,"Based on your need for durability, I highly recommend our Rugged Terrain leather boots. They are crafted with reinforced stitching and treated for water resistance, specifically designed to withstand tough outdoor conditions.",Recommendation,False,17
+Customer,3,"""Rugged Terrain,"" you say. That sounds promising, especially with the reinforced stitching and water resistance for tough conditions. But let's be realistic here. Are these going to be priced like an actual investment, or are we talking about something that's genuinely competitive? I've seen a lot of 'rugged' claims that come with a ridiculously steep price tag that just doesn't justify itself against other quality brands out there.",Objection_B,False,17
+Agent,3,"I completely understand where you're coming from regarding the price tag. While the upfront cost might seem higher than standard boots, the Rugged Terrain pair is built with premium full-grain leather that lasts three times longer than synthetic alternatives. Think of it as investing in one reliable pair for the next five years rather than replacing cheaper boots every season.",B_Persuade,False,17
+Customer,4,"""An investment for five years,"" you say. I've heard that one before. Look, every brand touts their 'premium full-grain leather' and how it lasts longer. What exactly makes your 'investment' any different from the other high-quality, durable boots on the market that *also* claim a long lifespan? I'm not convinced that translates to a unique advantage that justifies a higher price over every other solid option out there.",Objection_B,False,17
+Agent,4,"That is a fair question. The specific difference lies in our Goodyear Welt construction. Unlike many competitors who glue their soles, ours are stitched to the upper. This means when the sole eventually wears down, you can simply resole them for a fraction of the cost of a new pair, rather than having to throw the whole boot away. That specific feature is what makes this a true long-term investment compared to disposable alternatives.",B_Persuade,True,17
+Agent,1,"Hello! Thank you for calling Best Boots. My name is Alex, and I'd love to help you find the perfect pair of high-quality leather boots today. How are you doing?",Greeting,False,18
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, I'm doing well, thank you. I'm looking for some high-quality leather boots, as you mentioned. I've had issues in the past with boots that claim to be durable but don't quite last, especially with waterproofing. Do you have any specific recommendations that actually deliver on that promise of real, lasting quality and protection, or are most of them just average in terms of durability?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='cOp6aZinFsXWjMcPj-mo0Aw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=86,
+  prompt_token_count=392,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=392
+    ),
+  ],
+  thoughts_token_count=286,
+  total_token_count=764
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,18
+Agent,2,"Based on what you're looking for, I highly recommend our 'EverLast' Waterproof Leather Boots. They are crafted from full-grain leather with sealed seams specifically designed for maximum durability and water resistance, solving exactly the issues you've described.",Recommendation,False,18
+Customer,3,"""EverLast,"" you say? That certainly sounds promising, and I appreciate the specific recommendation. However, I've heard similar claims about ""maximum durability and water resistance"" from other brands before, and I've been disappointed. My last few pairs, despite being advertised as waterproof, ended up letting water in after only a few months, and the seams were often the first point of failure. Could you elaborate on what exactly makes the EverLast boots *truly* different and more reliable than other options on the market? Is there a specific technology or a guarantee beyond just the sealed seams and full-grain leather that ensures they will actually withstand tough conditions and remain waterproof over time?",Objection_A,False,18
+Agent,3,"That is a completely valid concern. What sets the EverLast apart is the Goodyear Welt construction. Unlike glued soles that peel away, our soles are stitched to the upper, creating a nearly impenetrable barrier against water. We also treat the leather with a proprietary hydrophobic coating that repels moisture at the microscopic level, ensuring they stay dry far longer than standard boots.",A_Persuade,True,18
+Agent,1,Good day! Thank you for calling Leather & Sole. My name is Alex. How may I assist you with finding the perfect pair of boots today?,Greeting,False,19
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text='Yeah, hi. Just tell me what boots you recommend. Something durable.'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='iep6ad3rCe2fjMcPoNri8Ak' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=15,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=183,
+  total_token_count=583
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,19
+Agent,2,"Absolutely. Based on your need for durability, I highly recommend our IronClad Worker Boot. It features triple-stitched full-grain leather and a reinforced Goodyear welt sole, designed to last for years even in tough conditions. They are currently priced at $100.",Recommendation,False,19
+Customer,3,"""Last for years"" is a strong claim. What about actual waterproofing? I need something that will hold up in wet conditions, not just wear out slowly.",Objection_A,False,19
+Agent,3,"I understand your concern. These boots are actually equipped with a HydroGuard waterproof membrane lining the interior, and the exterior leather is oil-treated to repel moisture immediately. We test them to ensure feet stay dry even in standing water.",A_Persuade,False,19
+Customer,4,"Right, okay. So how quickly do these ship? And what's the return policy if they're not what you claim or don't fit?",Objection_C,False,19
+Agent,4,"We process and ship all orders within 24 hours. Standard delivery typically takes 3 to 5 business days. As for returns, we offer a hassle-free 30-day return policy for any unworn items, so you can try them on at home with complete peace of mind.",C_Persuade,False,19
+Customer,5,"""3 to 5 business days"" usually means longer. And what exactly does ""hassle-free"" mean for returns? Are you covering return shipping, or is that on me if they don't work out?",Objection_C,False,19
+Agent,5,"I understand your hesitation regarding the timeline and costs. To make this easier for you, I can authorize free priority shipping right now. This ensures your boots are prioritized in the queue, and you won't pay a dime for delivery.",C_Incentive,True,19
+Agent,1,"Good morning! This is Alex from Heritage Leather Co. We specialize in handcrafted, premium leather boots. How are you doing today?",Greeting,False,20
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Good morning, Alex. I'm doing well, thank you. You specialize in premium boots, you say? I'm looking for a new pair, something that can really hold up. What would you recommend for someone who needs serious durability and perhaps some waterproofing?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='wOp6ac60Io6Y_uMP5oOsqQ4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=54,
+  prompt_token_count=381,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=381
+    ),
+  ],
+  thoughts_token_count=142,
+  total_token_count=577
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,20
+Agent,2,"It sounds like our 'Titan Tread' model would be perfect for you. It features full-grain leather that is naturally water-resistant, reinforced with triple stitching, and has a heavy-duty rubber sole designed for maximum durability in tough conditions. It's built to last a lifetime.",Recommendation,False,20
+Customer,3,"""Naturally water-resistant"" and ""built to last a lifetime"" are strong claims. How exactly does that natural resistance hold up in real, truly wet conditions, like heavy rain or even shallow puddles? And what does ""built to last a lifetime"" actually mean in terms of a warranty or practical lifespan, considering the wear and tear I expect to put them through? I've heard similar promises before.",Objection_A,False,20
+Agent,3,"I completely understand your caution; durability is paramount. To back up our claim and put your mind at ease regarding the waterproofing and lifespan, I'm authorized to include our comprehensive 3-year Extended Warranty at no extra cost to you. This covers any material defects or water damage, guaranteeing your boots stay functional.",A_Incentive,True,20
+Agent,1,Hello! Thank you for calling Premium Leathers. My name is Alex. How can I help you find the perfect pair of leather boots today?,Greeting,False,21
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Yeah, hi. I'm looking for some boots. What do you recommend? Something actually durable.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='3up6ae2_GYnSjMcPoevfkA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=21,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=119,
+  total_token_count=523
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,21
+Agent,2,"For durability, I highly recommend our Everlast Heritage Boot. It's crafted from full-grain leather with a Goodyear welt construction, meaning it's built to last for years and is fully resolable.",Recommendation,False,21
+Customer,3,"""Built to last,"" huh? That's what everyone says. But how does it hold up if it actually, you know, gets wet? Is it just going to fall apart the first time I step in a puddle, or is it actually waterproof?",Objection_A,False,21
+Agent,3,"I understand your skepticism, but these aren't just glued together. The Goodyear welt construction creates a water-resistant seal, and the full-grain leather is oil-treated to repel moisture naturally. You can step in a puddle with confidence; they are designed to handle the elements.",A_Persuade,False,21
+Customer,4,"""Water-resistant"" isn't the same as waterproof, is it? Plenty of boots claim to 'handle the elements' until you're actually out in proper rain or standing in anything more than a small puddle. I need something that won't soak through after five minutes.",Objection_A,False,21
+Agent,4,"I completely hear you, and we stand behind our quality. To prove it, I can include a free 2-year extended warranty with your purchase today. If you experience any leaks or structural issues, we will replace them, no questions asked. How does that sound?",A_Incentive,True,21
+Agent,1,Good morning! Thank you for calling Best Boots. My name is Alex. How can I assist you with finding the perfect pair of leather boots today?,Greeting,False,22
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Good morning, Alex. I'm looking for some durable leather boots. What would you recommend for someone who needs something truly high-quality and long-lasting? I've had issues in the past, so I'm looking for something that really holds up.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='A-t6aZGqHOzTjMcPzuLlqA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=54,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=203,
+  total_token_count=641
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,22
+Agent,2,"Based on your need for durability, I highly recommend our 'IronClad Heritage' series. These boots are crafted from full-grain leather with Goodyear welt construction, ensuring they are not only water-resistant but also resolable for a lifetime of use. They are priced at $100 and are specifically designed to stand the test of time.",Recommendation,False,22
+Customer,3,"""Water-resistant"" is one thing, but what about actual waterproofing? I've heard that phrase before, and it often means they'll handle a light drizzle, not sustained wet conditions. How well do these boots genuinely stand up to serious rain or puddles without letting my feet get soaked? I need something that's truly impervious, not just resistant.",Objection_A,False,22
+Agent,3,"I completely understand your skepticism regarding 'water-resistant' claims. However, these boots feature a 360-degree storm welt, which physically seals the gap between the upper and the sole to prevent leaks, unlike standard glued footwear. Combined with our oil-tanned heavy-gauge leather, they are engineered to keep your feet dry even in heavy downpours and puddles.",A_Persuade,False,22
+Customer,4,"Okay, so they might actually keep my feet dry. But now we're talking about $100. That's a lot, even for quality boots. Are we really saying there isn't anything comparable out there for less, or is this just your premium line? I'm not convinced this is the best value when other brands claim similar features for less.",Objection_B,False,22
+Agent,4,"That's a valid point on the upfront cost. However, because these are Goodyear welted, you can resole them for a fraction of the cost of buying new boots, effectively giving you three or four life cycles out of a single pair. When you calculate the cost-per-year compared to cheaper boots that fall apart in 12 months, this $100 investment actually saves you money in the long run.",B_Persuade,True,22
+Agent,1,"Good morning! I'm calling from Urban Walker Boots. We specialize in premium, handcrafted leather footwear, and I'd love to chat briefly about how our latest collection might suit your needs.",Greeting,False,23
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text='Good morning. Thanks for reaching out. I\'m listening, though I\'ve heard a lot of companies claim ""premium"" and ""handcrafted."" What exactly are you recommending, and why should I be interested?'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='KOt6aYuQBu_u_uMP6Ove6A4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=44,
+  prompt_token_count=394,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=394
+    ),
+  ],
+  thoughts_token_count=333,
+  total_token_count=771
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,23
+Agent,2,"I completely understand the skepticism; terms like that get thrown around a lot. I'm recommending our flagship 'Canyon Trekker' boots. They're built with full-grain Italian leather that actually looks better with age, and they feature Goodyear welt construction, meaning they are water-resistant and re-solable for a lifetime of use. It's a boot designed for both durability and classic style. Does that sound like the kind of quality you're looking for?",Recommendation,False,23
+Customer,3,Those features certainly sound robust. 'Lifetime of use' and 'Italian leather' generally imply a significant investment. What's the price point on these Canyon Trekkers? I'm curious if the value truly aligns with what I've seen from competitors at various price ranges.,Objection_B,False,23
+Agent,3,"The Canyon Trekkers are priced at $100. While that might seem higher than some fast-fashion alternatives, when you calculate the 'cost per wear' over years of service—versus replacing cheaper boots annually—they are actually the more economical choice. You're paying for construction that prevents water damage and leather that doesn't crack, essentially buying three pairs of boots for the price of one quality pair.",B_Persuade,False,23
+Customer,4,"I understand the ""cost per wear"" argument, but $100 upfront is still $100. It's easy to claim a boot will last a lifetime; proving it is another matter entirely. What makes you so certain these boots won't just follow the usual trend of falling apart after a year or two, regardless of the initial cost?",Objection_B,False,23
+Agent,4,"That is a fair challenge. The $100 price point covers the Goodyear Welt construction—a mechanical stitch that binds the upper, sole, and welt. Unlike glued boots that peel apart after a season, this stitch physically locks the structure together. If the sole ever wears down, it can be replaced by any cobbler, keeping the boot alive for decades. You are paying for the engineering that prevents the exact failure you're worried about.",B_Persuade,False,23
+Customer,5,"I appreciate the detailed explanation on the Goodyear Welt construction. The theory sounds solid for preventing sole separation, but that's just one point of failure. How does that guarantee the *rest* of the boot—the leather itself, the stitching on the upper, the eyelets, the interior lining—will genuinely hold up for ""decades"" in real-world conditions? Most materials degrade long before a sole needs replacing.",Objection_B,False,23
+Agent,5,"You're right to look beyond the sole. The $100 price specifically funds full-grain leather—the outermost, toughest layer of the hide—rather than the 'genuine leather' composite found in cheaper boots that peels over time. We also use solid brass eyelets and a breathable leather lining instead of synthetic fabric, ensuring the interior and hardware last just as long as the sole. You're investing in materials that physically cannot degrade like cheaper alternatives.",B_Persuade,False,23
+Customer,6,"I've heard claims about full-grain leather and solid brass before. While they're certainly better than synthetics, saying they ""physically cannot degrade"" seems a bit extreme. Nothing lasts forever without significant care. What kind of rigorous, real-world testing supports this claim of decades of non-degradation, especially for a boot that's meant to be trekked in? I'm not convinced these premium materials completely negate the effects of time and wear.",Objection_B,False,23
+Agent,6,"You are absolutely right to be realistic—no boot is immortal, and proper care is essential. However, the value at $100 comes from 'maintainability' rather than invincibility. We stress-test these materials for 500+ hours in variable terrain to ensure the leather responds to conditioning rather than cracking like synthetics. You aren't paying for magic; you're paying for a material that allows your care to actually extend its life, which is impossible with disposable, cheaper footwear.",B_Persuade,False,23
+Customer,7,"""Maintainability"" is one thing, but $100 for a boot that *requires* constant upkeep to merely *respond* to conditioning doesn't sound like a fantastic deal. It sounds like I'd be buying another chore. If I'm paying a premium, I expect something more robust than just ""it can be maintained."" What's the real, practical lifespan without turning boot care into a full-time hobby?",Objection_B,False,23
+Agent,7,"I hear you—nobody wants another chore. To be clear, the maintenance is for aesthetic perfection, not survival. In terms of practical lifespan, with zero care and heavy abuse, you can expect 3 to 5 years of service, compared to 8 months for a standard boot. You aren't buying a project; you're buying a piece of gear that thrives on neglect better than anything else on the market. The $100 saves you the time and hassle of shopping for replacements every year.",B_Persuade,True,23
+Agent,1,Hello! Thank you for calling Leather & Sole. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,24
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for boots. What do you suggest? I need something that can actually hold up, not just look good for a week.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='qet6aaffMqi9_uMP3LHGsAY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=33,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=373,
+  total_token_count=789
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,24
+Agent,2,"Based on what you're looking for, I highly recommend our Everlast Field Boot. It's crafted with premium full-grain leather and features Goodyear welt construction, which means it's built to last for years, not weeks. It sells for $100.",Recommendation,False,24
+Customer,3,"""Built to last for years"" is a big claim. Does that include actual waterproofing, or just resisting a light drizzle? I've heard that before, and boots usually fall apart the first time they see real weather.",Objection_A,False,24
+Agent,3,"I completely understand your skepticism, but these aren't just water-resistant; they are treated with industrial-grade waterproofing oils during the tanning process. Plus, the Goodyear welt construction creates a watertight seal between the upper and the sole, ensuring your feet stay dry even in heavy downpours.",A_Persuade,False,24
+Customer,4,"""Industrial-grade"" and ""watertight seal."" That's what they all say. I've had boots with those claims before that still let water in after a month. How long does this ""industrial-grade"" last when you're actually using them, not just looking at a spec sheet?",Objection_A,False,24
+Agent,4,"I hear you loud and clear, and I want you to feel secure in this purchase. Since you're worried about them failing after a month, I'll include a free 2-year extended warranty. If they leak or fall apart, we replace them, no questions asked. That's how confident we are.",A_Incentive,True,24
+Agent,1,"Good day! Thank you for calling The Leatherworks. My name is Alex, and I specialize in finding the perfect pair of premium leather boots for our customers. How can I help you today?",Greeting,False,25
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. Thank you. I'm looking for a new pair of leather boots, something truly premium, as you say. I've been through quite a few pairs that haven't lived up to their promises, so I'm hoping you can recommend something genuinely top-tier, something that won't disappoint. What do you have that really stands out in terms of quality and longevity?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='0ut6aaVxjo3-4w-_1KbJBQ' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=82,
+  prompt_token_count=393,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=393
+    ),
+  ],
+  thoughts_token_count=176,
+  total_token_count=651
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,25
+Agent,2,"I completely understand your focus on longevity. For someone who values true craftsmanship, I highly recommend our 'Ironclad Heritage' boot. It features 2.4mm full-grain leather that only looks better with age, and it's built with a Goodyear welt construction—meaning the sole is stitched, not glued, so it can be resoled again and again for a lifetime of wear. It is priced at $100.",Recommendation,False,25
+Customer,3,"One hundred dollars? For something truly top-tier, that seems… surprisingly modest, actually. I've seen boots claiming similar features for significantly more. Are we genuinely talking about the absolute best quality here, or is this more of a mid-range offering disguised as premium? I'm looking for something that will undeniably last a lifetime, not just a good deal.",Objection_B,False,25
+Agent,3,"That is a very sharp observation, and I appreciate your candor. The reason our price is $100 isn't because we compromise on materials, but because we've eliminated the traditional retail markup. Most 'luxury' brands mark up their products by 300% to cover storefronts and marketing. We sell directly from the workshop to you, so every dollar you spend goes into the 2.4mm full-grain leather and Goodyear welt construction, not a logo.",B_Persuade,False,25
+Customer,4,"I appreciate the transparency regarding your business model, Alex, and it certainly makes sense that eliminating traditional retail markups would bring the cost down. However, even with that explanation, I'm still struggling to fully reconcile a $100 price point with the kind of undisputed, top-tier, lifetime quality I'm truly aiming for. Other direct-to-consumer brands, even those with similar claims of premium materials and construction, generally sit at a much higher price point. Are we absolutely certain there are no other subtle differences in material grading or manufacturing processes that allow for such a significant price reduction, beyond just the retail markup? I just want to be sure I'm not overlooking anything that might affect the ultimate longevity.",Objection_B,False,25
+Agent,4,"I completely respect your diligence; it is rare to find a customer who truly knows the market. To answer your question directly: unlike many other direct-to-consumer brands that still source leather from third-party vendors, we own our own tannery. This vertical integration allows us to use Grade-A full-grain hides—the exact same ones used by brands charging $400—without paying the vendor premium. We aren't cutting corners on the manufacturing; we have simply removed an entire layer of the supply chain.",B_Persuade,False,25
+Customer,5,"Owning your own tannery, that's certainly an interesting and rather unique approach, Alex. It does explain how you could potentially control costs on the raw material front. However, even with Grade-A hides and no vendor premium, there's still the entire tanning process itself. Are we talking about traditional, slow vegetable tanning, or something more industrial? And what about the finishing? My concern remains whether the *entire* process, from hide to finished boot, truly aligns with what one would expect from a boot that aims to compete with those ""Grade-A"" hides from brands charging $400. I'm just trying to understand if there's any area where the cost-saving might subtly affect the overall quality or feel that you'd expect from a true premium product.",Objection_B,False,25
+Agent,5,"You are asking the right questions. We utilize a 'combination tannage' process—similar to the famous Chromexcel method—where we start with a chrome base for durability and finish with a heavy vegetable retannage for that rich patina and feel. This takes 28 days, not the industrial 2 days. The reason this doesn't drive the price up to $400 is strictly volume and ownership; we tan for other high-end brands too. When you buy from us, you're getting the 'factory owner's price,' not the 'boutique customer's price.'",B_Persuade,True,25
+Agent,1,Hello! Thank you for calling Premium Leather Boots. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,26
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi Alex. I'm looking for boots. What do you recommend?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Jex6adPdCNi8_uMPxpLRwAg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=15,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=180,
+  total_token_count=578
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,26
+Agent,2,"Excellent choice. I highly recommend our Heritage Series leather boots. They are crafted from top-grain leather with Goodyear welt construction, ensuring they are both incredibly durable and stylish for any occasion. They are currently priced at $100.",Recommendation,False,26
+Customer,3,Okay. How long does shipping take on those? And what's the return policy if they don't fit?,Objection_C,False,26
+Agent,3,"We offer standard shipping which typically takes 3-5 business days. As for returns, we have a hassle-free 30-day return policy, so you can try them on in the comfort of your home and send them back if the fit isn't perfect.",C_Persuade,False,26
+Customer,4,"""Standard shipping"" can still mean delays. And ""hassle-free"" usually isn't. Is it actually free returns? What if I need them faster than 3-5 days?",Objection_C,False,26
+Agent,4,"I completely understand the need for speed and certainty. To put your mind at ease, I can waive the shipping fee and upgrade you to free expedited shipping today. This ensures they arrive within 2 days, and yes, returns are completely free with a prepaid label included.",C_Incentive,False,26
+Customer,5,"Two-day shipping is better. But $100 still seems high for boots, even with free shipping. Are there any other options?",Objection_B,False,26
+Agent,5,"I understand that price is a significant factor, but at $100, these are priced well below the market average for Goodyear welted footwear, which typically starts around $200. You are paying for an investment in durability; because they are resoleable, these boots can last for many years, ultimately costing you far less over time than replacing cheaper boots annually.",B_Persuade,True,26
+Agent,1,Hello! Thank you for calling Premium Leather Co. My name is Alex. How can I assist you with your footwear needs today?,Greeting,False,27
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, Alex. I'm looking for a new pair of boots. What do you have that's actually worth considering? I need something top-tier.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='aOx6abrCBK7YjMcP58jP0A8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=33,
+  prompt_token_count=380,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=380
+    ),
+  ],
+  thoughts_token_count=175,
+  total_token_count=588
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,27
+Agent,2,"I have just the pair for you. Our 'Titan' Full-Grain Leather Boots are our flagship model. Hand-stitched, water-resistant, and built to last a lifetime, they retail for $100 and are widely considered the best in their class.",Recommendation,False,27
+Customer,3,"""Lifetime, you say? That's a bold claim. More importantly, how quickly can these 'Titan' boots actually arrive? And if they don't live up to this 'best in class' reputation, what's your return process like? I'm not interested in waiting around or dealing with a complicated return just for something that underperforms.""",Objection_C,False,27
+Agent,3,"I completely understand your concern about efficiency. We use a premium courier service that ensures delivery within 3 business days, and we include a pre-paid return label in the box so you never have to wait in line if they aren't a perfect fit.",C_Persuade,True,27
+Agent,1,Hello! Thank you for calling Artisan Leatherworks. I'm here to help you find the perfect pair of boots. How can I assist you today?,Greeting,False,28
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for some boots. I need a recommendation for something that's genuinely durable, waterproof, and can handle a variety of conditions, not just a showpiece. What do you suggest?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='h-x6abvCItma_uMP4vaXsAM' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=45,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=283,
+  total_token_count=713
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,28
+Agent,2,"Based on your needs, I highly recommend our 'Highlander All-Terrain' boots. They are crafted from full-grain leather with a triple-sealed waterproof membrane and a Vibram sole for superior grip, specifically designed for heavy use in diverse conditions.",Recommendation,False,28
+Customer,3,"""Highlander All-Terrain,"" alright. That sounds like a lot of features. But usually, when I hear ""full-grain leather"" and ""Vibram sole"" in the same sentence, I also hear a price tag that's completely out of line. What are we actually talking about here? I've seen similar claims from other brands that charge an arm and a leg.",Objection_B,False,28
+Agent,3,"I understand the concern about the upfront cost. However, consider the cost per wear. These boots are built to last five times longer than standard boots, meaning you actually save money over the years by not having to replace them annually.",B_Persuade,False,28
+Customer,4,"""Five times longer""? That's a pretty bold claim to make. And even if it were true, that doesn't change the fact that the initial cost is still a significant hurdle right now. I'm not entirely convinced that 'cost per wear' makes the upfront expense any easier to swallow.",Objection_B,False,28
+Agent,4,"That is a fair point; the initial number can be intimidating. However, consider that cheaper boots often lack proper arch support and breathable materials, leading to foot fatigue and potential medical issues down the line. You are paying for the engineering that keeps you comfortable on your feet all day, which is hard to put a price tag on.",B_Persuade,False,28
+Customer,5,"Look, I understand the points about comfort and long-term health, but honestly, every premium brand says that. Are you telling me that comparable comfort and support are simply unavailable at a more reasonable price point? I'm finding it hard to believe that this level of ""engineering"" requires such a significant investment.",Objection_B,False,28
+Agent,5,I appreciate your skepticism. The reality is that traditional brands mark up their boots 3-4 times to cover retailer margins and marketing. We sell directly to you. That price reflects the raw material cost of Horween leather and Goodyear welt construction—features that allow these boots to be resoled for decades rather than replaced in a year.,B_Persuade,False,28
+Customer,6,"I understand the features you're listing – Horween leather, Goodyear welt construction. Those are indeed premium details. But even with the direct-to-consumer model, and all those specifics, it still sounds like we're talking about a very significant investment. Are these features truly so groundbreaking that they justify a price that I'm still finding quite steep compared to other durable boots on the market, or is this just the standard for what you consider ""high-end""?",Objection_B,False,28
+Agent,6,"I hear you clearly. We want you to experience this quality without the hesitation. I can offer you a one-time special discount, bringing the price down to $70 today. This makes the investment comparable to standard boots, but with our premium durability.",B_Incentive,True,28
+Agent,1,Hello! Thank you for calling Leather & Sole. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,29
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. I'm looking for some boots. What would you recommend for someone who really values quality and durability above all else? I've been disappointed before.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='4Ox6abKZIcfS_uMPi5uJqAg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=34,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=147,
+  total_token_count=565
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,29
+Agent,2,"I completely understand your focus on durability. For someone who values longevity, I highly recommend our 'Everlast Heritage' boots. They are handcrafted with full-grain leather and feature Goodyear welt construction, which makes them incredibly durable and easy to resole down the line.",Recommendation,False,29
+Customer,3,"Goodyear welt and full-grain leather sound good for durability, I'll give you that. But what about actual waterproofing? I've had ""durable"" boots before that still left my feet soaked in anything more than a light drizzle. Are these truly built to withstand real wet conditions, or is it just the leather itself they're relying on?",Objection_A,False,29
+Agent,3,"That is a very valid concern. Beyond the full-grain leather, these boots feature a fully gusseted tongue and hydro-sealed stitching specifically designed to prevent water entry even when submerged. We also pre-treat them with a proprietary hydrophobic coating that repels heavy rain and mud, ensuring your feet stay dry in actual field conditions, not just light mist.",A_Persuade,False,29
+Customer,4,"Hydro-sealed stitching and a hydrophobic coating sound like they *should* work. I've heard similar claims before with other boots, only to find they couldn't stand up to prolonged exposure or really heavy downpours. Are these claims based on lab tests, or have these boots actually been put through their paces in truly miserable, boggy, rainy conditions? Because ""repels heavy rain"" can mean a lot of things. I need to know they're genuinely waterproof, not just water-resistant for a short while.",Objection_A,False,29
+Agent,4,"I hear your skepticism, and honestly, the best way to prove it is to stand behind it completely. I can offer you our 2-year extended 'Dry-Feet' warranty at no extra cost today. If these boots leak for any reason during that time, we will replace them immediately. We are that confident in their performance.",A_Incentive,False,29
+Customer,5,"A 2-year warranty is certainly a strong statement of confidence, and I appreciate that offer, it does address some of my durability concerns. However, that warranty won't matter much if the initial price point for these 'Everlast Heritage' boots is completely out of my budget. Given all these premium features you're describing, I'm expecting them to be quite expensive. What's the damage, financially speaking? I'm hoping it's something reasonable, but I'm prepared to be skeptical if it's inflated just because of a warranty.",Objection_B,False,29
+Agent,5,"The price is $100. While that is an investment, consider the cost-per-wear: cheap boots often need replacing every season, whereas the Everlast Heritage is built to last years, especially with the warranty we discussed. You are essentially paying for three pairs of boots upfront to save buying five pairs later.",B_Persuade,False,29
+Customer,6,"Okay, $100 for something that's truly built to last and comes with that warranty *could* make sense in the long run. I appreciate you breaking down the cost-per-wear. But if I were to consider purchasing them, how quickly would I actually receive them? I'm not keen on waiting weeks for an item like this. And speaking of logistics, what's your policy if they arrive and, despite all the claims, they still don't quite meet my expectations, or if the fit isn't perfect? I'd need a straightforward returns process for an investment like this.",Objection_C,False,29
+Agent,6,"We pride ourselves on efficiency. Orders are processed within 24 hours and typically arrive within 3-5 business days, so you won't be waiting weeks. Regarding returns, we include a pre-paid return label in the box. If the fit isn't perfect, you have 30 days to return them for a full refund or exchange, hassle-free.",C_Persuade,True,29
+Agent,1,Hello! Thank you for calling Premium Leather Co. My name is Alex. How can I assist you today?,Greeting,False,30
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. I'm looking for some new leather boots. I've been doing a lot of research, and frankly, there's just so much out there claiming to be the best. What would *you* personally recommend as your absolute top-tier option for someone who needs something genuinely durable and reliable? I'm not interested in anything that won't hold up.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Pu16aZmWAerf_uMPwN22gQE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=79,
+  prompt_token_count=377,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=377
+    ),
+  ],
+  thoughts_token_count=277,
+  total_token_count=733
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,30
+Agent,2,"I completely understand your caution. For someone prioritizing absolute durability, I highly recommend our 'IronClad Series' boots. They are crafted from full-grain leather with Goodyear welt construction, specifically designed to last for years and withstand heavy use.",Recommendation,False,30
+Customer,3,"Okay, ""IronClad Series,"" ""full-grain leather,"" ""Goodyear welt."" That all sounds impressive, I'll give you that. But let's be realistic here. Boots with those kinds of specs usually come with a pretty hefty price tag. Are we talking about something that's genuinely competitive for what you're offering, or is this going to be one of those situations where the price is completely out of line with what's available elsewhere for similar claims of durability? I've seen a lot of brands touting premium features, but then the price becomes a sticking point.",Objection_B,False,30
+Agent,3,"That is a very valid concern. While the upfront investment is 100, these boots are priced competitively against other high-end Goodyear welted options that often retail for 150 or more. Because they are resoleable and built to last years rather than months, your cost-per-wear actually ends up being significantly lower than buying cheaper replacements every season.",B_Persuade,True,30
+Agent,1,"Hello, thanks for calling! My name is Alex, and I specialize in premium leather boots. How can I help you find the perfect pair today?",Greeting,False,31
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, nice to meet you. Yes, I am looking for boots. I'm hoping you can guide me, though I must say I have very specific requirements. I need something exceptionally durable and genuinely waterproof – the kind that truly lasts, not just for a season. What do you recommend that actually lives up to a 'premium' standard for someone who is quite demanding when it comes to quality?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Wu16adqOIvnP_uMP_NmLUQ' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=82,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=249,
+  total_token_count=716
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,31
+Agent,2,"Based on your focus on durability and waterproofing, I highly recommend our 'EverLast' Storm Series. They feature full-grain waterproof leather, triple-stitched seams, and a Goodyear welt construction that ensures they last for years, not seasons. They define premium durability.",Recommendation,False,31
+Customer,3,"""EverLast"" Storm Series, you say? Hmm. ""Premium durability"" often translates to a premium price tag, and I've seen many brands claim that without really justifying it. While durability is paramount, I also have a budget to consider. I'm highly skeptical that even the most 'premium' boot is worth an exorbitant amount. What kind of price range are we actually talking about for these, and how does that truly compare to other high-quality options on the market without just paying for a brand name? I'm not easily convinced by marketing jargon.",Objection_B,False,31
+Agent,3,"I understand the hesitation regarding price. However, these boots are priced at $100 because they use Grade-A leather that lasts 3-4 times longer than standard $60 boots. When you calculate the cost-per-wear over five years, these are actually the more economical choice compared to replacing cheaper boots annually.",B_Persuade,True,31
+Agent,1,"Hello! Thank you for calling Durable Steps. My name is Alex, and I specialize in premium leather footwear. How can I help you find the perfect pair of boots today?",Greeting,False,32
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi Alex. Yes, I'm looking for a new pair of boots. What would you recommend?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='eu16aeeuDZnQjMcPwofTgQ8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=21,
+  prompt_token_count=390,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=390
+    ),
+  ],
+  thoughts_token_count=411,
+  total_token_count=822
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,32
+Agent,2,"I highly recommend our 'Canyon Walker' leather boots. They are crafted from full-grain leather with a Goodyear welt construction for maximum durability, and they're currently priced at $100. They offer an excellent balance of ruggedness and comfort for all-day wear.",Recommendation,False,32
+Customer,3,"Okay, Canyon Walker. Sounds decent. How fast is shipping on those? And what's your return policy like?",Objection_C,False,32
+Agent,3,"We offer standard shipping which typically takes 3-5 business days. As for returns, we have a hassle-free 30-day return policy for unworn items, ensuring you can shop with confidence even without expedited shipping.",C_Persuade,True,32
+Agent,1,"Hello! Thank you for calling Apex Leather. My name is Alex, and I specialize in finding the perfect handcrafted boots for our clients. How can I assist you today?",Greeting,False,33
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. Thank you. I'm looking for a new pair of boots, and I was hoping you could offer some recommendations. I'm interested in quality and durability, so something that really stands up to wear.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='j-16aey0J7zj_uMP64ba8Ao' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=45,
+  prompt_token_count=389,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=389
+    ),
+  ],
+  thoughts_token_count=236,
+  total_token_count=670
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,33
+Agent,2,"Based on your need for durability, I highly recommend our 'Ironclad Heritage' model. It features full-grain steerhide leather and Goodyear welt construction, which means these boots are virtually indestructible and completely resolable for a lifetime of wear. They're priced at $100 and represent the pinnacle of our craftsmanship.",Recommendation,False,33
+Customer,3,"Hmm, $100 for boots that are ""virtually indestructible"" and have a ""lifetime of wear"" with full-grain steerhide and Goodyear welt construction? That sounds quite low for such claims, honestly. I've often seen boots with similar descriptions priced significantly higher. Could you elaborate a bit on how you manage to offer them at that price point while maintaining the quality you've described?",Objection_B,False,33
+Agent,3,"That is a very sharp observation. The reason we can offer this price is that we operate on a strictly direct-to-consumer model and own our own tanneries. Traditional brands have a retail markup of 2-3 times the manufacturing cost to cover storefronts and middlemen. By cutting those out, we pass the savings directly to you, ensuring you pay for the leather, not the label.",B_Persuade,False,33
+Customer,4,"I understand the direct-to-consumer model and owning your own tanneries can certainly cut costs significantly. That makes sense on paper. However, even with those efficiencies, claiming ""virtually indestructible"" quality and resolability for a lifetime at $100 still feels like an incredibly low price for genuine full-grain leather and Goodyear welt construction. Are there any trade-offs in the leather grade or construction details that allow for this, beyond just the supply chain model?",Objection_B,False,33
+Agent,4,"I completely understand your skepticism; in this industry, price often signals quality. However, the other major cost driver we eliminate is marketing. Most heritage brands spend 40% of their revenue on ads and celebrity endorsements. We spend zero. We rely entirely on the product to speak for itself and on customers like you spreading the word. You aren't paying for a billboard; you are paying strictly for the leather and the labor.",B_Persuade,False,33
+Customer,5,"I appreciate you explaining the cost structure and how you manage to keep the price down by focusing on the product itself. That certainly clarifies things regarding the pricing.
+
+However, when we talk about quality and durability for a ""lifetime of wear,"" I'm also thinking about the practical aspects of day-to-day use. Does this 'Ironclad Heritage' model offer any specific features for weather resistance? How well do they hold up against rain or general wet conditions, beyond just the structural integrity of the build?",Objection_A,False,33
+Agent,5,"That's a critical question. The 'Ironclad Heritage' uses oil-tanned steerhide, which is stuffed with natural oils and waxes during the tanning process. This creates a hydrophobic barrier that repels water naturally without needing synthetic sprays. Additionally, the Goodyear welt construction creates a physical seal around the sole, preventing water from seeping in at the seams far better than standard glued footwear.",A_Persuade,False,33
+Customer,6,"That sounds very thorough and well-thought-out for water resistance, I'm glad to hear about the oil-tanned leather and the Goodyear welt's seal. It definitely addresses my concerns about durability in different conditions.
+
+Now, shifting gears a bit, if I were to consider purchasing a pair, what's your typical shipping timeframe like? And, in the event they don't quite fit or aren't what I expected, what's your return or exchange policy?",Objection_C,False,33
+Agent,6,"We pride ourselves on our logistics as much as our leather. We ship all orders within 24 hours, and standard delivery typically takes just 3-5 business days. As for fit, we offer a 30-day 'Perfect Fit' guarantee: if the size isn't right, you can exchange them easily. We want to ensure you feel completely confident trying them on at home.",C_Persuade,False,33
+Customer,7,"That's good to hear about the quick shipping and the 30-day exchange for sizing. It definitely makes trying them out less risky. However, what if, after receiving them, I decide the style isn't quite for me, or they just don't meet my expectations beyond a sizing issue? Is there a similar policy for full returns if I'm simply not satisfied with the boots themselves, and not just the fit? And who covers the shipping costs for those exchanges or returns?",Objection_C,False,33
+Agent,7,"We absolutely offer full refunds for any reason within those 30 days, not just for sizing issues. And to remove that last bit of hesitation, I can offer you free shipping on this order right now, which includes a pre-paid return label. This means you can try the boots risk-free; if you don't love them, you can send them back at no cost to you.",C_Incentive,True,33
+Agent,1,"Hello! Thank you for calling Apex Leatherworks. My name is Alex, and I specialize in our premium handcrafted boots. How are you doing today?",Greeting,False,34
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, I'm doing well, thank you. I'm actually looking for a new pair of boots, something reliable and long-lasting. Do you have any recommendations for your most durable or premium options?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='DO56aaGcB-rVjMcP-qmZuQw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=44,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=205,
+  total_token_count=634
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,34
+Agent,2,"Excellent choice. For someone valuing longevity and reliability, I highly recommend our Signature Heritage Boot. It features full-grain leather and Goodyear welt construction, meaning it's built to last for decades. The pair is priced at $100.",Recommendation,False,34
+Customer,3,"That sounds promising for durability, I appreciate the detail. What about waterproofing, though? Are these boots designed to handle various weather conditions, or are they more for dry use?",Objection_A,False,34
+Agent,3,"Great question. Because we use high-grade full-grain leather, these boots are naturally water-resistant. With the Goodyear welt construction, the stitching is tightly sealed to prevent moisture entry, making them excellent for handling rain and varying weather conditions without compromising the boot's integrity.",A_Persuade,False,34
+Customer,4,"Okay, that's good to know about the water resistance. $100 for a pair of boots sounds a bit steep, especially if I'm looking for something that truly lasts for decades as you mentioned. How does that price compare to similar quality boots from other brands, or what specifically justifies that price point over other durable options on the market?",Objection_B,False,34
+Agent,4,"I understand the hesitation on the upfront cost. However, most boots with this specific Goodyear welt construction and leather quality retail for over $200. With our direct-to-consumer model, you're getting a $200 boot for $100. When you factor in that these can be resoled multiple times, the cost per wear over a decade becomes pennies compared to buying cheaper boots every year.",B_Persuade,True,34
+Agent,1,Hello! Thank you for calling ToughSteps Boots. My name is Alex. How can I assist you with finding the perfect pair of leather boots today?,Greeting,False,35
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi Alex. I'm looking for some *really* durable leather boots. What do you have that actually holds up?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Lu56aYGnMuG8_uMPzOD2iA0' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=25,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=177,
+  total_token_count=586
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,35
+Agent,2,"Based on your need for durability, I highly recommend our 'IronTread' series. They are crafted from premium full-grain leather with a reinforced Goodyear welt construction, specifically designed to withstand years of heavy use without falling apart.",Recommendation,False,35
+Customer,3,"Okay, ""years of heavy use."" But what about actually getting them to me? What's your shipping speed like for the IronTreads? I don't want to wait forever.",Objection_C,False,35
+Agent,3,"I understand you need them quickly. We pride ourselves on our logistics; we process all orders within 24 hours and partner with expedited carriers to ensure your boots arrive within 3 to 5 business days, standard.",C_Persuade,False,35
+Customer,4,"""3 to 5 business days, standard?"" That's what you call expedited? So, if I order today, I might not see them for a week and a half? That's not exactly fast.",Objection_C,False,35
+Agent,4,"I completely understand your urgency, and I don't want you waiting that long. I can authorize a free upgrade to Priority 2-Day Shipping for you right now, on the house. This guarantees you'll have the boots in just 48 hours.",C_Incentive,False,35
+Customer,5,"Okay, 2-day shipping is better, I guess. But what's the actual damage? These ""IronTread"" boots sound like they're going to cost an arm and a leg, especially with all these ""premium"" features. What's the price on them?",Objection_B,False,35
+Agent,5,"The price is $100, which reflects the premium materials. Because of the Goodyear welt construction, these boots last three times longer than standard cemented boots. You're actually saving money in the long run by not having to replace them every year.",B_Persuade,True,35
+Agent,1,Hello! Thank you for calling Distinctive Leather Boots. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,36
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, thank you. I'm looking for some new boots. I'm hoping you could recommend something that's really top-tier in terms of quality and durability. What would you suggest?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Z-56acKfE6PQjMcP4Yjj0A8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=42,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=201,
+  total_token_count=628
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,36
+Agent,2,"Based on what you're looking for, I highly recommend our 'Everlast Signature Series'. These are crafted from premium full-grain leather and feature Goodyear welt construction, which essentially guarantees they will last a lifetime. They are priced at $100 and are truly the best in class for durability.",Recommendation,False,36
+Customer,3,"Hmm, you mentioned the Everlast Signature Series at $100, described as ""best in class"" with a lifetime guarantee. That price point sounds surprisingly low for something truly top-tier and with such an extensive durability promise. Are we sure this is in the category of premium, highest quality boots I was asking about, or is there a reason for the seemingly low cost for such claims? I was anticipating something a bit higher if it's truly outstanding.",Objection_B,False,36
+Agent,3,"I completely understand your skepticism; usually, boots of this caliber do retail for $300 or more. The reason our price is $100 is that we operate on a direct-to-consumer model, effectively cutting out the retail middleman and their markups. You are paying strictly for the premium materials and craftsmanship, not for a brand logo or storefront overhead.",B_Persuade,True,36
+Agent,1,Good morning! Thank you for calling Premium Leather Co. My name is Alex. How can I assist you in finding the perfect pair of boots today?,Greeting,False,37
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, Alex. I'm looking for a new pair of boots. What do you recommend? I need something that's actually durable.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='i-56aYCIIb_R_uMPv7ObuA0' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=29,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=223,
+  total_token_count=637
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,37
+Agent,2,"Based on your need for durability, I highly recommend our Heritage Rugged series. These boots are crafted from top-tier full-grain leather and feature Goodyear welt construction, meaning they are built to last a lifetime and can be easily resoled.",Recommendation,False,37
+Customer,3,"Alright. Heritage Rugged. But what about getting them? What's the shipping time, really? I don't want to wait weeks for boots.",Objection_C,False,37
+Agent,3,"I completely understand that waiting is frustrating. We actually partner with premium couriers to ensure our Heritage series ships within 24 hours of ordering, and standard delivery is usually just 3-5 business days. We prioritize getting these boots to you quickly.",C_Persuade,False,37
+Customer,4,"""Usually"" 3-5 days, right. That just means it could be longer. And 3-5 business days isn't exactly fast when you actually need them.",Objection_C,False,37
+Agent,4,"I hear your concern about the timing. Tell you what, I can waive the shipping fee entirely for this order to make up for the wait. We want to make sure you get these boots without the extra cost.",C_Incentive,False,37
+Customer,5,"Waiving shipping is one thing, but what's the actual price tag on these? Good boots are one thing, but there's a limit to what I'm willing to pay.",Objection_B,False,37
+Agent,5,"The Heritage Rugged boots are priced at $100. While I understand sticking to a budget, these are an investment piece. Because of the Goodyear welt construction, you won't need to replace them every year like cheaper glued boots, which actually saves you money in the long run.",B_Persuade,True,37
+Agent,1,Hello! Thank you for calling Premium Leather Co. My name is Alex. How are you doing today?,Greeting,False,38
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, I'm doing well, thank you. I'm looking for a new pair of boots, specifically something that can handle a bit of rough weather and will last a good while. Do you have any recommendations for a sturdy, high-quality boot that's also comfortable for everyday wear?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='zO56aY2hHdHi_uMP15LEWA' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=62,
+  prompt_token_count=376,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=376
+    ),
+  ],
+  thoughts_token_count=127,
+  total_token_count=565
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,38
+Agent,2,"I have the perfect pair for you. Our Everlast Field Boots are crafted from top-grain water-resistant leather and feature a Goodyear welt construction for exceptional durability. Plus, they come with a memory foam insole for all-day comfort. They are priced at $100.",Recommendation,False,38
+Customer,3,"Those Everlast Field Boots sound like they have good features for durability and comfort. However, I'm quite particular about how quickly I receive orders, and I also want to be absolutely clear on the return policy. What are the typical shipping times, and how straightforward is the return process if they don't quite meet expectations?",Objection_C,False,38
+Agent,3,"I completely understand the need for reliable delivery. We partner with top-tier couriers to ensure most orders arrive within 3-5 business days. As for returns, we offer a hassle-free 30-day return window with a pre-paid label included in the box, so you can try them on at home with peace of mind.",C_Persuade,False,38
+Customer,4,"Okay, 3-5 business days and a 30-day return window with a pre-paid label sounds adequate on the surface. But shipping estimates can often vary, especially with unforeseen circumstances. And ""hassle-free"" returns sometimes have hidden clauses. So, I need to know, is that 3-5 day delivery a firm commitment, or is it more of an optimistic estimate? And for returns, are there any conditions at all that might prevent a full refund, or is it genuinely no questions asked within that period?",Objection_C,False,38
+Agent,4,"I understand your hesitation; you want guarantees, not estimates. To put your mind at ease, I can offer you free priority shipping on this order. This upgrades your tracking and ensures the boots arrive within 2-3 business days. This way, the delivery timeline is concrete.",C_Incentive,True,38
+Agent,1,Good morning! Thank you for calling The Leather Boot Co. My name is Alex. How can I help you find the perfect pair of boots today?,Greeting,False,39
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Good morning, Alex. I'm looking for a new pair of boots. I need something truly reliable, very durable, and suitable for all weather conditions. What would you recommend that actually holds up to its claims?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='-u56aeqAMo-PjMcPt_SBuQs' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=44,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=151,
+  total_token_count=580
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,39
+Agent,2,"Based on your needs for durability and all-weather performance, I highly recommend our 'Everlast Terrain' boots. They are crafted with premium water-resistant full-grain leather, feature triple-reinforced stitching, and have a heavy-duty Vibram sole designed to withstand the toughest conditions.",Recommendation,False,39
+Customer,3,"That sounds quite comprehensive regarding the durability and features. I'm curious though, what kind of price range are we looking at for these Everlast Terrain boots? I've seen some boots with similar descriptions that are incredibly expensive, and I'm keen to understand if the cost truly aligns with the value.",Objection_B,False,39
+Agent,3,"The Everlast Terrain boots are priced at $100. While I understand that's an investment, consider that cheaper boots often need replacing every year. These are built to last significantly longer, meaning you actually save money in the long run by not having to buy replacements.",B_Persuade,False,39
+Customer,4,"I understand the argument about saving money in the long run, and $100 isn't exorbitant for quality boots. However, ""built to last"" and ""significantly longer"" are claims I hear frequently. Can you elaborate on the actual waterproofing and durability? How do these boots perform in truly harsh, wet conditions, and what's the real-world experience regarding their lifespan before they start showing significant wear, or worse, leaking? I've been disappointed by many boots that promise longevity but fail after a season or two.",Objection_A,False,39
+Agent,4,"I completely understand your skepticism. Specifically, these boots utilize Goodyear welt construction, which is the gold standard for durability and means they are fully resoleable, extending their life indefinitely. For waterproofing, we use a HydroGuard membrane tested to withstand over 15,000 flexes in wet conditions without leaking, ensuring your feet stay dry season after season.",A_Persuade,True,39
+Agent,1,Hello! Thank you for calling The Leather Boot Company. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,40
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. Thank you. I'm looking for a new pair of boots, and I'm hoping you can recommend something truly exceptional. What do you have that's really worth considering?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Ie96aY_uFrOOjMcP2ZvSoAc' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=41,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=240,
+  total_token_count=666
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,40
+Agent,2,"Based on that, I would highly recommend our 'Classic Heritage' series. These boots are handcrafted from premium full-grain leather that not only looks stunning but also molds perfectly to your feet over time. They feature Goodyear welt construction for exceptional durability and come with a slip-resistant sole, making them an investment that truly stands the test of time.",Recommendation,False,40
+Customer,3,"That sounds quite impressive on the surface, Alex. Handcrafted and durable, I appreciate that. But before I get too invested in the idea of the ""Classic Heritage"" series, could you tell me a bit about your shipping process? Specifically, what are the typical delivery times, and what's your return policy like if they don't quite meet expectations once they arrive? I've had less than ideal experiences with online purchases in the past, so knowing the practicalities upfront is rather important.",Objection_C,False,40
+Agent,3,"I completely understand your caution given your past experiences. We pride ourselves on a seamless logistics experience; we partner exclusively with top-tier couriers to ensure a standard 3-5 business day delivery. Furthermore, our return policy is hassle-free: we offer a 30-day window where you can return the boots for a full refund or exchange if they don't meet your expectations, provided they are unworn.",C_Persuade,True,40
+Agent,1,Hello! Thank you for calling Best Boots. My name is Alex. How can I assist you with finding the perfect pair of leather boots today?,Greeting,False,41
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. Yes, I'm looking for leather boots. I've been through a few pairs that haven't held up, so I need a real recommendation. What do you suggest that's genuinely durable?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='P-96aa_SKY6N_uMPv9SmyQU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=46,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=343,
+  total_token_count=773
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,41
+Agent,2,"For someone prioritizing durability, I highly recommend our 'Ironclad Heritage' model. These boots are crafted from premium full-grain leather and feature Goodyear welt construction, meaning the sole is stitched rather than just glued. They are specifically built to withstand heavy wear and last for years.",Recommendation,False,41
+Customer,3,"""Ironclad Heritage,"" full-grain leather, Goodyear welt... I've heard it all before. But let's get practical. How long does shipping actually take for these? And if they somehow don't meet expectations, what's your return policy? Is it as straightforward as you make the boots sound?",Objection_C,False,41
+Agent,3,"I completely understand your practical approach. To answer your questions: standard shipping typically takes 3-5 business days. Regarding our return policy, it is very straightforward—we offer a 30-day window for returns on unworn items with no restocking fees. We want you to feel secure in the purchase before you even lace them up.",C_Persuade,True,41
+Agent,1,Hello! Thank you for calling Premium Leather Co. My name is Alex. How can I assist you in finding the perfect pair of boots today?,Greeting,False,42
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi Alex. I'm looking for some new boots. Can you recommend something durable and waterproof?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Yu96ab2OG67FjMcP073GgAw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=20,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=238,
+  total_token_count=641
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,42
+Agent,2,"Based on what you're looking for, I highly recommend our 'Ever-Dry Rugged Leather Boots'. They are crafted from top-grain leather treated with our proprietary water-shield technology, making them incredibly durable and 100% waterproof. They are priced at $100 and are designed to withstand the toughest conditions while keeping your feet dry.",Recommendation,False,42
+Customer,3,"""100% waterproof"" and ""incredibly durable,"" you say? I've heard that song and dance before. Most boots that claim to be waterproof barely last a season without leaks, let alone holding up to anything truly tough. What makes these any different?",Objection_A,False,42
+Agent,3,"I completely understand your skepticism; many boots in the market rely on surface sprays that wear off. However, these boots are constructed using a Goodyear welt and the leather itself is oil-tanned, meaning the water resistance is impregnated deep into the fibers, not just sitting on top. This construction allows them to be resoled and maintain integrity for years, not just a season.",A_Persuade,False,42
+Customer,4,"""Resoled and maintain integrity for years,"" huh? That's what they all say. 'Oil-tanned' and 'Goodyear welt' are just fancy terms if the boots still fall apart or leak after a few months of real use. What's the actual track record, or is this just more promises?",Objection_A,False,42
+Agent,4,"I hear your concern loud and clear—talk is cheap. To put our money where our mouth is, I can include a complimentary 2-year extended warranty with your purchase today. If they leak or fall apart, we replace them, no questions asked. That's how confident we are in their longevity.",A_Incentive,True,42
+Agent,1,"Hello! Thank you for calling Premium Leather Boots. How can I assist you in finding the perfect pair of durable, stylish boots today?",Greeting,False,43
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, hello. I'm looking for a new pair of boots, but I'm quite particular about what I need. What would you recommend for someone who prioritizes actual durability and style? I'm not interested in anything that won't hold up.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='he96adXtIdrSjMcPyYvTgAw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=54,
+  prompt_token_count=382,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=382
+    ),
+  ],
+  thoughts_token_count=246,
+  total_token_count=682
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,43
+Agent,2,"Based on your needs, I highly recommend our 'Everlast Series' boots. They are crafted from top-tier full-grain leather with reinforced Goodyear welt stitching, ensuring they look fantastic and stand the test of time. They seem like the perfect match for your durability requirements.",Recommendation,False,43
+Customer,3,"Goodyear welt stitching, full-grain leather... that all sounds good on paper. But what about actual performance? Are these boots genuinely waterproof, or are we talking about ""water-resistant"" in the way most companies market things? Because if they're not going to hold up in *real* conditions, then the stitching and leather are irrelevant to me.",Objection_A,False,43
+Agent,3,"I completely understand your skepticism, but these aren't just coated with a repellent. We use a proprietary Hydro-Seal membrane between the leather and the lining. This makes them physically impermeable to water—fully waterproof, not just resistant—while still allowing moisture to escape so your feet stay dry from the inside out.",A_Persuade,True,43
+Agent,1,"Good morning! Thank you for calling LuxeBoots. My name is Alex, and I specialize in premium leather footwear. How can I assist you in finding the perfect pair of boots today?",Greeting,False,44
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Good morning, Alex. I'm looking for a new pair of boots, but I'm quite particular. What would you say is your absolute best recommendation, something truly top-tier? I'm not interested in anything run-of-the-mill.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='pO96admQMNiN_PUP6uDxsQg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=54,
+  prompt_token_count=393,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=393
+    ),
+  ],
+  thoughts_token_count=197,
+  total_token_count=644
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,44
+Agent,2,"Based on your taste for the exceptional, I highly recommend our Sovereign Heritage boot. It is handcrafted from full-grain Italian leather that ages beautifully, featuring Goodyear welt construction for lifetime durability and a bespoke-feel cork midsole that molds perfectly to your foot.",Recommendation,False,44
+Customer,3,"That sounds quite luxurious, the full-grain Italian leather and Goodyear welt construction certainly paint a picture of quality. However, with such a description, I'm assuming the price point is equally premium, if not more so. Could you give me an idea of the cost? I've looked at similar high-end brands before, and while the quality sounds impressive, the price can often be a significant hurdle.",Objection_B,False,44
+Agent,3,"The Sovereign Heritage boot is priced at $100. While I understand price is a factor, comparable boots with this specific Goodyear welt construction and Italian leather typically retail for over $250 in traditional luxury outlets. We sell direct-to-consumer, eliminating the middleman markup to provide you with that top-tier quality at a fraction of the market rate.",B_Persuade,False,44
+Customer,4,"I appreciate you explaining the direct-to-consumer model and the comparison to other luxury outlets; it's an interesting point. However, while $100 might be a fraction of what others charge, it's still a substantial amount for a pair of boots. I'm quite particular about where my money goes, so I'd need to be thoroughly convinced that this particular boot offers truly unparalleled quality and value *at that specific price point*, regardless of what competitors might be charging. I've heard similar claims before.",Objection_B,False,44
+Agent,4,"I completely understand needing to justify the expense. Think of it this way: because of the resoleable Goodyear welt and premium leather that resists wear, these boots are designed to last over a decade. If you break that down, you are looking at a cost of mere pennies per wear, whereas cheaper $50 boots often fall apart within a year, costing you far more in the long run.",B_Persuade,False,44
+Customer,5,"I understand the logic behind the ""pennies per wear"" argument and the idea of long-term value; it's a common angle for quality products. However, claiming a boot will last ""over a decade"" is a significant assertion, and quite frankly, many brands make similar durability promises that don't always hold up in practice. While it sounds good in theory, the initial $100 investment is still what I'm looking at right now, and I'm not entirely convinced that this particular boot *will* undeniably deliver on that decade-plus lifespan to make the current cost truly worthwhile. I'm skeptical about such broad claims.",Objection_B,False,44
+Agent,5,"I completely respect your skepticism; words are cheap. That is why we back the Sovereign Heritage with a 30-day satisfaction guarantee. You can order the boots and inspect the Goodyear welt and leather grain yourself. If you don't feel the quality undeniably justifies the $100 investment the moment you hold them, you can simply return them. We place the risk on our craftsmanship, not on your wallet.",B_Persuade,True,44
+Agent,1,Hello! Thank you for calling Premium Leathers. My name is Alex. How can I help you find the perfect pair of leather boots today?,Greeting,False,45
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. Thanks. I'm looking for a new pair of leather boots. What would you recommend for something that's genuinely durable and holds up well in different conditions?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='A_B6aefADtma_uMP4vaXsAM' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=36,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=201,
+  total_token_count=621
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,45
+Agent,2,"I highly recommend our 'Ever-Walk' Heritage Series. They are crafted from full-grain leather that is naturally water-resistant and feature a reinforced Goodyear welt construction, ensuring they can withstand rugged conditions for years.",Recommendation,False,45
+Customer,3,"""Naturally water-resistant"" and ""for years"" definitely sound good, and I appreciate the detail about the construction. However, I've heard claims like that before. How does that 'natural water-resistance' truly hold up in, say, a proper downpour or when trekking through genuinely muddy or wet terrain for extended periods? I'm looking for something that I won't have to worry about getting soaked through after just a short time.",Objection_A,False,45
+Agent,3,"That is a very valid concern. Unlike cheaper boots that just use a surface spray, our Heritage leather is oil-tanned during the tanning process itself. This saturates the fibers with oils and waxes that naturally repel water at a molecular level, meaning the resistance doesn't just wash off in the rain. They are built specifically for wet terrain.",A_Persuade,False,45
+Customer,4,"That explanation of the oil-tanning process is certainly detailed, and I appreciate you clarifying it's not just a surface spray. It sounds like a more thorough approach. However, even with that kind of treatment, I've found that 'water-repellent at a molecular level' can still have its limits in really tough, prolonged conditions. How does this 'molecular-level' resistance truly perform after, say, months or a year of regular exposure to heavy rain and mud? Does it maintain that level of integrity, or does it eventually start to degrade and let water in?",Objection_A,False,45
+Agent,4,"I understand your caution; reliable gear is an investment. To put your mind completely at ease regarding long-term performance, I can offer you a complimentary 2-year extended warranty. This covers any waterproofing failure or structural defects, ensuring your boots stay dry or we replace them.",A_Incentive,False,45
+Customer,5,"A 2-year extended warranty for waterproofing failure is a solid offer, I'll admit, and it definitely helps with that specific concern about long-term performance. It shows confidence in the product.
+
+However, even with a great warranty, the practicalities are important. What's the typical shipping time for these boots? And if, for some reason, they don't fit quite right or aren't what I expect when they arrive, what's your policy on returns or exchanges? Is it a straightforward process, or am I going to be dealing with a lot of hassle and extra costs?",Objection_C,False,45
+Agent,5,"We aim to make the process as seamless as possible. Standard shipping takes 3-5 business days. As for returns, we include a pre-paid return label in the box. If the fit isn't right, you can simply drop it off at any post office within 30 days for a full refund or exchange, with no restocking fees.",C_Persuade,False,45
+Customer,6,"Okay, 3-5 business days for shipping and a pre-paid return label with no restocking fees within 30 days sounds quite reasonable and convenient, I appreciate that transparency. It definitely eases concerns about the logistics.
+
+However, all these features and warranties typically come with a significant price tag. Given everything discussed, what's the actual price of these 'Ever-Walk' Heritage Series boots? And, more importantly, how does that price compare to other high-quality, durable boots on the market, especially those with similar construction and waterproofing claims? I'm trying to gauge if the value truly justifies the cost, or if I'd be paying a premium that isn't entirely warranted when there might be comparable options for less.",Objection_B,False,45
+Agent,6,The 'Ever-Walk' Heritage Series is priced at $100. To answer your comparison question honestly: most other boots with full-grain leather and Goodyear welt construction retail between $180 and $250. We keep our price lower by selling directly to you and cutting out the retail middleman markup. You are essentially getting a $200 boot for half the price.,B_Persuade,True,45
+Agent,1,Hello! Thank you for calling Premium Leather Boots. My name is Alex. How can I help you find the perfect pair of boots today?,Greeting,False,46
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. Yes, I'm looking for boots. I've heard a lot about your premium leather, so I'm hoping you can recommend something truly exceptional – something that really stands out in terms of quality and durability. What do you have that genuinely impresses?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='UvB6aaD6Nquo_uMPnqCq8As' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=56,
+  prompt_token_count=382,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=382
+    ),
+  ],
+  thoughts_token_count=155,
+  total_token_count=593
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,46
+Agent,2,"Based on your focus on exceptional quality and durability, I highly recommend our Signature Series Full-Grain Leather Boots. They feature Goodyear welt construction, which makes them incredibly durable and water-resistant, and the leather only gets better with age. They are priced at $100.",Recommendation,False,46
+Customer,3,"""Water-resistant"" and ""incredibly durable,"" you say? I've heard similar claims from many brands. With premium leather boots, especially full-grain and Goodyear welt, one would expect true waterproofing, not just resistance, and durability that goes beyond 'incredible' to genuinely last for years of serious wear. Can you elaborate on what exactly makes them *truly* waterproof and not just resistant to a light drizzle? And how does that $100 price point reflect this superior quality and durability you're claiming? Because frankly, for exceptional quality, that sounds... surprisingly low.",Objection_A,False,46
+Agent,3,"I completely understand your skepticism. The reason we can offer Goodyear welted, full-grain boots at $100 is that we sell directly to you, cutting out retail markups that usually double the price. Regarding water resistance: full-grain leather is naturally resistant, but 'waterproof' implies a synthetic membrane which compromises breathability. Our boots are built to be breathable and resoleable, meaning with proper care, they will indeed last for many years, far outliving glued alternatives.",A_Persuade,True,46
+Agent,1,Hello! Thank you for calling Best Boots. My name is Alex. How are you doing today?,Greeting,False,47
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, I'm doing well, thank you. I'm calling because I'm looking for a new pair of boots. I need something that will genuinely last and hold up to some serious wear, so I was hoping you could tell me what your absolute best recommendation is for quality and durability. Something that won't just fall apart after a few months, you know?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='bvB6aeLwDsbg_uMPr9vSmAo' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=78,
+  prompt_token_count=375,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=375
+    ),
+  ],
+  thoughts_token_count=213,
+  total_token_count=666
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,47
+Agent,2,"I completely understand the need for durability. Based on that, I highly recommend our flagship 'Iron-Clad' Leather Boots. They feature triple-stitched seams, a reinforced steel shank, and premium full-grain leather that only gets better with age. They are specifically built to last for years, not months.",Recommendation,False,47
+Customer,3,"I appreciate you outlining those features; triple-stitched seams and a reinforced steel shank certainly sound like they contribute to overall strength and longevity. However, 'durable' doesn't always equate to being truly resistant to the elements. What about actual waterproofing? With full-grain leather, there's often a significant difference between water-resistant and genuinely waterproof. Can these Iron-Clad boots stand up to persistent wet conditions, or will my feet be soaked after walking through a few puddles or some heavy rain? I'm not interested in something that just tolerates moisture; I need something that actively keeps it out.",Objection_A,False,47
+Agent,3,"That is a valid concern, but let me assure you: the Iron-Clad boots are treated with a proprietary hydrophobic coating and feature a breathable, waterproof membrane lining explicitly designed to keep water out. We test them in submersion tanks to ensure your feet stay dry even in heavy rain or standing water, so they are definitely not just water-resistant.",A_Persuade,False,47
+Customer,4,"Right, a ""proprietary hydrophobic coating"" and a ""breathable, waterproof membrane lining."" That's a lot of marketing terms. Every boot claims to be waterproof until you're actually caught in a downpour. I've heard it all before. Are we talking about a short walk in a light drizzle, or actually standing in slush and puddles for an extended period without any leakage whatsoever? Because there's a huge difference, and frankly, I'm highly skeptical of any boot that claims to be completely impervious to water based on a coating and a membrane. I need real-world performance, not lab tests that don't reflect actual use.",Objection_A,False,47
+Agent,4,"I hear you loud and clear. It is easy to be skeptical of specs until you are out in the mud. Since I am confident these boots will stand up to that slush and standing water, I am going to include a free 2-year extended warranty. If they leak or fail in any way, we replace them, no questions asked. That is how much we stand behind that waterproofing.",A_Incentive,False,47
+Customer,5,"A two-year extended warranty is an interesting offer, I'll give you that. It suggests *some* confidence, I suppose. However, let's talk about the actual price point for these 'Iron-Clad' boots. Because honestly, if they're as indestructible and waterproof as you claim, I'm expecting a significant premium. What exactly is the damage to my wallet for these? Because if they're outrageously expensive, then a warranty just mitigates the risk of a bad purchase, it doesn't make the initial outlay any more palatable, especially if there are comparable options out there for less. I'm not going to overpay just for a promise.",Objection_B,False,47
+Agent,5,"I understand not wanting to overpay. These boots are priced at $100, which reflects the premium materials and construction we discussed. While there are cheaper options, you would likely spend more in the long run replacing them every six months. Think of this as an investment: one pair of Iron-Clads outlasts three pairs of budget boots, actually saving you money.",B_Persuade,True,47
+Agent,1,Hello! Thank you for calling Best Boots. My name is Alex. How are you doing today?,Greeting,False,48
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, I'm doing well, thank you. I'm looking for a new pair of boots, and I was hoping you could give me some recommendations. I need something fairly versatile.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='qfB6aYPGPIyI-sAP5qTGuQ4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=40,
+  prompt_token_count=375,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=375
+    ),
+  ],
+  thoughts_token_count=163,
+  total_token_count=578
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,48
+Agent,2,"Excellent choice. I highly recommend our Classic Leather All-Terrain boots. They are handcrafted from premium full-grain leather, making them stylish enough for the office but durable enough for hiking. They are currently priced at $100.",Recommendation,False,48
+Customer,3,"Hmm, ""All-Terrain"" sounds promising, and full-grain leather is usually good. But with ""all-terrain,"" I'm really looking for something that can handle more than just a light hike. How do they actually hold up in wet conditions, or if I'm really putting them through their paces? I've had ""durable"" boots before that didn't last a season.",Objection_A,False,48
+Agent,3,"I completely understand your hesitation given past experiences. These boots feature Goodyear welt construction, which is the gold standard for durability and water resistance. It allows the boots to be resoled repeatedly and creates a tight seal against moisture, so they will definitely last you many seasons.",A_Persuade,True,48
+Agent,1,Good day! Thank you for calling Best Boots Co. My name is Alex. How can I assist you with your footwear needs today?,Greeting,False,49
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi Alex. I'm looking for a new pair of boots. What do you recommend that's actually good quality and will last?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='v_B6adeqNY6Y_uMP5oOsqQ4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=28,
+  prompt_token_count=381,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=381
+    ),
+  ],
+  thoughts_token_count=97,
+  total_token_count=506
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,49
+Agent,2,"I highly recommend our 'Everlast' Premium Leather Boots. They are handcrafted from full-grain leather with Goodyear welt construction, ensuring they are not only stylish but incredibly durable for years of wear. They're priced at $100.",Recommendation,False,49
+Customer,3,"Hmm, $100, okay. That's a bit more than I was hoping to spend. Do you have anything that's a bit more budget-friendly, but still offers good quality?",Objection_B,False,49
+Agent,3,"I completely understand that budget is a priority. However, while cheaper boots might save money upfront, these 'Everlast' boots are an investment. Because of the Goodyear welt construction, they can be resoled multiple times, meaning they'll outlast 3 or 4 pairs of cheaper boots, actually saving you money in the long run.",B_Persuade,False,49
+Customer,4,"Okay, I get your point about the long-term value. But if I did decide to go for these, what's your shipping speed like? And what's the return policy if they don't work out?",Objection_C,False,49
+Agent,4,"We offer standard shipping which typically arrives within 3-5 business days. Regarding returns, we have a very straightforward 30-day policy: if the boots haven't been worn outside, you can return them for a full refund or exchange, no questions asked.",C_Persuade,True,49
+Agent,1,Hello! Thank you for calling Leather & Co. My name is Alex. How can I assist you with finding the perfect pair of boots today?,Greeting,False,50
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, thanks for the greeting. I'm looking for a new pair of boots, but I'm a bit overwhelmed with the options. Could you perhaps recommend something for me? I'm open to suggestions.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='4_B6aZezJLDi_uMP1bvh8A4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=45,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=117,
+  total_token_count=546
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,50
+Agent,2,"Based on what you're looking for, I highly recommend our 'Everlast' Leather Boots. They are crafted from premium full-grain leather, offer exceptional ankle support, and have a classic design that works well for both casual and rugged wear. They are currently priced at $100.",Recommendation,False,50
+Customer,3,"One hundred dollars? Hmm, that's a bit higher than I was hoping to spend, especially just hearing the basic description. Could you tell me more about what makes them worth that price, or perhaps if there are any other options that are a bit more budget-friendly?",Objection_B,False,50
+Agent,3,"I completely understand that price is a factor. However, consider the long-term value: these boots use full-grain leather which lasts years longer than cheaper synthetic alternatives, meaning your cost-per-wear is actually much lower over time. You won't need to replace them next season.",B_Persuade,False,50
+Customer,4,"I appreciate you explaining the long-term value of the full-grain leather; I do understand the investment aspect. However, before committing to a purchase at that price, I also need to understand the logistics. What are your shipping times typically like, and what is your return policy, just in case they don't fit or aren't what I expect when they arrive?",Objection_C,False,50
+Agent,4,"We offer very reliable standard shipping which usually takes 5-7 business days, and we have a hassle-free 30-day return policy to ensure you get the perfect fit. Our logistics partners are top-tier to minimize any delays.",C_Persuade,False,50
+Customer,5,"Alright, 5-7 business days and a 30-day return policy sounds reasonable. But speaking of quality and rugged wear, how do these boots hold up to actual elements? Are they waterproof, or at least water-resistant, or would I need to treat them myself? I'm looking for something that can handle more than just a dry sidewalk.",Objection_A,False,50
+Agent,5,"That's a great question. Because they are full-grain leather, they are naturally water-resistant and handle light rain very well. For heavy exposure or deep puddles, they can be easily treated with a wax or spray to become fully waterproof, ensuring your feet stay dry in tougher conditions.",A_Persuade,True,50
+Agent,1,Hello! Thank you for calling Soles & Hides. My name is Alex. How can I assist you with finding the perfect pair of leather boots today?,Greeting,False,51
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex, thank you. I'm actually looking for a new pair of leather boots. I need something that's truly durable and reliable, especially for various weather conditions. Do you have any specific recommendations for boots known for their quality and waterproofing?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='EfF6abvAKob2jMcPiK2juAw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=51,
+  prompt_token_count=387,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=387
+    ),
+  ],
+  thoughts_token_count=303,
+  total_token_count=741
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,51
+Agent,2,"Based on your needs for durability and weather resistance, I highly recommend our 'IronClad Heritage' boots. They feature premium full-grain leather, a Goodyear welt construction for longevity, and a specialized hydrophobic coating that makes them excellent for all weather conditions.",Recommendation,False,51
+Customer,3,"Hmm, ""specialized hydrophobic coating"" sounds good on paper, but I've heard that before with other boots only for them to fall short in real-world conditions. When you say ""excellent for all weather conditions,"" how truly reliable is that waterproofing? I need something that won't just get me through a light drizzle, but can truly withstand heavy rain and even some slush without my feet getting soaked. What makes this coating different or more effective than others I've encountered that have ultimately failed?",Objection_A,False,51
+Agent,3,"I completely understand your skepticism; many brands overuse terms like 'waterproof'. What sets the IronClad apart is that we don't just spray a coating; the leather is impregnated with oils during the tanning process, and we use a storm-welt construction that physically seals the gap between the sole and upper. We've tested these in submersion tanks for 24 hours with zero penetration, ensuring they handle slush and heavy rain far better than standard surface-treated boots.",A_Persuade,False,51
+Customer,4,"I appreciate the detailed explanation about the leather impregnation and storm-welt construction, and the 24-hour submersion tests certainly sound impressive. However, laboratory conditions and real-world usage can be quite different. I've heard similar explanations about superior waterproofing technologies before, only to find my feet wet after a few months of actual use in heavy rain or melting snow. How does that 24-hour submersion translate to, say, walking through deep puddles for an hour every day, or consistently being exposed to road salt and slush over a winter season? I'm still trying to understand if they truly *hold up* to prolonged, harsh conditions, not just a controlled test.",Objection_A,False,51
+Agent,4,"I completely understand that real-world wear is the ultimate test, especially against salt and slush. To prove that we stand behind this specific claim, I can include a comprehensive 2-year extended warranty for free. This covers any waterproofing failure—if your feet get wet due to material failure, we replace the boots immediately.",A_Incentive,False,51
+Customer,5,"A 2-year extended warranty for waterproofing failure is certainly a reassuring offer, and I appreciate you standing behind the product with that. It does address some of my concerns about long-term durability.
+
+However, even with a warranty, the process of actually getting a replacement can sometimes be quite cumbersome. If, for example, the boots *did* fail and I needed a replacement, what's the typical turnaround time for shipping out a new pair? I rely on my boots daily, and being without them, especially if I'm waiting for a replacement, could be a real inconvenience. And what's the return process for the faulty pair – is it easy, or will I have to jump through hoops to send them back? I'm just picturing a situation where I'm suddenly without reliable footwear for an extended period while waiting for a claim to be processed and new boots to arrive.",Objection_C,False,51
+Agent,5,"I completely understand the need for zero downtime. To address that exact concern, our warranty includes an 'Advance Replacement' policy. If you file a valid claim, we ship the new pair immediately—before we even receive your return—so you won't be left without boots. We also include a prepaid return label in the box, making the process as simple as dropping it off at any post office.",C_Persuade,True,51
+Agent,1,Hello! Thank you for calling Classic Leathers. My name is Alex. How can I assist you with finding the perfect pair of leather boots today?,Greeting,False,52
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, Alex. I'm looking for boots. What do you have that you actually consider a good fit for someone who expects quality?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='UPF6aZzTENHi_uMP15LEWA' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=28,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=210,
+  total_token_count=623
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,52
+Agent,2,"Based on your focus on quality, I highly recommend our Heritage Rugged Boots. They are crafted from premium full-grain leather using Goodyear welt construction, which means they are incredibly durable and can be resoled, ensuring they last for years.",Recommendation,False,52
+Customer,3,"Goodyear welt, durable. Alright. What's the damage on these 'Heritage Rugged' boots? Because 'premium full-grain' and 'Goodyear welt' usually translates to 'overpriced' in my experience. I'm not going to pay extra just for a name.",Objection_B,False,52
+Agent,3,"I understand your hesitation regarding the upfront cost. However, consider the cost per wear. Because these can be resoled and the leather ages beautifully rather than cracking, a single pair will outlast three pairs of cheaper, cemented boots. You're actually saving money in the long run by investing in durability now.",B_Persuade,False,52
+Customer,4,"""Saving money in the long run"" is a common line, but the upfront cost is still the upfront cost. I've heard that before, and often the 'durability' is overstated. What's the *actual* price? Because if it's too high, the ""long run"" never even starts for me.",Objection_B,False,52
+Agent,4,"The price is $100. I understand that's a commitment, but we price them honestly based on the cost of the premium materials and skilled labor involved. We don't mark up for a brand logo; you are paying strictly for the build quality that ensures they don't fall apart after a few months.",B_Persuade,False,52
+Customer,5,"$100. Okay. ""Strictly for the build quality,"" you say. But a lot of places claim premium materials and skilled labor for similar prices, without necessarily delivering. How does that price stack up against competitors offering similar Goodyear welt construction? I'm not just going to take your word for it being ""honest.""",Objection_B,False,52
+Agent,5,"That is a fair question. The industry standard for Goodyear welted boots using this grade of leather is typically between $180 and $250. We are able to offer them at $100 because we sell direct-to-consumer, cutting out the retail markups that usually double the price. You are getting a $200 boot for wholesale cost.",B_Persuade,True,52
+Agent,1,Hello! Thank you for calling Rugged Sole Boots. My name is Alex. How can I help you find the perfect pair of leather boots today?,Greeting,False,53
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi, Alex. Yeah, I'm looking for some leather boots. What do you recommend? I need something that'll actually last.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='iPF6afnEM8KMjMcP3tXg-Ac' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=29,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=126,
+  total_token_count=540
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,53
+Agent,2,"Excellent choice. I highly recommend our 'Ironclad Heritage' boots. They are crafted from full-grain leather with Goodyear welt construction, specifically designed to last for years and mold perfectly to your feet. They are priced at $100.",Recommendation,False,53
+Customer,3,$100? That seems a bit steep for boots. Are there any cheaper options that are still decent quality?,Objection_B,False,53
+Agent,3,"I understand that price is a factor. However, consider that these boots are an investment. The Goodyear welt construction means they can be resoled multiple times, effectively doubling or tripling their lifespan compared to cheaper cemented boots. You're actually saving money in the long run by not having to replace them every year.",B_Persuade,False,53
+Customer,4,"Okay, so they can be resoled. But how good are they really? Are they waterproof? Will they hold up to actual wear, or just fall apart after a few months?",Objection_A,False,53
+Agent,4,"That is a valid concern. These boots are made with premium full-grain leather, which is the strongest and most durable tier of leather available. While no leather is 100% waterproof without treatment, these are naturally water-resistant and built with reinforced stitching specifically to prevent the 'falling apart' issues common in cheaper composite boots.",A_Persuade,False,53
+Customer,5,"""Naturally water-resistant"" isn't the same as waterproof. So, they're going to get soaked if it really rains? And what about actual heavy use? I need them to last more than just a season.",Objection_A,False,53
+Agent,5,"I completely hear you. To put your mind at ease regarding heavy use, I can offer you a complimentary 1-year extended warranty. This covers any structural failures or defects, so if they don't hold up to the elements as promised, we'll replace them for free.",A_Incentive,True,53
+Agent,1,"Hello, thank you for calling Premium Leather Co. My name is Alex. I'd love to help you find the perfect pair of boots today. How are you doing?",Greeting,False,54
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""I'm fine. Look, I need boots. What do you actually recommend that's worth my time?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='vfF6aaOcCI6Y_uMP7IvzuAo' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=23,
+  prompt_token_count=390,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=390
+    ),
+  ],
+  thoughts_token_count=181,
+  total_token_count=594
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,54
+Agent,2,"I highly recommend our Classic Rugged Leather Boots. They are handcrafted from premium full-grain leather for maximum durability and style, priced at $100. They are built to last.",Recommendation,False,54
+Customer,3,"Okay, ""built to last,"" sure. But what about getting them here? How long does shipping actually take? I'm not waiting around forever.",Objection_C,False,54
+Agent,3,"I completely understand. We use a premium courier partner that ensures delivery within 3-5 business days, so you won't be waiting long at all.",C_Persuade,False,54
+Customer,4,"""Premium courier,"" ""3-5 business days."" That's what everyone says. What happens when it doesn't arrive in that window? Because it usually doesn't.",Objection_C,False,54
+Agent,4,"I hear your frustration with past experiences. To put your mind at ease and show our commitment, I can waive the shipping fee completely for you today.",C_Incentive,False,54
+Customer,5,Free shipping isn't the point. $100 is still a lot for boots. What makes these so special for that price?,Objection_B,False,54
+Agent,5,"I understand $100 is an investment. However, unlike cheaper alternatives that wear out in months, these use full-grain leather and Goodyear welt construction, meaning they can last for years. Ideally, you end up saving money in the long run.",B_Persuade,True,54
+Agent,1,Good day! Thank you for calling Premium Leather Goods. My name is Alex. How may I assist you with finding the perfect pair of boots today?,Greeting,False,55
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello Alex. Yes, I'm looking for a new pair of boots, and I'm hoping you can point me towards something truly exceptional. I'm interested in your recommendations, specifically for something that really excels in terms of craftsmanship and durability. What would you suggest?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='9fF6aeTuG8jajMcPg6bnqA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=56,
+  prompt_token_count=385,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=385
+    ),
+  ],
+  thoughts_token_count=238,
+  total_token_count=679
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,55
+Agent,2,"Based on your interest in craftsmanship and durability, I highly recommend our Signature Heritage Series boots. They are handcrafted from full-grain Italian leather using a Goodyear welt construction, which ensures they are not only water-resistant but also incredibly durable and resolable for years of wear. They are priced at $100.",Recommendation,False,55
+Customer,3,"Hmm, ""water-resistant"" is good, but I'm looking for something that can really handle serious conditions. With full-grain leather and Goodyear welting, I'd expect it to be more than just resistant. How well do these *actually* hold up in heavy rain or wet environments, and what's the long-term durability like under regular, demanding use? I've heard claims before, and I'm looking for boots that won't just *resist* water, but truly keep my feet dry and hold their integrity for years, not just a season or two.",Objection_A,False,55
+Agent,3,"I completely understand your skepticism, but the Goodyear welt construction specifically addresses that. Because the upper is stitched to a welt rather than directly to the sole, it creates a highly effective water-barrier seal. Furthermore, our full-grain leather is oil-tanned to naturally repel moisture. We have customers who have been wearing the same pair for over a decade in harsh climates—these are built to be resolable and to improve with age, not deteriorate.",A_Persuade,True,55

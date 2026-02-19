@@ -1,0 +1,1290 @@
+speaker,round,text,action,end_convo,convo_id
+Agent,1,Hello there! Welcome to our store. How can I help you find the perfect pair of leather boots today?,Greeting,False,0
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello! Thank you. Yes, I am looking for a new pair of leather boots. Could you perhaps recommend something that's really worth considering?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='tX17adL1Lpix-sAPpNe5gQM' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=30,
+  prompt_token_count=377,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=377
+    ),
+  ],
+  thoughts_token_count=206,
+  total_token_count=613
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,0
+Agent,2,"Absolutely! For a truly exceptional pair of leather boots, I highly recommend our 'Artisan Crafted' collection. These boots are renowned for their premium full-grain leather, Goodyear welt construction for durability, and timeless design. They offer unparalleled comfort and will last you for years to come. Many customers rave about their versatility and the beautiful patina they develop over time. What do you think of that?",Recommendation,False,0
+Customer,3,"That sounds quite impressive, especially the mention of Goodyear welt construction and lasting for years. I do appreciate quality that endures. However, when it comes to durability and lasting a long time, particularly with leather, I always wonder about their performance in less-than-ideal weather. Are these boots treated for water resistance, or are they more intended for drier conditions?",Objection_A,False,0
+Agent,3,"That's an excellent point and a very common concern for quality leather boots! While our 'Artisan Crafted' boots are not fully waterproof like a specialized rain boot, the premium full-grain leather used inherently possesses a good degree of natural water resistance. Moreover, the Goodyear welt construction, which you noted, creates a robust, sealed bond between the sole and the upper, further enhancing their resistance to moisture. For optimal performance in less-than-ideal weather, we always recommend applying a quality leather protector or conditioner, which helps to create an additional barrier against water and prolongs the life of the leather beautifully.",A_Persuade,False,0
+Customer,4,"I appreciate that detailed explanation. It's good to know about the natural resistance of the leather and how the Goodyear welt contributes. However, when you say they're ""not fully waterproof"" and then suggest applying a protector for ""optimal performance,"" it does make me wonder about their actual resilience without constant treatment. I'm looking for something that can genuinely handle a bit of unexpected rain or damp conditions without me having to meticulously treat them every week. How much of a difference does that natural resistance truly make if they still require an additional barrier for less-than-ideal weather?",Objection_A,False,0
+Agent,4,"I completely understand your desire for genuine resilience without constant upkeep. To truly address that concern and demonstrate our confidence in the enduring quality of our 'Artisan Crafted' boots, I can offer you an extended warranty that specifically covers any premature wear related to typical weather exposure for an additional year. This means you can wear your boots with confidence, knowing that we stand behind their durability even in those unexpected damp conditions, without you needing to meticulously treat them every week. How does the assurance of an extended warranty sound to you?",A_Incentive,True,0
+Agent,1,Hello! Welcome to our leather boot collection. How may I assist you today?,Greeting,False,1
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Yeah, hi. So, what do you actually recommend from this collection? Something that's worth looking at.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='yn17aZvxJuy0jMcPuLu24QE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=23,
+  prompt_token_count=371,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=371
+    ),
+  ],
+  thoughts_token_count=157,
+  total_token_count=551
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,1
+Agent,2,"I highly recommend our 'Everest Explorer' leather boots. They are crafted from premium full-grain leather, offer exceptional durability, comfort, and a timeless style. Perfect for both rugged adventures and urban wear. Many of our customers rave about their longevity and the support they provide.",Recommendation,False,1
+Customer,3,"Okay, so ""Everest Explorer,"" ""premium,"" ""timeless style."" Sounds like it's going to be ridiculously expensive. What's the actual price tag on these, and how does it compare to, you know, boots that don't cost an arm and a leg?",Objection_B,False,1
+Agent,3,"I understand your concern about the price. The 'Everest Explorer' boots are priced at $100, which reflects the superior craftsmanship, premium full-grain leather, and advanced design for durability and comfort. While they may seem like a higher initial investment compared to some alternatives, they are built to last for years, offering exceptional value and saving you money in the long run by avoiding frequent replacements. We believe in providing quality that truly stands the test of time.",B_Persuade,False,1
+Customer,4,"""Built to last for years,"" right. Everyone says that. But what does that actually mean when you're out there? How well do these things hold up to actual weather, like rain or puddles? And how long before the soles start falling apart, not just ""years"" in some ideal scenario?",Objection_A,False,1
+Agent,4,"That's a very fair point, and I appreciate your scrutiny. When we say 'built to last for years,' we mean the 'Everest Explorer' boots feature a Goodyear welt construction, which is renowned for its exceptional durability and allows for resoling, extending the boot's life significantly beyond standard glued constructions. The premium full-grain leather is naturally water-resistant, and we apply an additional weather-protective treatment to ensure they hold up against rain and puddles, keeping your feet dry. The soles are made from a high-traction, abrasion-resistant rubber compound, specifically chosen to prevent premature wear and provide reliable grip even in challenging conditions. We test these boots rigorously in various environments to ensure they meet these claims, not just in an ideal scenario.",A_Persuade,True,1
+Agent,1,Hello! Thank you for contacting us. How may I assist you in finding the perfect pair of leather boots today?,Greeting,False,2
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi there. I'm looking for some durable leather boots. Could you recommend a good pair that's known for lasting a while?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='3317aeaLBbyUjMcPvNTAwQ8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=28,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=142,
+  total_token_count=548
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,2
+Agent,2,"Absolutely! For exceptional durability and lasting quality, I highly recommend our 'Everlast' full-grain leather boots. They are crafted with reinforced stitching and a weather-resistant sole, designed to withstand the toughest conditions and last for years.",Recommendation,False,2
+Customer,3,"Okay, those 'Everlast' boots sound promising for durability. Before I look into them further, what's your typical shipping timeframe for something like that? And what's your return policy if they don't quite work out?",Objection_C,False,2
+Agent,3,"I understand your concerns about logistics. For our 'Everlast' boots, standard shipping typically delivers within 3-5 business days. As for our return policy, we offer a 30-day no-questions-asked return, ensuring you have ample time to make sure they're the perfect fit and exactly what you need.",C_Persuade,False,2
+Customer,4,"Okay, 3-5 business days and a 30-day return policy is pretty reasonable. What's the price point for these 'Everlast' boots? I'm trying to stay within a certain budget, so I'm curious if they'll be a good fit there too.",Objection_B,False,2
+Agent,4,"The 'Everlast' boots are premium quality, designed for longevity, and typically priced at $100. However, for a limited time, I can offer you a special discount, bringing them down to just $70. This makes them an exceptional value, especially considering their durability and our comprehensive warranty.",B_Incentive,True,2
+Agent,1,Hello! Welcome to our leather boots collection. How may I assist you today?,Greeting,False,3
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text='""Hello. I\'m looking for some boots. What do you actually recommend?""'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='8H17aco85o6Mxw-Rl9DhBQ' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=17,
+  prompt_token_count=371,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=371
+    ),
+  ],
+  thoughts_token_count=210,
+  total_token_count=598
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,3
+Agent,2,"Excellent! For a timeless blend of durability and style, I highly recommend our handcrafted full-grain leather boots. They are known for their exceptional comfort and ability to age beautifully. What kind of style or features are you looking for specifically?",Recommendation,False,3
+Customer,3,"""Handcrafted full-grain leather, huh? Sounds expensive. What's the actual price tag on those? Because I've seen similar boots for a lot less elsewhere.""",Objection_B,False,3
+Agent,3,"I understand your concern about the price. While our handcrafted full-grain leather boots may seem like an investment upfront, their superior durability and timeless style mean they will last for many years, ultimately providing better value than cheaper alternatives that wear out quickly. You're investing in quality and longevity. What specific features are you comparing?",B_Persuade,False,3
+Customer,4,"""Value is one thing, but how fast do these 'investments' actually ship? And what if they don't fit? What's the return policy like?""",Objection_C,False,3
+Agent,4,"I understand your concerns about shipping and fit. We offer expedited shipping options to get your boots to you quickly, typically within 3-5 business days. And regarding fit, we have a hassle-free 30-day return policy for unworn boots, ensuring you can find the perfect size with confidence. We even cover return shipping for exchanges. Does that address your shipping and return questions?",C_Persuade,True,3
+Agent,1,Hello! Welcome to our leather boot collection. How may I assist you today?,Greeting,False,4
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello! Thank you. I'm looking for a new pair of leather boots, but I'm not entirely sure which ones would be best for me. Could you perhaps recommend something versatile? I'm open to suggestions.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='_H17admzJ7GMjMcPuoLqyAw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=46,
+  prompt_token_count=371,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=371
+    ),
+  ],
+  thoughts_token_count=101,
+  total_token_count=518
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,4
+Agent,2,"Absolutely! Based on your interest in versatility, I highly recommend our 'Classic Heritage' leather boots. They feature premium full-grain leather, a durable sole, and a timeless design that transitions effortlessly from casual outings to more formal settings. Many customers love them for their comfort and style. What do you think?",Recommendation,False,4
+Customer,3,"That sounds promising, especially the timeless design. However, when you say ""durable,"" how does that translate to real-world conditions? I've had boots before where the ""premium leather"" didn't hold up well against rain or regular wear and tear, and they started showing significant scuffs or even cracking pretty quickly. How resistant are these to water, for example, and how long can I realistically expect the leather to maintain its integrity with regular use?",Objection_A,False,4
+Agent,3,"That's an excellent question, and I completely understand your concern. The 'Classic Heritage' boots are crafted from a specific type of full-grain leather that undergoes a specialized tanning process. This process enhances its natural water resistance, making it more resilient to rain and everyday moisture compared to standard leathers. Furthermore, the construction involves double-stitched seams and a robust sole attachment, significantly reducing wear and tear. With proper care, these boots are designed to maintain their integrity and appearance for many years, developing a beautiful patina rather than cracking. We stand by the quality.",A_Persuade,False,4
+Customer,4,"I appreciate the detailed explanation about the tanning process and the construction. It's good to hear about the double-stitched seams. However, ""enhanced natural water resistance"" still sounds a bit vague. Does that mean they're merely water-repellent to a light drizzle, or can they withstand more significant exposure, like walking through puddles without my feet getting damp? And ""many years"" with proper care – what exactly does that ""proper care"" entail to truly ensure the leather doesn't degrade or crack significantly within, say, three to five years? I'm trying to gauge the practical durability here, not just theoretical promises.",Objection_A,False,4
+Agent,4,"I understand you're looking for concrete assurances, and that's completely fair. To address your practical concerns about water resistance and long-term durability, we offer an optional extended warranty for our 'Classic Heritage' boots. This warranty goes beyond standard coverage, providing an additional layer of protection against issues like significant water damage or premature material degradation for up to two extra years, alongside guidance on optimal care practices. This ensures your investment is truly protected and gives you peace of mind regarding real-world performance and longevity. Would you like to proceed with the extended warranty?",A_Incentive,False,4
+Customer,5,"An extended warranty is certainly an interesting proposition, and I appreciate you offering it as an option for peace of mind regarding the longevity. It does address some of my concerns about the material holding up.
+
+However, before considering a purchase and an extended warranty, I need to understand the practicalities of ordering. What are your typical shipping times for these boots, especially if I were to order them today? And, more importantly, what is your return policy like? If for any reason they don't fit quite right or aren't what I expected once I've had a chance to try them on at home, how straightforward is the return process, and are there any restocking fees or shipping costs involved for returns? I just want to ensure that the logistics are as smooth as the product sounds.",Objection_C,False,4
+Agent,5,"I understand your need for clarity on shipping and returns. Unfortunately, due to policy, I must conclude our call at this moment. Thank you for considering our 'Classic Heritage' boots. You can find detailed information regarding our shipping times and comprehensive return policy on our website, or feel free to contact our customer service team directly. We appreciate your interest!",Closing,True,4
+Agent,1,Hello there! Welcome to our store. How can I assist you in finding the perfect pair of leather boots today?,Greeting,False,5
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for a pair of leather boots. What would you recommend that actually holds up? I need something reliable.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='FX57acfRE_e3jMcPj_v_wA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=29,
+  prompt_token_count=377,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=377
+    ),
+  ],
+  thoughts_token_count=150,
+  total_token_count=556
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,5
+Agent,2,"I highly recommend our 'Everest' line of full-grain leather boots. They are renowned for their exceptional durability and craftsmanship, designed to withstand the toughest conditions while maintaining their sophisticated look. They truly hold up, as many of our long-term customers can attest.",Recommendation,False,5
+Customer,3,"""Renowned for exceptional durability,"" you say. And ""toughest conditions."" That's a strong claim. How exactly do these hold up against, say, heavy rain or continuous wear in different elements? I've heard that before, and often it just means 'they'll last a bit longer than cheap boots.' What makes them genuinely durable and, more importantly, waterproof, for actual tough conditions, not just a casual stroll?",Objection_A,False,5
+Agent,3,"That's an excellent question, and I appreciate you pressing for details. Our Everest boots feature a proprietary waterproofing treatment applied directly to the full-grain leather, combined with a sealed seam construction. This isn't just a spray-on coating; it's integrated into the leather's fibers, making them highly resistant to water penetration even in heavy rain. Additionally, the outsoles are rigorously tested for abrasion resistance, and the boots are put through extreme flex testing to ensure they won't crack or deteriorate with continuous wear in various elements. We stand by the fact that these are built for genuine tough conditions, not just a casual stroll.",A_Persuade,False,5
+Customer,4,"An integrated waterproofing treatment and sealed seams, you say. And ""rigorously tested."" That all sounds good on paper, it really does. But I've had boots with ""integrated treatments"" before that still ended up soaking my feet in a proper downpour, or where the ""abrasion resistance"" meant they just lasted a year longer than the cheapest option before cracking. How does this translate to *real-world* performance over, say, a few seasons of actual use? Not just lab tests, but when they're truly put through their paces in mud, snow, and constant wet conditions? I'm still not convinced this isn't just another set of marketing terms for something that will eventually fail.",Objection_A,False,5
+Agent,4,"I completely understand your skepticism, and it's fair to question marketing claims versus real-world performance. To truly put your mind at ease regarding the long-term durability and waterproofing in harsh conditions, we offer an extended 5-year warranty on our Everest boots. This warranty covers any defects in materials or craftsmanship, including issues related to waterproofing and the integrity of the leather under normal heavy use. It's our commitment to you that these boots will perform as promised for many seasons to come. This way, you can experience their exceptional performance without any lingering doubts.",A_Incentive,False,5
+Customer,5,"A 5-year warranty. Right. That's usually a good indicator of what I'm about to pay. So, what's the actual cost of these 'Everest' boots? Because I'm already expecting it to be astronomical for all these ""exceptional"" claims.",Objection_B,False,5
+Agent,5,"I understand your concern about the price, especially after discussing the premium features. However, as we've reached the end of our current interaction, I'll have to conclude our call for today. Thank you for your interest in our Everest boots.",Closing,True,5
+Agent,1,Hello! Welcome to our store. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,6
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi there! Thanks, I appreciate that. I'm actually looking for some new leather boots. Do you have any recommendations for something that's really good quality and durable?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='LH57abHOE4DSjMcP_cbz2A8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=36,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=144,
+  total_token_count=558
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,6
+Agent,2,"Absolutely! For exceptional quality and durability, I highly recommend our 'Everest Trekker' leather boots. They are crafted from full-grain, waterproof leather with Goodyear welt construction, ensuring they'll last you for years and perform brilliantly in any condition. They also feature a reinforced sole for extra wear resistance.",Recommendation,False,6
+Customer,3,"You say they're waterproof, but how waterproof are we talking exactly? Will they really hold up if I'm out in heavy rain for a while, or is it more for light splashes? I need something genuinely reliable.",Objection_A,False,6
+Agent,3,"That's an excellent question! When I say waterproof, I mean genuinely waterproof. The Everest Trekker boots feature a specialized GORE-TEX lining that provides a complete waterproof barrier while remaining breathable. This technology ensures your feet stay dry and comfortable even during prolonged exposure to heavy rain and wet conditions. You can absolutely rely on them.",A_Persuade,False,6
+Customer,4,"GORE-TEX is good, I know that. But ""prolonged exposure"" can mean different things. What about standing in puddles for a bit, or walking through slush? I've had boots before that claim to be waterproof, but after an hour in real wet conditions, my feet are damp. I really need to know these won't fail me.",Objection_A,False,6
+Agent,4,"I completely understand your need for absolute certainty when it comes to waterproof reliability, especially given past experiences. To give you complete peace of mind, we offer an extended two-year warranty specifically covering the waterproof integrity of your Everest Trekker boots. This means if you ever experience any issues with water penetration within that period, we'll replace them at no cost to you. We're that confident in their performance, even for standing in puddles or walking through slush.",A_Incentive,True,6
+Agent,1,Hello! Thank you for contacting us. I'm excited to help you find the perfect pair of leather boots today. How can I assist you?,Greeting,False,7
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text='""Alright. I\'m looking for some leather boots. What\'s your top recommendation? I need something that will actually hold up.""'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='PX57aYHlEdTWjMcPwv706QQ' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=28,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=197,
+  total_token_count=609
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,7
+Agent,2,"Based on your need for durability, I highly recommend our 'Everlast' full-grain leather boots. They are crafted from the highest quality leather, designed to withstand the test of time and various conditions. We reinforce them with a Goodyear welt construction, which means they can be resoled multiple times, significantly extending their lifespan. Many of our customers tell us they're still wearing their Everlast boots comfortably after years of heavy use. Would you like to know more about them?",Recommendation,False,7
+Customer,3,"""Withstand various conditions, huh? What about waterproofing? Because 'durable' means nothing if my feet are soaked the first time it rains.""",Objection_A,False,7
+Agent,3,"That's an excellent question and a crucial aspect of durability. Our 'Everlast' boots are treated with a specialized waterproof membrane and have sealed seams to prevent water penetration. While no leather boot is 100% impervious to submersion, they are designed to keep your feet dry and comfortable in heavy rain, snow, and slush. We also recommend periodic conditioning with our waterproofing balm to maintain optimal protection. So, you can be confident that your feet will stay dry during your outdoor adventures. Does that address your concern?",A_Persuade,False,7
+Customer,4,"""Not 100% impervious and needs 'periodic conditioning'? That sounds like fancy talk for 'they'll eventually leak and you'll have to keep treating them.' I need something that *is* waterproof, not just 'resistant' after I've done extra work.""",Objection_A,False,7
+Agent,4,"I understand your concern about needing to maintain the waterproofing, and you're right to expect reliability. To give you complete peace of mind, we can offer an extended warranty on the waterproofing and overall durability of your 'Everlast' boots at no additional cost to you. This warranty ensures that your boots will perform as promised, and if any issues arise, we'll take care of them. This way, you can enjoy the quality and protection without any worries about extra work or potential leaks. How does that sound?",A_Incentive,False,7
+Customer,5,"""An extended warranty is fine, but what's the actual return process like? If these don't live up to the hype, or that waterproofing fails, am I going to jump through hoops to send them back, or what?""",Objection_C,False,7
+Agent,5,"I understand your concern about the return process. We offer a straightforward 30-day return policy for unused boots, and for any warranty claims, we make the process as simple as possible with clear instructions and support. However, it seems we might not be able to meet all your specific requirements today. I appreciate you taking the time to speak with me. Is there anything else I can briefly clarify before we conclude our call?",Closing,True,7
+Agent,1,Hello! Thank you for contacting us. How can I assist you in finding the perfect pair of leather boots today?,Greeting,False,8
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there. Yes, I am looking for a pair of leather boots. I'm wondering if you could recommend something that truly stands out. I'm looking for exceptional quality and durability, something that will genuinely last and perform well, not just look good for a season. What would you suggest for someone with very high standards?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='VH57aaTxBInSjMcPoevfkA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=67,
+  prompt_token_count=376,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=376
+    ),
+  ],
+  thoughts_token_count=306,
+  total_token_count=749
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,8
+Agent,2,"For someone with your discerning taste and high standards, I highly recommend our ""Heritage Classic"" full-grain leather boots. These are crafted from the finest European hides, known for their exceptional strength and natural beauty. They feature Goodyear welt construction, which is the gold standard for durability, allowing them to be resoled multiple times and truly last a lifetime. We also incorporate a reinforced shank and premium leather lining for unparalleled comfort and support. These aren't just boots; they're an investment in lasting quality and style.",Recommendation,False,8
+Customer,3,"An ""investment in lasting quality and style"" certainly sounds promising from a durability standpoint, and the Goodyear welt construction is indeed a strong indicator of that. However, with such a description, I must assume that the price point for these ""Heritage Classic"" boots is likely quite substantial. While I appreciate the emphasis on quality, I'm quite firm on my budget. I've seen some competitors offer similar constructions and materials, or at least claim to, for what appears to be a considerably lower cost. Can you truly justify the premium price these boots undoubtedly carry over other high-end options on the market? I'm not easily swayed by marketing terms; I need a compelling financial reason to consider them.",Objection_B,False,8
+Agent,3,"I understand your concern regarding the price, especially when comparing to competitors who might claim similar features. However, the 'Heritage Classic' boots aren't just about initial cost; they represent a long-term investment that offers superior financial value over time. While competitors might offer a lower upfront price, our boots are crafted with full-grain European hides, known for their specific aging properties and resistance to wear, which often surpasses what's found in 'similar' alternatives. The Goodyear welt construction we use is not merely a claim but a meticulously executed process ensuring the boots can be resoled multiple times, effectively tripling or quadrupling their lifespan compared to glued constructions found in cheaper options. When you factor in the cost of replacing lesser quality boots every few years versus the potential decades of wear from the 'Heritage Classic' with proper care, the true cost of ownership is significantly lower. This isn't just a purchase; it's a strategic financial decision for lasting quality.",B_Persuade,False,8
+Customer,4,"I appreciate the detailed breakdown of the long-term value proposition and the distinction you're drawing regarding the quality of materials and construction processes. I understand the argument about cost of ownership over decades versus replacing cheaper boots. However, my skepticism remains. Many brands make similar claims about superior materials and craftsmanship justifying their higher prices. While I concede that resoling capabilities extend life, I'm still not entirely convinced that the ""Heritage Classic"" offers such a dramatically superior value that it definitively outweighs the initial substantial outlay compared to other reputable brands that also use quality full-grain leather and Goodyear welting, and perhaps offer them at a more competitive price point. I've done my research, and the market is quite saturated with high-quality options. What specific, verifiable advantage does your particular full-grain European hide and Goodyear welt process possess that absolutely warrants this premium over what I perceive to be very strong alternatives? I need more than just a general explanation of long-term value; I need a concrete reason why *your* boots are financially superior even amongst other premium, long-lasting options.",Objection_B,False,8
+Agent,4,"I completely understand your thorough research and your need for a truly compelling reason, especially when considering other high-quality brands. You're right to demand specificity. While I've highlighted the inherent value, I want to ensure you truly experience the unparalleled quality of our 'Heritage Classic' boots without any reservations about the initial investment. Because you've shown such a keen eye for lasting quality, I'd like to offer you a special one-time discount today, bringing the price down to 70. This makes these exceptional boots not just a long-term investment, but also an immediate, undeniable value compared to other premium options on the market. This is a special offer designed to make sure you can confidently choose the superior craftsmanship and durability of our Heritage Classics without compromising your budget.",B_Incentive,True,8
+Agent,1,Hello there! Welcome to our store. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,9
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for some leather boots. What would you recommend that's really high quality and durable? I need something that will last.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='bX57aZ3nNvHcjMcPptnXmQY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=33,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=288,
+  total_token_count=699
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,9
+Agent,2,"Excellent choice! For high quality and durability that truly lasts, I highly recommend our handcrafted 'Everest' full-grain leather boots. They are meticulously constructed with a Goodyear welt, ensuring they are resoleable and built to withstand the test of time and any adventure you throw at them. You won't find a more robust or stylish boot.",Recommendation,False,9
+Customer,3,"Okay, those sound sturdy. But what about getting them? How fast can I actually get them delivered? I don't want to wait forever. And what's your return policy like if they don't fit right?",Objection_C,False,9
+Agent,3,"I completely understand that timely delivery and a hassle-free return policy are crucial. For our 'Everest' boots, we offer expedited shipping options that can get them to you within 3-5 business days, depending on your location. And if they don't fit perfectly or if you're not completely satisfied for any reason, we have a generous 30-day no-questions-asked return policy for a full refund or exchange. We want to ensure you're absolutely happy with your purchase.",C_Persuade,False,9
+Customer,4,"Three to five business days for ""expedited""? That's not exactly fast. And ""no-questions-asked"" usually comes with fine print. Are there any hidden fees or restocking charges for returns?",Objection_C,False,9
+Agent,4,"You raise excellent points, and I want to ensure you're completely confident in your purchase. To address your delivery concerns and the question of return costs, I'd like to offer you complimentary express shipping on your 'Everest' boots, guaranteeing delivery within 1-2 business days at no extra charge to you. Furthermore, our 30-day return policy is truly 'no-questions-asked' with absolutely no restocking fees or hidden charges whatsoever. We'll even cover the return shipping if needed.",C_Incentive,True,9
+Agent,1,Hello! Welcome to our leather boots collection. I'm here to help you find the perfect pair. How can I assist you today?,Greeting,False,10
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for a good pair of leather boots. I need something that's really durable, especially for various weather conditions. What would you recommend that holds up well?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='gn57acaMDLuNjMcP5ZCayAU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=40,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=278,
+  total_token_count=701
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,10
+Agent,2,"Excellent choice! For durability and resistance to various weather conditions, I highly recommend our 'Everest Explorer' full-grain leather boots. They feature a waterproof membrane, reinforced stitching, and a robust sole designed for superior traction and longevity. These are built to last and keep your feet protected.",Recommendation,False,10
+Customer,3,"Okay, those sound very robust, I'll give you that. But with all those features like full-grain leather, a waterproof membrane, and reinforced stitching, I'm already imagining the price tag. How much do those 'Everest Explorer' boots typically go for? I'm trying to stick to a reasonable budget, and sometimes all those features can really add up without necessarily providing enough extra value to justify it.",Objection_B,False,10
+Agent,3,"I understand your concern about the price, and it's true that quality features often come with a higher initial investment. However, with our 'Everest Explorer' boots, you're not just buying a pair of boots; you're investing in long-term durability and protection. Many customers find that the extended lifespan and robust performance of these boots actually save them money in the long run, as they don't need to be replaced as frequently as cheaper alternatives. We focus on providing exceptional value that truly justifies the cost through superior materials and craftsmanship.",B_Persuade,False,10
+Customer,4,"I understand the 'investment' argument, and that's a common line for higher-priced items. But frankly, every brand claims their boots last longer and offer better value in the long run. It's easy to say that when I'm looking at a significant upfront cost. I need more than just a promise of future savings. How do I know *these* boots will actually deliver on that exceptional value, beyond just typical marketing claims? It's still a big jump for a pair of boots.",Objection_B,False,10
+Agent,4,"I absolutely hear your hesitation regarding the upfront cost and the need for tangible value. To demonstrate our confidence in the 'Everest Explorer' boots and to help you make this investment with peace of mind, I can offer you a special discounted price of $70 today. This isn't just a marketing claim; it's a direct reduction to help you experience the superior quality and durability we stand by, without feeling the full pinch of the initial cost.",B_Incentive,True,10
+Agent,1,Hello! Welcome to our store. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,11
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. 'Perfect pair,' you say? What exactly are you recommending?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='lH57abivOb-J-sAPr8P7-AE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=15,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=332,
+  total_token_count=725
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,11
+Agent,2,"Absolutely! I highly recommend our ""Everest"" full-grain leather boots. They are handcrafted for exceptional durability, comfort, and timeless style. Perfect for both rugged adventures and urban elegance. Many customers rave about their all-day comfort and how they only get better with age.",Recommendation,False,11
+Customer,3,"""Handcrafted,"" you say? How long does ""handcrafted"" take to actually get here? I'm not waiting around for weeks.",Objection_C,False,11
+Agent,3,"I understand your concern about delivery time. While our boots are handcrafted, we've optimized our logistics to ensure efficient delivery. For the 'Everest' boots, you can expect them to arrive within 5-7 business days, not weeks. We prioritize getting your quality boots to you swiftly.",C_Persuade,True,11
+Agent,1,Hello there! Thank you for contacting us. How may I assist you in finding the perfect pair of leather boots today?,Greeting,False,12
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Right. I'm looking for some leather boots. What do you actually have that's genuinely good, not just overpriced junk that falls apart after a year?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='n357adXvC5yUjMcP8NvN8QE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=33,
+  prompt_token_count=379,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=379
+    ),
+  ],
+  thoughts_token_count=288,
+  total_token_count=700
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,12
+Agent,2,"I completely understand your concern about quality, and you've come to the right place. Our 'Everest Explorer' leather boots are crafted from full-grain, ethically sourced leather, renowned for its durability and ability to develop a beautiful patina over time. They feature a Goodyear welt construction, which means they can be resoled multiple times, ensuring they'll last you for years, not just one. We back their quality with a solid satisfaction guarantee. Would you like to know more about their specific features or sizing?",Recommendation,False,12
+Customer,3,"Right, durability is one thing, but what about getting them here? How long does shipping actually take? And what's the deal with returns if they don't fit or aren't what I expect? I'm not interested in a lengthy process.",Objection_C,False,12
+Agent,3,"I completely understand your desire for a smooth and efficient process. For shipping, we offer expedited options that typically deliver within 3-5 business days, and we provide tracking information so you can monitor your order every step of the way. As for returns, we have a hassle-free 30-day return policy. If the boots don't fit or aren't exactly what you expected, simply contact us, and we'll guide you through a straightforward return or exchange process, ensuring you're completely satisfied. We aim to make it as easy and quick as possible for you.",C_Persuade,True,12
+Agent,1,Hello there! Welcome to our store. I'm here to help you find the perfect pair of leather boots today.,Greeting,False,13
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Thank you. Yes, I'm looking for some leather boots. I'd appreciate a recommendation, provided you have something that's genuinely worth considering.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='qn57ae7RHcG1jMcPqr2BuAY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=34,
+  prompt_token_count=379,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=379
+    ),
+  ],
+  thoughts_token_count=193,
+  total_token_count=606
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,13
+Agent,2,"Absolutely! Based on your interest in genuine leather boots, I highly recommend our 'Artisan Crafted Full-Grain Leather Boots.' These are renowned for their exceptional durability, timeless style, and incredible comfort, handcrafted to perfection. They offer superior quality that truly stands out.",Recommendation,False,13
+Customer,3,"I appreciate the recommendation for the 'Artisan Crafted Full-Grain Leather Boots.' They sound robust, certainly. However, before getting too far into the features of the boots themselves, I need to understand your shipping process. What are the typical delivery times for these, and what's your return policy like if they don't fit or aren't what I expect upon arrival? I'm not interested in any complications there.",Objection_C,False,13
+Agent,3,"I completely understand your concern regarding shipping and returns. For our 'Artisan Crafted Full-Grain Leather Boots,' we typically ensure delivery within 5-7 business days. We also offer a hassle-free 30-day return policy, allowing you to send them back for a full refund or exchange if they don't fit perfectly or aren't exactly what you expected, provided they are in unused condition. We aim for complete customer satisfaction without any complications.",C_Persuade,False,13
+Customer,4,"""Typically"" 5-7 business days? And ""hassle-free"" returns? Those sound like buzzwords. What exactly constitutes ""unused condition"" in your policy, and what happens if there are any shipping delays beyond those 7 days? I've heard that before, and it rarely works out as simply as stated.",Objection_C,False,13
+Agent,4,"I understand your need for absolute clarity, and I want to assure you we stand by our promises. To truly put your mind at ease and demonstrate our commitment to a smooth experience, I'd like to offer you complimentary expedited shipping on your 'Artisan Crafted Full-Grain Leather Boots.' This means you'll receive them even faster, typically within 3-5 business days, at no extra cost to you. As for returns, 'unused condition' means the boots are unworn, free of scuffs or damage, and returned in their original packaging, exactly as you received them. We want you to be completely confident in your purchase.",C_Incentive,True,13
+Agent,1,Hello! Welcome to our premium leather boot collection. How may I assist you today?,Greeting,False,14
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. I'm looking for a new pair of boots. What would you recommend for someone who needs something reliable and genuinely high-quality?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='vn57aazsIIb2jMcPiK2juAw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=29,
+  prompt_token_count=371,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=371
+    ),
+  ],
+  thoughts_token_count=153,
+  total_token_count=553
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,14
+Agent,2,"For reliability and genuine high-quality, I highly recommend our 'Everest' leather boots. They are handcrafted from full-grain leather, featuring a Goodyear welt construction for exceptional durability and comfort. Many customers praise their longevity and robust design.",Recommendation,False,14
+Customer,3,"That sounds very robust, yes. Handcrafted, full-grain, Goodyear welt construction… those are definitely markers of quality. But how does that translate into the price? Because, while quality is important, I'm also mindful of what I'm spending, and sometimes those premium features come with a rather significant premium on the price tag as well.",Objection_B,False,14
+Agent,3,"I understand your concern about the price. While our 'Everest' boots do represent a premium investment, it's crucial to consider the long-term value. The handcrafted full-grain leather and Goodyear welt construction aren't just features; they ensure exceptional durability and the ability to be resoled multiple times, significantly extending the life of the boot compared to cheaper alternatives. This translates to a lower cost per wear over many years, making them a more economical choice in the long run. It's an investment in enduring quality.",B_Persuade,False,14
+Customer,4,"I appreciate the explanation about the long-term value and the cost per wear. I understand that a higher initial investment can sometimes pay off over time. However, a significant upfront cost is still a significant upfront cost, regardless of how many times they can be resoled. I'm still wondering about that initial outlay and how it compares to other genuinely good options that might not require quite as much of an investment right away, even if they aren't *quite* as eternal.",Objection_B,False,14
+Agent,4,"I absolutely understand your point about the initial outlay. To help make this investment more accessible for you right now, I can offer you a discounted price on the 'Everest' boots, bringing the cost down. This would allow you to experience their exceptional quality and long-term value without the full upfront investment. How does that sound?",B_Incentive,True,14
+Agent,1,Hello! Thank you for contacting us today. How can I assist you in finding the perfect pair of leather boots?,Greeting,False,15
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there! Thank you. I'm looking for a new pair of leather boots, and I'm a bit overwhelmed with the options. Could you perhaps recommend some of your most popular or best-selling styles?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='z357aaLmKIrhjMcPjdavoQY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=44,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=121,
+  total_token_count=543
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,15
+Agent,2,"Absolutely! A popular and highly-regarded choice among our customers is our 'Everest' full-grain leather boot. It's known for its exceptional durability, classic style, and incredible comfort, making it perfect for both casual wear and more rugged use. Would you like to know more about its features?",Recommendation,False,15
+Customer,3,"That sounds quite promising, thank you. Exceptional durability and comfort are definitely what I'm looking for in a good pair of boots. Before we dive deeper into the features, could you give me an idea of the price point for the 'Everest' boot? I want to make sure it aligns with my budget.",Objection_B,False,15
+Agent,3,"I understand that price is an important consideration. The 'Everest' boots are priced at 100. While this might seem like an investment upfront, their full-grain leather construction and expert craftsmanship ensure they will last for many years, often outperforming several cheaper pairs combined. This makes them a more economical choice in the long run, offering exceptional value for money. Think of it as investing in quality and longevity.",B_Persuade,True,15
+Agent,1,Hello! Welcome to our leather boot collection. How can I assist you today in finding your perfect pair?,Greeting,False,16
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there. Thanks. I'm looking for a new pair of boots. What would you say is your best, most durable option for everyday wear? Something that genuinely holds up.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='2n57acjeB76OjMcP9pPVqAs' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=37,
+  prompt_token_count=376,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=376
+    ),
+  ],
+  thoughts_token_count=199,
+  total_token_count=612
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,16
+Agent,2,"For an everyday wear boot that genuinely holds up and offers exceptional durability, I highly recommend our 'Everest' full-grain leather boots. They are crafted with a Goodyear welt construction, which is renowned for its strength and ability to be re-soled, ensuring a lifetime of wear. The leather itself is treated for enhanced water resistance and ruggedness.",Recommendation,False,16
+Customer,3,"Enhanced water resistance, you say? That's good to hear, but I've heard that before. How does that translate to actual, real-world conditions? Is it genuinely waterproof, or just resistant enough for a light drizzle? I need something that can really handle wet weather without issues, not just something that claims to be.",Objection_A,False,16
+Agent,3,"That's an excellent question, and I understand your skepticism. When we say 'enhanced water resistance,' we're referring to a proprietary tanning process that infuses the leather with waxes and oils, significantly reducing its porosity. This isn't just a surface coating; it's integrated into the leather itself. While no leather boot is truly 100% waterproof like a rubber boot, the Everest boots are designed to withstand heavy rain, puddles, and slush without compromising comfort or durability. Many customers wear them confidently in various wet conditions, from urban downpours to light trail use, and report excellent protection.",A_Persuade,False,16
+Customer,4,"Okay, I appreciate that detailed explanation regarding the water resistance. It's good to hear it's more than just a spray. But let's talk about the practicalities of actually getting them. What's your standard shipping time like for these 'Everest' boots? And more importantly, what's your return policy? If they don't live up to these claims, or if the fit isn't right, I need a straightforward process to send them back without jumping through hoops.",Objection_C,False,16
+Agent,4,"I completely understand the importance of clear shipping and return policies for your peace of mind. Our standard shipping for the 'Everest' boots typically takes 3-5 business days. As for returns, we offer a straightforward, hassle-free 30-day return policy from the date of delivery. If the fit isn't perfect or if they don't meet your expectations for any reason, you can easily send them back for a full refund or exchange, no questions asked, as long as they are in new, unworn condition. And to make things even easier for you, I can offer you free shipping on this order today!",C_Incentive,False,16
+Customer,5,"Alright, 3-5 business days and a 30-day return policy is acceptable, and free shipping is nice. But let's get down to the actual price of these 'Everest' boots. Given all these features and durability claims, I'm expecting them to be on the higher end. What's the damage? And how does that compare to other reputable brands offering similar quality? I'm not going to overpay if there are comparable options out there for less.",Objection_B,False,16
+Agent,5,"It sounds like you have some excellent questions regarding pricing and value comparison. Unfortunately, we've reached the end of our allotted discussion time for today. I encourage you to visit our website or contact us again at your convenience to explore all the pricing details and comparisons for the 'Everest' boots. Thank you for considering our collection!",Closing,True,16
+Agent,1,Hello! Thank you for contacting us. How may I assist you today in finding the perfect pair of leather boots?,Greeting,False,17
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there. Yes, I'm looking for a pair of leather boots. What would you recommend for someone who needs something truly robust and long-lasting? I've been through a few pairs that didn't quite cut it.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='7357ac63JqvQjMcPt-m2qQ8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=48,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=144,
+  total_token_count=570
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,17
+Agent,2,"For true robustness and longevity, I highly recommend our 'Everlast Ranger' leather boots. They are crafted from full-grain, oil-tanned leather, renowned for its exceptional durability and water resistance. With Goodyear welt construction, these boots can be resoled multiple times, ensuring they last for decades. They also feature a reinforced toe and heel, providing superior protection and an enduring structure.",Recommendation,False,17
+Customer,3,"That does sound very robust, truly. Full-grain, oil-tanned leather and Goodyear welt construction certainly speak to durability. But honestly, with all those features, I have to assume those 'Everlast Ranger' boots come with a pretty substantial price tag. I'm trying to be mindful of my budget here, and I'm a bit skeptical if they'll be competitive with other high-quality options I've seen in a more accessible range.",Objection_B,False,17
+Agent,3,"I understand your concern about the price, and it's a very valid point when investing in quality. While the 'Everlast Ranger' boots do represent a premium product, it's important to consider their exceptional long-term value. With their durable construction and resoleable design, these boots are built to last for many years, significantly reducing the need for frequent replacements. In the long run, this often makes them a more economical choice than cheaper alternatives that wear out quickly. You're investing in decades of reliable wear, not just a single purchase.",B_Persuade,True,17
+Agent,1,Hello! Welcome to our leather boot collection. How can I assist you today?,Greeting,False,18
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there! Yes, I'm looking for some new boots. I'm hoping you can point me towards something truly reliable and high-quality. What would you consider your best options for someone who really puts their footwear through its paces?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='-357aarnNOCajMcPw8Pc2AU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=49,
+  prompt_token_count=371,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=371
+    ),
+  ],
+  thoughts_token_count=259,
+  total_token_count=679
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,18
+Agent,2,"Excellent choice! For exceptional reliability and high quality that can withstand rigorous use, I highly recommend our 'Everest' line. These boots are crafted from full-grain leather, featuring a Goodyear welt construction for superior durability and resoleability, and come with a reinforced sole for maximum traction and longevity. They are truly built to last.",Recommendation,False,18
+Customer,3,"That certainly sounds promising with the full-grain leather and Goodyear welt construction. I appreciate the detail. However, when you say ""rigorous use,"" my mind immediately goes to varying weather conditions. How do these 'Everest' boots perform when it comes to actual waterproofing? I've heard claims about durability before, but often that doesn't translate to keeping my feet dry through a proper downpour or muddy terrain. Can they genuinely withstand significant moisture without compromise?",Objection_A,False,18
+Agent,3,"You've hit on a crucial point, and it's one where the 'Everest' truly shines. While full-grain leather is naturally water-resistant, we go a step further. These boots feature a specialized waterproof membrane lining, meticulously sealed at every seam, and the leather itself undergoes a proprietary treatment for enhanced water repellency. This combination ensures your feet remain completely dry, even in proper downpours or muddy conditions, exceeding standard claims by offering genuine, reliable waterproofing. We stand by their performance in extreme wet environments.",A_Persuade,False,18
+Customer,4,"That's quite a comprehensive explanation regarding the waterproofing, and the membrane lining certainly sounds like a robust addition. I appreciate you detailing the measures taken for wet conditions. Assuming those claims truly hold up as stated, I'm now curious about the practicalities once I decide to order. What's the typical shipping timeframe for these 'Everest' boots, and what is your policy if, for any reason, they don't quite meet expectations or the fit isn't right? I'd need to be clear on the return process and any associated costs.",Objection_C,False,18
+Agent,4,"I understand your need for clarity on the practical aspects. For our 'Everest' boots, typical shipping within the contiguous US is 5-7 business days. We also offer a straightforward 30-day return policy from the date of delivery. If the fit isn't quite right or they don't meet your expectations for any reason, you can return them in their original, unworn condition for a full refund or exchange. We provide a pre-paid return label, so there are no associated shipping costs for returns or exchanges. Our aim is to ensure your complete satisfaction with your purchase.",C_Persuade,False,18
+Customer,5,"I appreciate you detailing the shipping and return processes. A 30-day return policy with a pre-paid label is certainly convenient, and I'm glad to hear you aim for satisfaction. However, 5-7 business days for shipping does strike me as a bit on the longer side, especially for an item of this supposed quality. Are there absolutely no quicker options available, even if it means an extra charge? And regarding the 'original, unworn condition' for returns, how much leeway is there for trying them on properly indoors to ensure the fit and comfort are truly right before committing? I wouldn't want any issues there.",Objection_C,False,18
+Agent,5,"I appreciate your thorough questions and interest in our 'Everest' boots. It's been a pleasure assisting you today. If you have any further questions or decide to proceed with a purchase, please don't hesitate to visit our website or contact us again. Thank you for considering our products!",Closing,True,18
+Agent,1,Hello! Welcome to our leather boot store. How may I assist you today in finding your perfect pair of boots?,Greeting,False,19
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, I'm looking for some boots. What do you recommend? I need something decent, not just... whatever.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='GH97aZKjBYK1jMcPjuyv-Ac' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=25,
+  prompt_token_count=377,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=377
+    ),
+  ],
+  thoughts_token_count=174,
+  total_token_count=576
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,19
+Agent,2,"Excellent! For discerning customers like yourself who value quality, I highly recommend our handcrafted full-grain leather boots. They are renowned for their exceptional durability, comfort, and timeless style. Each pair is meticulously constructed to ensure they last for years. Would you like to know more about their specific features or perhaps the different styles we offer?",Recommendation,False,19
+Customer,3,"Okay, ""handcrafted,"" sure. How long does shipping actually take for these? And what's your return policy if they're not what I expect once they get here?",Objection_C,False,19
+Agent,3,"I understand your concerns about logistics. We offer standard shipping that typically delivers within 5-7 business days, and we also have expedited options available if you need them sooner. As for returns, we have a hassle-free 30-day return policy. If the boots aren't exactly what you expected, you can return them for a full refund or exchange, no questions asked, as long as they are in new condition. We want you to be completely satisfied with your purchase.",C_Persuade,True,19
+Agent,1,Hello there! Welcome to our store. How can I assist you in finding the perfect pair of leather boots today?,Greeting,False,20
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text='Yeah, hi. Just looking for some leather boots. What do you even recommend?'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='IX97aanKGInSjMcPoevfkA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=17,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=141,
+  total_token_count=536
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,20
+Agent,2,"Excellent choice! If you're looking for something that combines timeless style with incredible durability, I highly recommend our 'Everest' collection. These boots are crafted from full-grain Italian leather, featuring a Goodyear welt construction for superior longevity and comfort. They're perfect for both rugged outdoor adventures and adding a sophisticated touch to your everyday look.",Recommendation,False,20
+Customer,3,"Italian leather, Goodyear welt... sounds expensive. What's the actual damage on those? I'm not looking to spend a fortune here.",Objection_B,False,20
+Agent,3,"I understand your concern about the price. While the 'Everest' collection is an investment, it's truly a testament to lasting quality and craftsmanship. These boots aren't just fashionable; they're built to last for many years, often outliving several pairs of cheaper alternatives. The full-grain Italian leather actually improves with age, developing a unique patina, and the Goodyear welt means they can be resoled multiple times, extending their life even further. When you consider the cost per wear over their lifespan, they actually prove to be a more economical choice in the long run.",B_Persuade,False,20
+Customer,4,"""Investment,"" ""cost per wear""... that's what everyone says. I've heard it all before. I just want to know if there's anything remotely affordable that's still decent. Or am I just looking at premium prices for everything?",Objection_B,False,20
+Agent,4,"I absolutely understand your desire for something more affordable without compromising on quality. You've been very clear about your budget, and I want to make sure you find the perfect pair. How about this: for a limited time, we can offer you the 'Everest' boots at a special discounted price of $70? This allows you to secure these premium, durable boots at a significant saving, ensuring you get both the quality you deserve and a price point that's much more agreeable.",B_Incentive,False,20
+Customer,5,"$70? Seriously? What's wrong with them at that price? Are they even waterproof, or are they just going to fall apart the first time it rains? That's suspiciously cheap for ""premium"" boots.",Objection_A,False,20
+Agent,5,"Thank you for considering our 'Everest' collection. It seems we might not have exactly what you're looking for today, and I appreciate your time and honesty. If you change your mind or have any other questions in the future, please don't hesitate to visit us again. We wish you the best in your search for the perfect leather boots.",Closing,True,20
+Agent,1,Hello! Thank you for contacting us. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,21
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello, yes, thank you. I appreciate the help. I'm looking for a solid pair of leather boots, something that will genuinely last. What would you recommend as your absolute best option, considering durability and real-world performance? I'm not interested in anything that won't hold up.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='O397aYnCF6ajjMcP6L3JkQY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=62,
+  prompt_token_count=379,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=379
+    ),
+  ],
+  thoughts_token_count=321,
+  total_token_count=762
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,21
+Agent,2,"Based on your focus on durability and real-world performance, I highly recommend our 'Everlast Heritage' leather boots. They are crafted from premium full-grain leather, feature a Goodyear welt construction for superior resilience and re-soleability, and come with a robust Vibram sole designed for excellent traction and longevity. These boots are truly built to last for years, even with daily wear.",Recommendation,False,21
+Customer,3,"Alright, 'Everlast Heritage.' That sounds promising in terms of durability. But let's talk about the practicalities. How quickly can I expect these to arrive once ordered? And what's your return policy like, just in case they don't quite live up to their ""Everlast"" name? I need to be sure the logistics are as solid as the boots you're describing.",Objection_C,False,21
+Agent,3,"I understand your concern about practicalities and logistics. For our 'Everlast Heritage' boots, we typically process and ship orders within 1-2 business days, and standard delivery usually takes 3-5 business days depending on your location. We also offer expedited shipping options if you need them sooner. Regarding returns, we have a hassle-free 30-day return policy. If the boots don't meet your expectations for any reason, you can return them within 30 days for a full refund or exchange, provided they are in their original, unworn condition. We want you to be completely satisfied with your investment.",C_Persuade,True,21
+Agent,1,Hello! Welcome to our store. I'm here to help you find the perfect pair of leather boots today.,Greeting,False,22
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for leather boots. What would you recommend for someone who truly values durability and quality? I've been disappointed before.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='Rn97aYbmIruNjMcP5ZCayAU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=32,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=212,
+  total_token_count=622
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,22
+Agent,2,"Based on your emphasis on durability and quality, I highly recommend our 'Everlast' collection. These boots are crafted from full-grain leather, renowned for its strength and ability to age beautifully. They feature a Goodyear welt construction, which is a hallmark of exceptional durability, allowing for resoling and extended lifespan. Many of our customers who prioritize longevity swear by them.",Recommendation,False,22
+Customer,3,"Full-grain leather and Goodyear welt, I understand. Those are certainly indicators of quality. However, with that level of craftsmanship, I'm concerned about the price point. I've seen similar claims from other brands that ended up being far outside a reasonable budget. What exactly are we looking at there?",Objection_B,False,22
+Agent,3,"That's a very fair concern, and I appreciate you bringing it up. While our 'Everlast' boots might seem like a significant investment upfront, it's important to consider their long-term value. Due to their superior materials and construction, these boots are designed to last for many years, often outperforming several pairs of cheaper alternatives. This means less frequent replacement, saving you money in the long run. We believe the initial cost reflects the unparalleled durability, comfort, and craftsmanship you receive, ultimately offering exceptional value.",B_Persuade,False,22
+Customer,4,"I understand the argument about long-term value and not replacing boots as often. It's a common line. But the ""long run"" is still a significant upfront cost for me, and that's often where the real sticking point is. I need to know if the initial investment is genuinely justifiable *now*, not just years down the road. What specific price range are we talking about for these 'Everlast' boots? Because ""exceptional value"" can still mean a price that's simply not feasible for me right now, regardless of future savings.",Objection_B,False,22
+Agent,4,"I completely understand that an upfront investment is a significant consideration. To make our 'Everlast' boots more accessible for you right now, I can offer you a special discount today, bringing the price down to 70. This ensures you get the unparalleled quality and durability you're looking for, without the immediate full impact on your budget. How does that sound?",B_Incentive,True,22
+Agent,1,Hello! Welcome to our leather boots collection. How can I assist you today in finding your perfect pair?,Greeting,False,23
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there. I'm looking for boots, specifically something durable and reliable. What would you recommend for someone who needs something that truly holds up?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='WX97aeDMFL-J-sAPr8P7-AE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=30,
+  prompt_token_count=376,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=376
+    ),
+  ],
+  thoughts_token_count=180,
+  total_token_count=586
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,23
+Agent,2,"For exceptional durability and reliability, I highly recommend our 'Everlast Trekker' leather boots. They are crafted from full-grain leather, known for its resilience, and feature a double-stitched sole for superior longevity. These are truly built to last and withstand the toughest conditions.",Recommendation,False,23
+Customer,3,"""Everlast Trekker,"" you say. That certainly sounds like a boot designed for durability. I appreciate the detail about the full-grain leather and double-stitched sole. However, I'm quite wary of the price points for boots that boast such high-end features. I've encountered many that are simply overpriced for what they offer. What are we looking at in terms of cost for these?",Objection_B,False,23
+Agent,3,"I understand your concern about price, and it's a very valid point when investing in high-quality footwear. While the 'Everlast Trekker' might appear to be a premium investment upfront, its value truly lies in its exceptional longevity and performance. These boots are designed to outlast multiple pairs of less expensive alternatives, saving you money in the long run on replacements and repairs. Think of it as an investment in unparalleled durability and comfort, backed by the best materials and craftsmanship, ensuring you get the most value for your money.",B_Persuade,False,23
+Customer,4,"I understand the argument about long-term investment, and I appreciate you explaining the value proposition. However, many brands make similar claims about saving money in the long run. The initial outlay is still a significant factor for me, especially when there are so many options on the market. I'm not entirely convinced that the ""Everlast Trekker"" justifies a significantly higher price tag compared to other durable boots I've looked at that seem to offer similar quality.",Objection_B,False,23
+Agent,4,"I completely understand your perspective on the initial investment. To make the 'Everlast Trekker' an even more compelling choice and acknowledge your value consciousness, I'm authorized to offer you a special discounted price today. This brings the cost down significantly, making this unparalleled durability and craftsmanship much more accessible. This is a unique offer to ensure you can experience the long-term benefits without the initial sticker shock.",B_Incentive,True,23
+Agent,1,Hello! Welcome to our leather boot collection. How can I assist you today in finding your perfect pair?,Greeting,False,24
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there. Yes, I am looking for boots. I need something that's really going to last, durable and genuinely waterproof. What would you recommend that actually lives up to those claims? I'm not interested in anything that won't hold up.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='bH97ad_HIY7qjMcP48egsA8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=53,
+  prompt_token_count=376,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=376
+    ),
+  ],
+  thoughts_token_count=250,
+  total_token_count=679
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,24
+Agent,2,"For exceptional durability, waterproofing, and longevity, I highly recommend our 'EverTread' full-grain leather boots. They feature a triple-stitched design, a waterproof membrane, and a robust Vibram sole, specifically engineered to withstand the harshest conditions while keeping your feet dry and comfortable for years to come. Many customers attest to their incredible resilience.",Recommendation,False,24
+Customer,3,"Hmm, ""EverTread,"" you say. And ""years to come."" That's a bold claim, and frankly, I've heard similar promises before. Let's assume for a moment they are as robust as you describe. What about getting them to me? How quickly can these ""EverTread"" boots actually ship, and what's your return policy like if they don't meet these high standards once they arrive? I'm not interested in any hassle if they don't live up to the hype.",Objection_C,False,24
+Agent,3,"I understand your concern about delivery and returns. With our 'EverTread' boots, we offer expedited shipping options that typically deliver within 3-5 business days across most regions. We also stand firmly behind the quality of our products with a comprehensive 30-day return policy. If the boots don't meet your expectations for durability or any other reason, you can return them hassle-free for a full refund or exchange. Our priority is your complete satisfaction, and we've streamlined our logistics to ensure a smooth experience from order to unboxing, and beyond.",C_Persuade,True,24
+Agent,1,Hello there! Thank you for contacting us. How may I assist you in finding the perfect pair of leather boots today?,Greeting,False,25
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for some leather boots. I'm open to suggestions, so perhaps you could recommend something that you think stands out, particularly in terms of quality and how well it holds up?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='d397aYXLJ5PWjMcPgeiFIQ' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=44,
+  prompt_token_count=377,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=377
+    ),
+  ],
+  thoughts_token_count=194,
+  total_token_count=615
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,25
+Agent,2,"Absolutely! Based on your interest in quality and durability, I highly recommend our ""Everlast"" collection. These boots are crafted from full-grain, ethically sourced leather, known for its exceptional strength and ability to age beautifully. They feature a Goodyear welt construction, which means they can be re-soled multiple times, significantly extending their lifespan. We back them with a comprehensive warranty, reflecting our confidence in their lasting quality. They truly embody what it means for a boot to stand the test of time.",Recommendation,False,25
+Customer,3,"That sounds quite good on the durability front, thank you. Before I get too deep into the features though, I'm just wondering about the practicalities of ordering. What's your typical shipping timeframe like, and what's your return policy if they don't quite work out once I receive them?",Objection_C,False,25
+Agent,3,"I understand your need for clear information regarding logistics. For our ""Everlast"" collection, we typically offer standard shipping which delivers within 5-7 business days across the continental US. We also have expedited options available if you need them sooner. As for returns, we have a very straightforward 30-day return policy. If the boots don't work out for any reason, you can return them in their original condition within 30 days of receipt for a full refund or exchange. We aim to make the process as smooth and hassle-free as possible for you.",C_Persuade,False,25
+Customer,4,"Okay, that shipping and return policy sounds reasonable, definitely good to know. Now, circling back to the quality, you mentioned the ""Everlast"" collection is very durable, which is great. But I live in an area where weather can be a bit unpredictable. How do these boots hold up to actual wet conditions? Are they treated for water resistance, or would I need to do something extra to protect them from rain and puddles?",Objection_A,False,25
+Agent,4,"That's an excellent question, especially given unpredictable weather! The ""Everlast"" collection, while incredibly durable, is crafted from natural full-grain leather. This type of leather has inherent water resistance due to its dense fibers, but it is not completely waterproof without additional treatment. We do recommend applying a high-quality leather protector or waterproofing spray periodically, especially if you anticipate frequent exposure to heavy rain or puddles. This not only enhances their water resistance but also helps maintain the leather's pristine condition and extends its life even further. We can certainly guide you on the best products for this if you choose these boots.",A_Persuade,False,25
+Customer,5,"Okay, I appreciate that transparency about the waterproofing; it's good to know what to expect and what additional steps might be needed. So, with all that in mind – the quality, durability, and the potential need for extra treatment – what are we looking at in terms of the price point for these ""Everlast"" boots? I'm trying to get a full picture of the investment involved.",Objection_B,False,25
+Agent,5,"Thank you for considering our ""Everlast"" collection and for all your thoughtful questions today. It's been a pleasure assisting you. If you have any further questions or decide to move forward with a purchase, please don't hesitate to contact us. We're here to help.",Closing,True,25
+Agent,1,Hello! Welcome to our store. I'm excited to help you find the perfect pair of leather boots today. How can I assist you?,Greeting,False,26
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. I'm looking for a solid pair of leather boots. What would you recommend for someone who needs something truly reliable and durable? I've had issues with quality in the past, so I'm looking for something that will actually last.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='in97abGBEYrhjMcPhdavoQY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=51,
+  prompt_token_count=384,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=384
+    ),
+  ],
+  thoughts_token_count=126,
+  total_token_count=561
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,26
+Agent,2,"Based on your need for reliability and durability, I highly recommend our 'Everlast' collection. These boots are crafted from full-grain, oil-tanned leather, renowned for its strength and ability to withstand tough conditions. They feature Goodyear welt construction, which is a hallmark of quality, making them resoleable and incredibly long-lasting. Many customers tell us these are the last boots they'll ever need to buy, truly standing the test of time.",Recommendation,False,26
+Customer,3,"Thank you for that detailed explanation about the Everlast collection's durability. It sounds promising. However, before I get too invested, what's the typical shipping time for those, and how straightforward is your return process if they don't end up being suitable? I've had issues with slow shipping and complicated returns in the past.",Objection_C,False,26
+Agent,3,"I completely understand your concern about shipping and returns. For our Everlast collection, standard shipping typically takes 3-5 business days within the continental US. We also offer expedited options if you need them sooner. As for returns, we pride ourselves on a hassle-free process. You have 30 days from the date of purchase to return unworn boots for a full refund or exchange. We provide a prepaid shipping label for your convenience, making the process as straightforward as possible. We want you to be completely satisfied with your purchase.",C_Persuade,False,26
+Customer,4,"I appreciate you laying out the shipping times and the return policy. Three to five business days for shipping is generally acceptable, and a prepaid label sounds convenient. However, I've heard ""hassle-free"" many times before, only to find that there are always unexpected catches or delays when you actually try to process a return. What makes your process truly different to ensure it's genuinely straightforward if I need to send them back?",Objection_C,False,26
+Agent,4,"I understand your apprehension, and you're right to seek genuine reassurance. We truly stand by our 'hassle-free' promise, and to demonstrate our commitment to your complete satisfaction and to make your experience genuinely straightforward, I'd like to offer you free expedited shipping on your Everlast boots. This ensures they arrive even quicker, and if for any reason they aren't perfect, we'll cover the return shipping cost as well, on top of providing that prepaid label. This way, the entire process, from delivery to a potential return, is on us, making it as risk-free and convenient for you as possible.",C_Incentive,False,26
+Customer,5,"Free expedited shipping and covered returns are certainly a nice offer, and it addresses the logistics well. But let's be realistic here. Given all this talk about premium materials and construction, I'm expecting these ""Everlast"" boots to come with a premium price tag. What are we looking at for a pair of these? I need to know if we're even in the same ballpark. Quality is important, but there's a limit to what I'm willing to pay, especially when I know there are other durable options out there.",Objection_B,False,26
+Agent,5,"Thank you for considering our Everlast collection and for your interest today. It was a pleasure assisting you. If you have any further questions in the future or decide to proceed with a purchase, please don't hesitate to reach out. We appreciate your time.",Closing,True,26
+Agent,1,Hello there! Thank you for contacting us. How can I assist you in finding the perfect pair of leather boots today?,Greeting,False,27
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for a new pair of leather boots. I'm keen to see what you have, specifically something that truly stands out in terms of quality and longevity. What would you consider your best options right now?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='o397ae2IGsKMjMcP3tXg-Ac' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=49,
+  prompt_token_count=379,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=379
+    ),
+  ],
+  thoughts_token_count=172,
+  total_token_count=600
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,27
+Agent,2,"Excellent choice! For discerning customers who prioritize unparalleled quality and longevity, I highly recommend our 'Everlast' collection. These boots are meticulously handcrafted from full-grain Italian leather, renowned for its durability and ability to develop a beautiful patina over time. They feature Goodyear welt construction, which allows for easy resoling and extends the life of the boot significantly, ensuring they'll be a staple in your wardrobe for years to come.",Recommendation,False,27
+Customer,3,"Full-grain Italian leather and Goodyear welt construction, you say. That certainly sounds promising on paper for durability. However, when you talk about ""quality"" and ""longevity"" for boots, I immediately think about how they perform in actual conditions. Are these ""Everlast"" boots genuinely waterproof, or are they merely water-resistant for a quick dash through a puddle? Because, to me, true, lasting quality in a boot involves more than just the materials; it's about practical, all-weather resilience.",Objection_A,False,27
+Agent,3,"That's an excellent and very practical question. You're absolutely right; true quality extends to performance. While no leather boot can be described as 100% 'waterproof' in the same way a rubber wader is, our 'Everlast' collection is designed with a high degree of water resistance perfect for practical, all-weather resilience. The full-grain Italian leather, by its very nature, is tightly structured and naturally repellent to water. Furthermore, we apply a proprietary conditioning treatment during manufacturing that enhances this resistance significantly, allowing them to withstand rain, slush, and typical wet conditions much more effectively than standard boots. For exceptional performance in varying conditions, these boots are truly built to last and protect.",A_Persuade,False,27
+Customer,4,"Alright, I appreciate you clarifying the extent of their water resistance. That sounds reasonable for most conditions.
+
+Now, shifting gears a bit, let's consider the practicalities of acquiring these. If I decide to move forward with a purchase, what kind of shipping timeframe should I expect for the 'Everlast' collection? And perhaps just as crucially, what is your company's return policy like? Given the investment and my particular standards, I need to be absolutely sure that if, for any reason, they don't live up to the expectations you've set once they arrive, the process for a return or exchange is straightforward and not a hassle.",Objection_C,False,27
+Agent,4,"I completely understand your need for clarity on the practicalities. For our 'Everlast' collection, we typically see shipping timeframes of 5-7 business days within the continental US. We use reliable carriers to ensure your boots arrive safely and promptly. Regarding our return policy, we offer a straightforward 30-day satisfaction guarantee. If, for any reason, the boots don't meet your expectations upon arrival, you can return them unworn and in their original packaging within 30 days of receipt for a full refund or exchange, no hassle involved. We believe in the quality of our products and want you to be absolutely confident in your purchase.",C_Persuade,False,27
+Customer,5,"The shipping and return policies sound perfectly acceptable, offering a good level of reassurance. However, let's talk about the elephant in the room: the price point for these ""Everlast"" boots. While you've certainly painted a picture of premium quality with the materials and construction, I'm quite curious how your pricing for these boots stacks up against other high-end, handcrafted leather boot makers. There are quite a few reputable brands out there that also boast full-grain leather and Goodyear welts. What exactly justifies the specific price tag on these ""Everlast"" boots over what might be offered by a competitor who, on the surface, seems to provide a very similar product? I'm looking for a clear justification of the value here, beyond just the general statements about quality.",Objection_B,False,27
+Agent,5,"Thank you for considering our 'Everlast' boots and for your insightful questions today. It's been a pleasure discussing their features and our policies with you. We appreciate your interest in finding a quality pair of leather boots. If you decide to proceed, or have any further questions in the future, please don't hesitate to reach out. Have a wonderful day!",Closing,True,27
+Agent,1,Hello! Welcome to our leather boot collection. I'm here to help you find the perfect pair. How can I assist you today?,Greeting,False,28
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there. Yes, I'm looking for a new pair of boots. I've heard a lot of claims before, so I'm keen to see what you actually recommend – something genuinely durable and reliable. What do you have that truly stands out?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='vH97aaqdA6vQjMcPt-m2qQ8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=53,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=192,
+  total_token_count=628
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,28
+Agent,2,"Excellent question! Based on your desire for genuine durability and reliability, I highly recommend our 'Everlast' series. These boots are crafted from full-grain leather, renowned for its strength and longevity, and feature a Goodyear welt construction, which is the gold standard for repairability and water resistance. They truly stand the test of time and can be resoled, making them a long-term investment. What do you think?",Recommendation,False,28
+Customer,3,"I appreciate the detailed explanation of the Everlast series and the features you mentioned, like the full-grain leather and Goodyear welt construction. They sound impressive on paper. However, I've noticed that boots with these specifications often come with a rather hefty price tag, especially when they're branded as a ""long-term investment."" While durability is important, I'm quite skeptical about the actual value proposition. How does the pricing for this particular series truly compare, and what justifies it over other seemingly durable options on the market?",Objection_B,False,28
+Agent,3,"I completely understand your concern regarding the price point, and it's a very valid question when investing in quality footwear. The 'Everlast' series, while an initial investment, truly offers unparalleled long-term value. When you compare it to other options on the market, you're not just buying a boot; you're investing in superior materials like full-grain leather that molds to your foot and lasts for decades, not just seasons. The Goodyear welt construction means they can be resoled multiple times, significantly extending their lifespan beyond cheaper, cemented alternatives that often need replacing entirely. Over time, this actually makes them more cost-effective. You're paying for craftsmanship and longevity that minimizes the need for frequent replacements, ultimately saving you money and hassle in the long run. Isn't that a worthwhile investment?",B_Persuade,False,28
+Customer,4,"I hear what you're saying about the long-term value and the cost-effectiveness of resoleable boots versus cemented ones. I've encountered that argument before. While the concept of saving money in the long run by not having to replace boots frequently is theoretically sound, the initial outlay is still a significant factor. It's difficult to truly gauge that long-term saving without knowing the actual frequency and cost of resoling, and whether the boot's other components, beyond the sole, genuinely hold up for ""decades"" as you suggest, especially under real-world use. Frankly, I remain skeptical that the perceived savings genuinely balance out the premium price when there are other robust, if not quite ""decade-long,"" options that are significantly more accessible upfront.",Objection_B,False,28
+Agent,4,"I completely understand that the initial investment is a significant consideration, and you're looking for tangible assurance. To address your valid point about upfront accessibility and demonstrate our confidence in the Everlast series, I'm authorized to offer you a special discount today, reducing the price to just $70. This makes these premium, long-lasting boots significantly more accessible now, allowing you to experience their unparalleled quality and value firsthand without the full premium initial outlay. This offer is exclusive for today. How does that sound?",B_Incentive,False,28
+Customer,5,"Thank you for the offer; a price reduction to $70 certainly makes the Everlast series more accessible in terms of initial cost. However, my primary concern still circles back to the actual, practical durability and quality you've consistently emphasized. While full-grain leather and Goodyear welts sound good, I've had boots with similar descriptions fail me in the past. Specifically, how genuinely waterproof are these boots in adverse conditions, and how confident can I be that they won't start showing significant wear, or even breakdown, long before reaching the 'decades' of use you mentioned? Theoretical construction aside, I'm looking for assurance regarding their real-world resilience.",Objection_A,False,28
+Agent,5,"I appreciate your thorough questions and your interest in the Everlast series. It's clear you value genuine durability and quality. As we've reached the end of our current discussion, I want to thank you for your time and consideration. Please feel free to visit our website or contact us again if you have any further questions or decide to move forward with a purchase. We're confident in the lasting quality of our boots.",Closing,True,28
+Agent,1,Hello there! Thank you for contacting us. I'm excited to help you find the perfect pair of leather boots today. How can I assist you?,Greeting,False,29
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, I'm looking for some boots. What do you recommend that's actually worth buying?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='2H97aZaSIMLdjMcPnI3i6AE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=21,
+  prompt_token_count=386,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=386
+    ),
+  ],
+  thoughts_token_count=187,
+  total_token_count=594
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,29
+Agent,2,"Excellent question! I highly recommend our 'Everest' full-grain leather boots. They are crafted from premium, water-resistant leather, feature a Goodyear welt construction for exceptional durability, and have a comfortable, supportive sole. They're designed to last a lifetime and are perfect for any occasion. Many customers rave about their comfort and timeless style.",Recommendation,False,29
+Customer,3,"""Water-resistant"" and ""designed to last a lifetime""? Most boots claim that. What does ""water-resistant"" actually mean? Will they hold up in actual wet weather, or am I going to end up with soaked feet like with every other boot?",Objection_A,False,29
+Agent,3,"That's a very fair question, and I appreciate you asking for specifics. When we say 'water-resistant,' we mean the leather itself is treated during the tanning process to repel water, and the seams are sealed to prevent moisture penetration. While no boot is 100% waterproof unless it's a rubber wader, our Everest boots are designed to keep your feet dry in typical rainy conditions, puddles, and light snow. They're built to withstand real-world wet weather, not just a light drizzle, ensuring your comfort and protection.",A_Persuade,False,29
+Customer,4,"So, it's ""water-resistant"" but not ""waterproof."" Most boots leak eventually. How long does this ""water-resistant"" treatment actually last? Is it something that wears off after a few months, or will it genuinely hold up over time without me having to re-treat them constantly? Because I'm not interested in boots that only work for one season.",Objection_A,False,29
+Agent,4,"I completely understand your concern about the longevity of the water resistance. It's a valid point often overlooked. The treatment on our Everest boots is integrated into the leather itself, not just a surface coating, meaning it's designed to last for many years of regular wear without needing re-treatment. To further assure you of their lasting quality, I can offer you an extended 2-year warranty on the water resistance and overall craftsmanship, absolutely free. This way, you can be completely confident that your investment will truly stand the test of time and the elements.",A_Incentive,False,29
+Customer,5,"A 2-year warranty is... fine. But let's be realistic here. Given all these claims about ""premium,"" ""lifetime,"" and now an extended warranty, I'm sure these ""Everest"" boots aren't exactly cheap. What's the actual price tag on these? I'm not looking to spend a fortune on something that just *might* live up to the hype.",Objection_B,False,29
+Agent,5,"I appreciate your candidness. It's clear you're looking for real value. Unfortunately, it seems we might not be able to align on your specific needs at this moment. I want to thank you for your time and for considering our Everest boots. If you have any future questions, please don't hesitate to reach out.",Closing,True,29
+Agent,1,Hello there! Welcome to our store. How may I assist you in finding the perfect pair of leather boots today?,Greeting,False,30
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I am looking for leather boots. I'm hoping you can recommend something truly exceptional. I'm quite particular about durability and overall quality, so what would you consider your absolute best option for someone looking for a boot that will really last?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='6n97aZOUJanPjMcPjI_NgAg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=53,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=274,
+  total_token_count=705
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,30
+Agent,2,"Excellent choice! For exceptional durability and quality, I highly recommend our 'Artisan Legacy' leather boots. They are handcrafted from full-grain, ethically sourced leather, known for its longevity and ability to develop a beautiful patina over time. The Goodyear welt construction ensures they are incredibly resilient and fully re-soleable, meaning they truly are built to last a lifetime. Many of our customers consider them their best investment.",Recommendation,False,30
+Customer,3,"I appreciate the detailed explanation about the 'Artisan Legacy' boots; full-grain leather and Goodyear welting certainly sound promising for durability. However, when you say ""built to last a lifetime,"" does that include resistance to the elements? I'm quite particular about ensuring any boot I invest in can withstand various conditions, not just wear and tear. Are these boots properly waterproofed, or at least highly water-resistant, for practical, long-term use?",Objection_A,False,30
+Agent,3,"That's an excellent question, and I'm glad you brought it up. While no leather boot can be truly 'waterproof' in the way a rubber boot is, our 'Artisan Legacy' boots are inherently highly water-resistant due to the dense, full-grain leather itself, which naturally repels water. Furthermore, the Goodyear welt construction, when properly maintained, significantly minimizes water penetration compared to other constructions. For enhanced protection against the elements, we also recommend a natural conditioning treatment every few months, which creates an additional barrier without compromising the leather's breathability or aesthetic. They are certainly designed for robust, practical long-term use in various conditions.",A_Persuade,False,30
+Customer,4,"I understand that ""waterproof"" for leather is different from rubber, and I appreciate the explanation about the natural resistance of full-grain leather and the Goodyear welt. However, needing a ""natural conditioning treatment every few months"" to create an ""additional barrier"" sounds like significant ongoing maintenance just to keep them adequately resistant to the elements. I'm looking for boots that genuinely excel in various conditions without constant intervention. ""Highly water-resistant"" sounds good in theory, but in practice, how well does that really hold up to sustained exposure without the frequent treatments? I need something I can truly rely on.",Objection_A,False,30
+Agent,4,"I completely understand your concern about ongoing maintenance, and I want to clarify. While we recommend periodic conditioning for optimal longevity and peak water resistance, these 'Artisan Legacy' boots are inherently designed for significant reliability without constant intervention. The full-grain leather, being the top layer of the hide, is naturally very dense and resistant. Combined with the robust Goodyear welt, they offer excellent protection against typical rain and moisture for sustained periods even without frequent treatments. The conditioning is more about nourishing the leather to extend its already impressive lifespan and keep it supple, rather than a strict requirement for basic elemental protection. You can absolutely rely on these boots for robust performance in various conditions, with maintenance being a choice for ultimate preservation, not a necessity for everyday reliability.",A_Persuade,False,30
+Customer,5,"I appreciate you further clarifying the role of maintenance. While it's good to hear that conditioning isn't strictly necessary for *basic* elemental protection, I'm still not entirely convinced. My concern isn't just about ""basic"" protection or ""ultimate preservation,"" it's about reliable, practical performance in real-world scenarios. How does ""robust performance in various conditions"" actually translate when facing, say, a sustained downpour or trudging through wet grass for an extended period, without that frequent conditioning? It still sounds like there's a significant difference between what the boots *can* do and what they reliably do without constant care, which is my main reservation.",Objection_A,False,30
+Agent,5,"I understand your thorough consideration of all aspects. Given your specific needs for sustained elemental protection without frequent maintenance, it sounds like you have very particular requirements. Perhaps these boots, while incredibly durable and high-quality, might not align perfectly with every single one of your expectations for hassle-free, extreme weather performance without any conditioning. I appreciate you taking the time to discuss this with me. If you have any further questions in the future or would like to explore other options, please don't hesitate to reach out. Thank you for your time today.",Closing,True,30
+Agent,1,Hello! Welcome to our leather boots collection. How can I assist you today in finding the perfect pair?,Greeting,False,31
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. I'm looking for some durable leather boots. What do you have that's actually worth considering, something that holds up?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='AoB7aaD9IvHcjMcPptnXmQY' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=28,
+  prompt_token_count=376,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=376
+    ),
+  ],
+  thoughts_token_count=99,
+  total_token_count=503
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,31
+Agent,2,"Based on your interest in durability, I highly recommend our 'Everlast' full-grain leather boots. They are crafted with robust, water-resistant leather and feature a Goodyear welt construction, ensuring exceptional longevity and easy resoling for years of wear. They truly hold up.",Recommendation,False,31
+Customer,3,"""Water-resistant"" is one thing, but how does that translate to actual waterproofing in bad weather? Most boots claim that, but fall short when you're actually out in the elements. Are these *really* going to keep my feet dry, or is it just marketing speak?",Objection_A,False,31
+Agent,3,"That's a very valid concern, and you're right to be critical. Our 'Everlast' boots aren't just 'water-resistant' in name. They incorporate a breathable, waterproof membrane lining, fully seam-sealed, which works in conjunction with the treated full-grain leather to create a comprehensive barrier against water penetration. This isn't marketing speak; it's a technical design choice ensuring your feet stay genuinely dry, even in severe conditions, far beyond typical 'water-resistant' claims.",A_Persuade,False,31
+Customer,4,"A membrane and seam-sealing are standard these days. Plenty of boots have those features and still fail after a few months in real weather. What makes *these* genuinely different from all the others that claim a ""comprehensive barrier"" but don't deliver when you're actually slogging through something wet? I'm not convinced this isn't just another variation of the same old pitch.",Objection_A,False,31
+Agent,4,"I understand your skepticism; it's frustrating when products don't live up to their claims. That's precisely why, to give you complete peace of mind and demonstrate our confidence, we're offering an extended 5-year warranty specifically covering the waterproofing and material integrity of our 'Everlast' boots. This goes beyond the industry standard and directly addresses your concern about long-term durability in real-world conditions, ensuring your investment is truly protected.",A_Incentive,False,31
+Customer,5,"A 5-year warranty is nice, but it usually just means the boots are going to be astronomically expensive to begin with. What's the actual price tag on these ""Everlast"" boots? I'm not interested in paying a premium for a warranty that just covers what the boots *should* do anyway.",Objection_B,False,31
+Agent,5,"I appreciate your frankness regarding price. While our 'Everlast' boots are a premium product designed for exceptional durability, it seems we might not be able to align on all your expectations at this moment. I thank you for your time and interest.",Closing,True,31
+Agent,1,Hello! Welcome to our store. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,32
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there! Thank you, I'd appreciate that. I'm definitely looking for a new pair of leather boots. What would you recommend for someone who needs something durable and reliable?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='FYB7abzeLaPQjMcP4Yjj0A8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=38,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=144,
+  total_token_count=560
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,32
+Agent,2,"Excellent choice! For durability and reliability, I highly recommend our 'Everlast' full-grain leather boots. They feature a robust Goodyear welt construction and water-resistant finish, perfect for lasting wear. They're designed to withstand the elements while providing maximum comfort.",Recommendation,False,32
+Customer,3,"That sounds promising, especially the Goodyear welt and water-resistant finish. Those are important features for durability. However, when we talk about such robust boots with those kinds of features, I have to ask about the price point. Are these going to be within a reasonable budget, or are we talking about something that might stretch the wallet quite a bit? I've seen a few options around, so I'm trying to gauge where these stand.",Objection_B,False,32
+Agent,3,"I understand your concern about the price, and it's a very valid point when investing in quality footwear. While our 'Everlast' boots are priced at $100, which might be a bit higher than some alternatives, it truly reflects the superior materials and craftsmanship involved. They are designed to last for many years, often outperforming cheaper boots that need frequent replacement. In the long run, they offer excellent value and save you money.",B_Persuade,False,32
+Customer,4,"I appreciate you explaining the value proposition and the focus on longevity. It makes sense that quality craftsmanship comes with a price. However, $100 is still a significant investment upfront, and even with the promise of long-term savings, it's hard to ignore that initial cost, especially when there are so many other options out there that claim decent durability for less. I'm still weighing whether that initial outlay is truly justified over some of the other boots I've looked at in a slightly lower price range.",Objection_B,False,32
+Agent,4,"I completely understand that initial investment can be a hurdle, even for a product that offers long-term value. To help make these exceptional 'Everlast' boots more accessible for you today, I can offer you a special discount, bringing the price down to just $70. This is a significant saving and ensures you get the premium quality and durability you're looking for, without stretching your budget as much.",B_Incentive,False,32
+Customer,5,"That's a much more appealing price point, I have to admit. Thank you for offering that discount; it certainly makes the Everlast boots more attractive.
+
+Now, shifting gears a bit, if I were to go ahead with these, what's the typical shipping timeframe like? I'd ideally like to get them relatively soon. And what about your return policy, just in case they don't quite fit or aren't what I expect once they arrive? It's always good to know the logistics around that.",Objection_C,False,32
+Agent,5,"Thank you for considering our 'Everlast' boots. It's been a pleasure assisting you today. We appreciate your interest, and please don't hesitate to reach out if you have any further questions in the future.",Closing,True,32
+Agent,1,Hello! Welcome to our store. I'm here to help you find the perfect pair of leather boots today.,Greeting,False,33
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello there! Thank you so much, I'd really appreciate some help. I'm actually looking for a good pair of leather boots today, but I'm open to suggestions. Do you have any particular recommendations that you think are popular or especially good quality?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='K4B7aaXsJOy0jMcPuLu24QE' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=54,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=116,
+  total_token_count=548
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,33
+Agent,2,"Absolutely! Based on your interest in quality leather boots, I highly recommend our 'Artisan Crafted' collection. These boots are renowned for their premium full-grain leather, exceptional durability, and timeless design. They're incredibly comfortable and built to last, making them a very popular choice among our discerning customers. Would you like to know more about them?",Recommendation,False,33
+Customer,3,"That sounds very promising, thank you for the recommendation! ""Artisan Crafted"" certainly has a nice ring to it, and I appreciate that they're built to last. When you say ""exceptional durability"" and ""built to last,"" what exactly does that entail in terms of wear and tear, especially in different conditions? And, importantly, are they treated for any kind of water resistance or waterproofing? I'm quite keen on something that can really hold up.",Objection_A,False,33
+Agent,3,"That's an excellent question regarding durability and performance! When we say 'exceptional durability,' we're referring to several key features: the premium full-grain leather is naturally robust and develops a beautiful patina over time, rather than deteriorating. The boots are constructed with a Goodyear welt, a gold standard in shoemaking, which allows for multiple resolings and significantly extends their lifespan. This construction also provides superior resistance to wear and tear. While not fully waterproof, the dense leather and tight construction offer substantial water resistance for everyday conditions. For added protection, we recommend a simple leather conditioning treatment, which will enhance their natural water-repelling properties and ensure they truly hold up for years.",A_Persuade,False,33
+Customer,4,"I see. That's a very comprehensive explanation of the construction and durability, particularly the Goodyear welt and the quality of the leather. It definitely sounds like a boot that's built to last and offers significant water resistance with proper care. I truly appreciate all that detail. Given such meticulous craftsmanship and premium materials, I imagine these ""Artisan Crafted"" boots are positioned at a higher price point. Could you please give me an idea of the cost? I'm just trying to get a full picture, especially when considering my overall budget and how these compare to other options I might be looking at.",Objection_B,False,33
+Agent,4,"You're absolutely right to consider the investment! The 'Artisan Crafted' boots are indeed priced to reflect their superior materials, the expert craftsmanship involved, and their exceptional longevity. While they might be a higher initial investment compared to mass-produced alternatives, they offer significantly greater value in the long run. Many of our customers find that they save money over time by not needing to replace their boots as frequently, and the ability to resole them further extends their life. Think of it as investing in a durable, timeless piece that will serve you well for many years, rather than a temporary purchase.",B_Persuade,True,33
+Agent,1,Hello there! Welcome to our store. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,34
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Alright, let's skip the pleasantries. What do you actually have that's worth looking at? I need recommendations for durable leather boots.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='OoB7aaXkOryUjMcPvNTAwQ8' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=30,
+  prompt_token_count=379,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=379
+    ),
+  ],
+  thoughts_token_count=290,
+  total_token_count=699
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,34
+Agent,2,"Excellent question! For durability, I highly recommend our 'Everest' line. These boots are crafted from full-grain leather, known for its exceptional strength and resistance to wear and tear. They also feature a Goodyear welt construction, which is the gold standard for robust and re-soleable footwear, ensuring they'll last you for years to come. Many of our customers rave about their longevity and comfort.",Recommendation,False,34
+Customer,3,"""Last for years,"" huh? That usually translates to an exorbitant price tag. Let's be upfront: what's the actual cost of these 'Everest' boots? Because frankly, I'm not looking to mortgage my house for a pair of shoes, no matter how 'gold standard' they claim to be.",Objection_B,False,34
+Agent,3,"I understand your concern about price, and it's a very valid point when investing in quality footwear. Our 'Everest' boots are indeed a premium product, and their price reflects the superior craftsmanship, the finest full-grain leather, and the durable Goodyear welt construction designed to last for years, not just seasons. While the initial investment might be higher than mass-produced alternatives, consider the long-term value: these boots are re-soleable and built to endure, ultimately saving you money over time by eliminating the need for frequent replacements. They are an investment in unparalleled comfort, protection, and longevity.",B_Persuade,True,34
+Agent,1,Hello! Thank you for calling. I'm excited to help you find the perfect pair of leather boots today. How can I assist you?,Greeting,False,35
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello! Thanks for that. Yes, I'm looking for a pair of leather boots, but I'm not entirely sure where to start. Do you have any recommendations for something that's really versatile and holds up well?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='R4B7afucLfb2jMcP87i4-Ac' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=47,
+  prompt_token_count=383,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=383
+    ),
+  ],
+  thoughts_token_count=189,
+  total_token_count=619
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,35
+Agent,2,"Absolutely! For versatility and durability, I highly recommend our 'Everest Explorer' full-grain leather boots. They feature a water-resistant finish, a comfortable anti-fatigue sole, and reinforced stitching, making them perfect for both city wear and light outdoor adventures. They truly hold up exceptionally well over time. What do you think of that?",Recommendation,False,35
+Customer,3,"Okay, that sounds promising. ""Everest Explorer,"" you said? I appreciate the detailed description. When you mention ""water-resistant finish,"" how does that compare to something truly waterproof? I'm just wondering how they'd fare in heavier rain or if I accidentally step in a puddle, and how that durable stitching holds up against constant use, for example.",Objection_A,False,35
+Agent,3,"That's a great question, and I want to assure you about the quality. While 'water-resistant' means they're designed to repel water effectively in most conditions, like light to moderate rain and splashes, they're not fully submersible like a 'waterproof' boot. However, the full-grain leather and robust stitching are specifically chosen for their exceptional durability and ability to withstand constant use. To give you complete peace of mind regarding the longevity and enduring quality, I can offer you an extended warranty at no extra cost today. This would cover any manufacturing defects and significant wear for an additional two years, ensuring your investment is well-protected.",A_Incentive,False,35
+Customer,4,"Okay, that's helpful clarification on the water resistance and the extended warranty sounds like a good safeguard. I appreciate you offering that.
+
+Moving on, what kind of price range are we looking at for these 'Everest Explorer' boots? I just want to make sure they align with what I had in mind budget-wise before we get too far.",Objection_B,False,35
+Agent,4,"I'm glad the extended warranty adds value! Regarding the price, the 'Everest Explorer' boots are typically priced at $100, reflecting their premium full-grain leather, advanced construction, and the durability we discussed. However, because you've shown such keen interest and to make them an irresistible choice today, I'm happy to offer you a special one-time discount. We can bring the price down to just $70 right now. This is a significant saving and ensures you get top-tier quality within a fantastic budget.",B_Incentive,True,35
+Agent,1,Hello! Thank you for calling. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,36
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hi there! Thanks, I'm hoping you can help. I'm looking for some leather boots, but I'm not really sure where to start. Do you have any recommendations?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='XYB7acvcI8XgjMcP9ezc-A4' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=39,
+  prompt_token_count=377,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=377
+    ),
+  ],
+  thoughts_token_count=107,
+  total_token_count=523
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,36
+Agent,2,"Absolutely! For leather boots, I highly recommend our full-grain leather collection. They offer exceptional durability, comfort, and timeless style that only gets better with age. We have a variety of styles, from rugged work boots to elegant dress boots. Do any of those pique your interest?",Recommendation,False,36
+Customer,3,"Okay, full-grain sounds good for durability, I suppose. But before we go into styles, I need to understand your shipping. How quickly do orders usually arrive, and what's your return policy if something doesn't work out?",Objection_C,False,36
+Agent,3,"I understand your concern about logistics. For shipping, we typically deliver within 3-5 business days across the country. As for returns, we offer a hassle-free 30-day return policy for unworn boots, no questions asked. We want you to be completely satisfied with your purchase.",C_Persuade,False,36
+Customer,4,"Okay, 3-5 business days and a 30-day return policy sounds reasonable enough. But let's talk about the price for these full-grain leather boots you're recommending. What's the general price range I should expect for that collection? I need to make sure it aligns with what I'm looking to spend.",Objection_B,False,36
+Agent,4,"I understand that price is an important factor. Our full-grain leather boots typically range from $150 to $250, reflecting the superior quality of the leather, craftsmanship, and the durability you'll get for years to come. While they are an investment, they often outlast cheaper alternatives by many years, saving you money in the long run.",B_Persuade,False,36
+Customer,5,"I understand the pricing reflects quality, and that they're meant to be an investment. You keep mentioning durability, which is good. But can you be more specific about the actual quality and protection? Are these boots waterproof or even water-resistant? And how well do they truly hold up against regular wear and tear, like scuffs or different weather conditions?",Objection_A,False,36
+Agent,5,"Thank you for considering our leather boots today. We appreciate your interest in quality and durability. If you have any further questions in the future, please don't hesitate to reach out. Have a great day!",Closing,True,36
+Agent,1,Hello! Welcome to our leather boots collection. How may I assist you today?,Greeting,False,37
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello! Thanks for the welcome. I'm looking for a good pair of leather boots, but I'm feeling a bit overwhelmed by the options. Do you have any specific recommendations for something that's both durable and stylish?""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='c4B7aYj-CbGMjMcPsoLqyAw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=47,
+  prompt_token_count=371,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=371
+    ),
+  ],
+  thoughts_token_count=151,
+  total_token_count=569
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,37
+Agent,2,"Absolutely! For durability and style, I highly recommend our 'Artisan Crafted' full-grain leather boots. They feature a robust Goodyear welt construction for longevity and a sleek, timeless design that will elevate any outfit. They are incredibly comfortable too!",Recommendation,False,37
+Customer,3,"Those sound really nice, especially with the Goodyear welt construction for longevity. However, I'm a bit curious about the price point for something described as ""Artisan Crafted."" What would I be looking at for a pair of those? I'm trying to stay within a reasonable budget, and sometimes 'artisan crafted' can mean a significant jump.",Objection_B,False,37
+Agent,3,"I understand your concern about the price, and it's a valid point when investing in quality. While our 'Artisan Crafted' boots reflect the superior materials and craftsmanship, we believe they offer exceptional long-term value. The durability and timeless style mean you won't need to replace them often, making them a more economical choice in the long run compared to cheaper alternatives that wear out quickly.",B_Persuade,False,37
+Customer,4,"I appreciate you explaining the long-term value and the craftsmanship. It makes sense that a more durable boot would last longer. However, even with that in mind, the initial investment is still a significant factor for me. I'm trying to gauge if the upfront cost of these 'Artisan Crafted' boots truly aligns with what I'm willing to spend right now, regardless of how long they might last. Could you perhaps provide a specific price range, or even the starting price?",Objection_B,False,37
+Agent,4,"I completely understand that the initial investment is crucial. To make it easier for you to experience the unparalleled quality and longevity of our 'Artisan Crafted' boots, I can offer you a special discount today, bringing the price down to just $70. This ensures you get exceptional value without compromising your immediate budget.",B_Incentive,False,37
+Customer,5,"That's a very appealing offer, thank you. $70 certainly makes them much more accessible. Before I consider moving forward though, I'd like to understand a bit more about the logistics. What's the typical shipping timeframe for these boots, and what's your return policy like if they don't quite fit or aren't what I expected once they arrive?",Objection_C,False,37
+Agent,5,"Thank you for considering our 'Artisan Crafted' boots. It's been a pleasure assisting you today. If you have any further questions in the future, please don't hesitate to reach out.",Closing,True,37
+Agent,1,Hello there! Thank you for contacting us. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,38
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello! Thank you. I appreciate you reaching out. I am indeed looking for some leather boots. What would you recommend for someone who needs a pair that truly stands out in terms of... well, overall quality and longevity? I'm not easily impressed, so I'm curious to hear your top suggestions.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='iIB7aaXyDb_UjMcP897h2AU' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=63,
+  prompt_token_count=380,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=380
+    ),
+  ],
+  thoughts_token_count=204,
+  total_token_count=647
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,38
+Agent,2,"Excellent choice! For someone who values unparalleled quality and longevity, I highly recommend our 'Artisan Legacy' collection. These boots are handcrafted from full-grain Italian leather, renowned for its durability and ability to develop a beautiful patina over time. They feature a Goodyear welt construction, which allows for multiple resoling, ensuring they'll be a staple in your wardrobe for decades. The meticulous attention to detail and superior craftsmanship truly make them stand out.",Recommendation,False,38
+Customer,3,"That 'Artisan Legacy' collection certainly sounds quite robust, especially with the full-grain Italian leather and the Goodyear welt construction; it paints a picture of true craftsmanship. However, while quality is paramount, I also need to consider the practicalities of acquiring such an item. Could you please elaborate on your shipping process? I'm particularly interested in understanding the typical delivery timelines. And, perhaps even more importantly, what is your return policy like? Given that these sound like a significant investment, I want to ensure that if, for any reason, they don't meet these high expectations upon arrival, the process for returns or exchanges is straightforward and accommodating.",Objection_C,False,38
+Agent,3,"I completely understand your focus on the practicalities, especially with a significant investment like our 'Artisan Legacy' boots. For shipping, we typically ensure delivery within 5-7 business days across the continental US, and we provide a tracking number so you can monitor your order every step of the way. Regarding our return policy, we offer a hassle-free 30-day return window from the date of delivery. If the boots don't meet your expectations for any reason, you can return them in their original, unworn condition for a full refund or exchange. Our priority is your complete satisfaction, and we've made the process as straightforward and accommodating as possible.",C_Persuade,True,38
+Agent,1,Hello there! Thank you for contacting us. How can I assist you in finding the perfect pair of leather boots today?,Greeting,False,39
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I'm looking for leather boots. What do you recommend? I'm hoping for something truly good, not just any pair.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='lIB7aePfK5PWjMcP-ueFIQ' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=31,
+  prompt_token_count=379,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=379
+    ),
+  ],
+  thoughts_token_count=283,
+  total_token_count=693
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,39
+Agent,2,"Excellent choice! For something truly good, I highly recommend our handcrafted 'Heritage' leather boots. They are made from full-grain Italian leather, renowned for its durability and luxurious feel, and feature a Goodyear welt construction for superior longevity and comfort. They truly embody quality and craftsmanship.",Recommendation,False,39
+Customer,3,"That sounds quite robust, with the Italian leather and Goodyear welt. I imagine boots of that caliber come with a significant price tag. How do they compare in terms of cost to similar quality boots on the market?",Objection_B,False,39
+Agent,3,"That's a very fair question. While our 'Heritage' boots represent a premium investment, we firmly believe they offer exceptional value. When you consider the superior materials like full-grain Italian leather and the durable Goodyear welt construction, these boots are designed to last for decades, often outperforming and outlasting multiple pairs of cheaper alternatives. This long-term durability actually makes them a more economical choice over time compared to other boots on the market.",B_Persuade,True,39
+Agent,1,Hello there! Welcome to our store. I'm excited to help you find the perfect pair of leather boots today.,Greeting,False,40
+Customer,1,"sdk_http_response=HttpResponse(
+  headers=<dict len=11>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text=""Hello. Yes, I am looking for leather boots. What would you recommend for someone who truly values durability and practical use, not just aesthetics? I've had issues in the past with boots that claim to be rugged but fall apart quickly.""
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-2.5-flash' prompt_feedback=None response_id='n4B7aeLAMfbnjMcPoIvV-As' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=49,
+  prompt_token_count=378,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=378
+    ),
+  ],
+  thoughts_token_count=180,
+  total_token_count=607
+) automatic_function_calling_history=[] parsed=None",Greeting_Response,False,40
+Agent,2,"Based on your emphasis on durability and practical use, I highly recommend our 'EverTrek Pro' leather boots. These are crafted from full-grain, oil-tanned leather, renowned for its exceptional strength and water resistance. They feature double-stitched seams and a reinforced sole, specifically designed to withstand rigorous use and ensure they won't fall apart. Many of our customers, especially those in demanding professions, rave about their longevity. They're built to last, not just look good.",Recommendation,False,40
+Customer,3,"I appreciate the detailed description of the EverTrek Pro boots. Full-grain, oil-tanned leather and double-stitched seams certainly sound promising for durability. However, I've heard similar claims before about ""water resistance"" that turn out to mean they're fine in a light drizzle, but not truly waterproof for heavier conditions or prolonged exposure. How robust is this water resistance, really? I'm looking for something that can genuinely hold up to proper wet conditions without issues, not just resist a splash or two.",Objection_A,False,40
+Agent,3,"That's an excellent question and a very valid concern. When we say 'water resistant' for the EverTrek Pro boots, we're talking about more than just a light drizzle. The oil-tanned full-grain leather itself is naturally highly water-resistant due to its density and the tanning process. But beyond that, these boots feature a breathable, waterproof membrane lining that's integrated into the construction. This membrane acts as a barrier, preventing water from penetrating while still allowing moisture vapor from your feet to escape, keeping them dry and comfortable even in prolonged wet conditions like heavy rain or shallow puddles. We specifically design them for genuine outdoor use where proper protection is essential, not just aesthetic appeal.",A_Persuade,True,40

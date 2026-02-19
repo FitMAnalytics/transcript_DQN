@@ -1,0 +1,102 @@
+convo_id,final_state,final_profit
+0,Customer buys,20
+1,Agent Closed,-25
+2,Customer leaves call,-50
+3,Customer leaves call,-50
+4,Agent Closed,-25
+5,Customer leaves call,-50
+6,Customer leaves call,-50
+7,Agent Closed,-20
+8,Customer buys,0
+9,Customer buys,20
+10,Customer buys,25
+11,Agent Closed,-20
+12,Customer buys,20
+13,Customer buys,0
+14,Customer buys,20
+15,Customer leaves call,-50
+16,Customer leaves call,-50
+17,Customer buys,25
+18,Customer buys,10
+19,Customer buys,35
+20,Customer leaves call,-50
+21,Customer leaves call,-50
+22,Customer buys,25
+23,Customer buys,30
+24,Customer buys,10
+25,Customer leaves call,-50
+26,Customer leaves call,-50
+27,Agent Closed,-20
+28,Agent Closed,-25
+29,Customer leaves call,-50
+30,Customer leaves call,-50
+31,Customer buys,25
+32,Agent Closed,-25
+33,Customer leaves call,-50
+34,Customer buys,20
+35,Customer buys,35
+36,Agent Closed,-20
+37,Customer leaves call,-50
+38,Customer leaves call,-50
+39,Customer leaves call,-50
+40,Customer leaves call,-50
+41,Customer leaves call,-50
+42,Customer buys,-5
+43,Customer buys,35
+44,Customer leaves call,-50
+45,Agent Closed,-20
+46,Customer buys,25
+47,Customer buys,35
+48,Customer leaves call,-50
+49,Customer leaves call,-50
+50,Customer buys,25
+51,Customer buys,20
+52,Agent Closed,-40
+53,Customer leaves call,-50
+54,Customer buys,0
+55,Agent Closed,-45
+56,Customer leaves call,-50
+57,Customer leaves call,-50
+58,Customer buys,15
+59,Customer buys,35
+60,Customer leaves call,-50
+61,Customer buys,20
+62,Customer buys,25
+63,Customer buys,35
+64,Customer leaves call,-50
+65,Customer leaves call,-50
+66,Customer buys,25
+67,Customer buys,20
+68,Customer buys,30
+69,Customer leaves call,-50
+70,Customer buys,-5
+71,Customer buys,35
+72,Customer leaves call,-50
+73,Customer leaves call,-50
+74,Customer buys,0
+75,Customer leaves call,-50
+76,Customer leaves call,-50
+77,Customer leaves call,-50
+78,Customer buys,35
+79,Customer leaves call,-50
+80,Customer leaves call,-50
+81,Customer leaves call,-50
+82,Customer buys,35
+83,Customer buys,35
+84,Customer buys,25
+85,Customer leaves call,-50
+86,Customer buys,15
+87,Agent Closed,-20
+88,Customer leaves call,-50
+89,Customer leaves call,-50
+90,Customer buys,-10
+91,Customer leaves call,-50
+92,Customer leaves call,-50
+93,Customer buys,25
+94,Customer leaves call,-50
+95,Customer leaves call,-50
+96,Customer buys,0
+97,Customer leaves call,-50
+98,Customer buys,0
+99,Customer buys,15
+100,Customer buys,20

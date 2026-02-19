@@ -1,0 +1,42 @@
+convo_id,final_state,final_profit
+0,Customer leaves call,-62
+1,Customer buys,33
+2,Customer buys,34
+3,Customer buys,38
+4,Customer buys,8
+5,Customer buys,29
+6,Customer leaves call,-62
+7,Customer leaves call,-62
+8,Customer leaves call,-70
+9,Customer buys,0
+10,Customer buys,20
+11,Customer buys,29
+12,Customer leaves call,-78
+13,Customer leaves call,-66
+14,Customer leaves call,-62
+15,Customer buys,-4
+16,Customer leaves call,-62
+17,Customer leaves call,-62
+18,Customer buys,38
+19,Customer buys,24
+20,Customer leaves call,-74
+21,Customer leaves call,-62
+22,Customer leaves call,-62
+23,Customer buys,8
+24,Customer buys,4
+25,Customer leaves call,-66
+26,Customer buys,0
+27,Customer buys,21
+28,Customer leaves call,-62
+29,Customer leaves call,-74
+30,Customer leaves call,-62
+31,Customer buys,4
+32,Customer buys,16
+33,Customer buys,25
+34,Customer buys,29
+35,Customer buys,38
+36,Customer leaves call,-62
+37,Customer buys,8
+38,Agent Closed,-12
+39,Customer leaves call,-62
+40,Customer leaves call,-62
